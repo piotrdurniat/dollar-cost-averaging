@@ -1,5 +1,5 @@
 import os
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS
 import yfinance as yf
 
@@ -24,17 +24,18 @@ def format_hist_data(hist_data):
     return hist_data
 
 
-@app.get("/")
-def home():
-    msft = yf.Ticker("MSFT")
-    hist = msft.history(period="1mo")
+@app.get("/price-history")
+def price_history():
+    ticker = request.args.get("ticker")
+
+    stock = yf.Ticker(ticker)
+    hist = stock.history(period="1mo")
     hist = format_hist_data(hist)
     res_json = hist.to_json(orient="table")
 
-    response = app.response_class(
+    return app.response_class(
         response=res_json, status=200, mimetype="application/json"
     )
-    return response
 
 
 @app.get("/ping")
