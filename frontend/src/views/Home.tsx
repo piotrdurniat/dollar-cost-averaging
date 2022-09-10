@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import { FC, useState } from "react";
 import {
   Box,
   CircularProgress,
@@ -8,10 +8,11 @@ import {
   InputLabel,
   OutlinedInput,
   Paper,
+  Typography,
 } from "@mui/material";
 import { Search } from "@mui/icons-material";
 import Chart from "@qognicafinance/react-lightweight-charts";
-import { MarketData } from "../types/marketData";
+import { useQuery } from "react-query";
 import { StockApi } from "../api/StockApi";
 
 const chartOptions = {
@@ -29,34 +30,28 @@ const chartOptions = {
 };
 
 const HomePage: FC = () => {
-  const [chartData, setChartData] = useState<{ data: MarketData[] }[]>([]);
-  const [loading, setLoading] = useState(true);
   const [ticker, setTicker] = useState("msft");
 
-  const getStockData = async () => {
-    setLoading(true);
-    const {
-      data: { data },
-    } = await StockApi.getPriceHistory(ticker);
-    setChartData([{ data }]);
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    getStockData();
-  }, []);
-
-  if (chartData.length == 0) return <CircularProgress />;
+  const { isFetching, isError, data, refetch } = useQuery(
+    "stockData",
+    async () => {
+      const {
+        data: { data },
+      } = await StockApi.getPriceHistory(ticker);
+      return [{ data }];
+    },
+    { placeholderData: [{ data: [] }] }
+  );
 
   return (
     <>
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          getStockData();
+          refetch();
         }}
       >
-        <FormControl sx={{ m: 1, width: "25ch" }} variant="outlined">
+        <FormControl sx={{ m: 1 }} variant="outlined">
           <InputLabel htmlFor="ticker-input">Ticker symbol</InputLabel>
           <OutlinedInput
             id="ticker-input"
@@ -67,7 +62,7 @@ const HomePage: FC = () => {
               <InputAdornment position="end">
                 <IconButton
                   aria-label="toggle password visibility"
-                  onClick={getStockData}
+                  onClick={() => refetch()}
                   edge="end"
                 >
                   <Search />
@@ -84,7 +79,7 @@ const HomePage: FC = () => {
         <Box sx={{ width: "100%" }}>
           <Chart
             options={chartOptions}
-            candlestickSeries={chartData}
+            candlestickSeries={data}
             autoWidth
             height={320}
           />
@@ -104,7 +99,10 @@ const HomePage: FC = () => {
             zIndex: 1,
           }}
         >
-          {loading && <CircularProgress />}
+          {isFetching && <CircularProgress />}
+          {isError && (
+            <Typography variant="body1">Eror fetching stock data.</Typography>
+          )}
         </Box>
       </Paper>
     </>
