@@ -8,9 +8,10 @@ cors = CORS(app, resources={r"/*": {"origins": os.environ["FRONTEND_URL"]}})
 
 
 def format_hist_data(hist_data):
-    hist_data.index.name = "time"
+    hist_data.reset_index(inplace=True)
     hist_data.rename(
         columns={
+            "Date": "time",
             "Open": "open",
             "Close": "close",
             "Low": "low",
@@ -31,7 +32,7 @@ def price_history():
     stock = yf.Ticker(ticker)
     hist = stock.history(period="1mo")
     hist = format_hist_data(hist)
-    res_json = hist.to_json(orient="table")
+    res_json = hist.to_json(orient="records", date_format="iso")
 
     return app.response_class(
         response=res_json, status=200, mimetype="application/json"

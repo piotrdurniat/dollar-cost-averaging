@@ -35,9 +35,7 @@ const HomePage: FC = () => {
   const { isFetching, isError, data, refetch } = useQuery(
     "stockData",
     async () => {
-      const {
-        data: { data },
-      } = await StockApi.getPriceHistory(ticker);
+      const { data } = await StockApi.getPriceHistory(ticker);
       return [{ data }];
     },
     { placeholderData: [{ data: [] }] }
