@@ -23,7 +23,7 @@ interface PropTypes {
   isError: boolean;
 }
 
-const StockChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
+const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
   return (
     <Paper sx={{ padding: 3, position: "relative" }}>
       <Box sx={{ width: "100%" }}>
@@ -58,4 +58,4 @@ const StockChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
   );
 };
 
-export default StockChart;
+export default PriceChart;

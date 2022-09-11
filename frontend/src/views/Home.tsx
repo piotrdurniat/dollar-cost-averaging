@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import { useQuery } from "react-query";
 import { StockApi } from "../api/StockApi";
 import DCAForm from "../components/DCAForm";
-import StockChart from "../components/StockChart";
+import PriceChart from "../components/PriceChart";
 
 const HomePage: FC = () => {
   const [ticker, setTicker] = useState("msft");
@@ -27,7 +27,7 @@ const HomePage: FC = () => {
         refetch={refetch}
       />
 
-      <StockChart data={data} isFetching={isFetching} isError={isError} />
+      <PriceChart data={data} isFetching={isFetching} isError={isError} />
     </>
   );
 };
