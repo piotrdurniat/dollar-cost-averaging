@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import {
   Box,
   FormControl,
@@ -8,8 +8,13 @@ import {
   OutlinedInput,
   Paper,
   Typography,
+  TextField,
 } from "@mui/material";
 import { Search } from "@mui/icons-material";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { Dayjs } from "dayjs";
 
 interface PropTypes {
   ticker: string;
@@ -17,6 +22,8 @@ interface PropTypes {
   amount: number;
   setAmount: (amount: number) => void;
   refetch: () => void;
+  startDate: Dayjs;
+  setStartDate: (date: Dayjs) => void;
 }
 
 const DCAForm: FC<PropTypes> = ({
@@ -24,6 +31,8 @@ const DCAForm: FC<PropTypes> = ({
   setTicker,
   amount,
   setAmount,
+  startDate,
+  setStartDate,
   refetch,
 }) => {
   return (
@@ -73,6 +82,19 @@ const DCAForm: FC<PropTypes> = ({
               onChange={(e) => setAmount(Number(e.target.value))}
             ></OutlinedInput>
           </FormControl>
+
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <DatePicker
+              label="Start date"
+              value={startDate}
+              onChange={(newDate) => {
+                if (newDate !== null) {
+                  setStartDate(newDate);
+                }
+              }}
+              renderInput={(params) => <TextField sx={{ ml: 2 }} {...params} />}
+            />
+          </LocalizationProvider>
         </form>
       </Paper>
     </Box>

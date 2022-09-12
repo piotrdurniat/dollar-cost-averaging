@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 from flask import Flask, request
 from flask_cors import CORS
@@ -27,10 +28,15 @@ def format_hist_data(hist_data):
 
 @app.get("/price-history")
 def price_history():
-    ticker = request.args.get("ticker")
+    ticker = request.args["ticker"]
+    startDate = request.args["startDate"]
+    endDate = request.args["endDate"]
+
+    startDate = datetime.fromisoformat(startDate.replace("Z", "+00:00"))
+    endDate = datetime.fromisoformat(endDate.replace("Z", "+00:00"))
 
     stock = yf.Ticker(ticker)
-    hist = stock.history(period="1mo")
+    hist = stock.history(start=startDate, interval="1d")
     hist = format_hist_data(hist)
     res_json = hist.to_json(orient="records", date_format="iso")
 
