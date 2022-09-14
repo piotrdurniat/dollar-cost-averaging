@@ -7,7 +7,7 @@ const chartOptions = {
   alignLabels: true,
   timeScale: {
     rightOffset: 0,
-    barSpacing: 30,
+    // barSpacing: 30,
     fixLeftEdge: true,
     lockVisibleTimeRangeOnResize: true,
     borderColor: "#808080",

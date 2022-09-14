@@ -150,7 +150,7 @@ const DCAForm: FC<PropTypes> = ({
                 aria-label="Frequency"
               >
                 {intervals.map(({ key, label }) => (
-                  <MenuItem value={key}>
+                  <MenuItem key={key} value={key}>
                     {label}
                     {intervalIsPlural && "s"}
                   </MenuItem>
