@@ -1,21 +1,13 @@
 import { FC } from "react";
-import { Box, CircularProgress, Paper, Typography } from "@mui/material";
+import {
+  Box,
+  CircularProgress,
+  Paper,
+  Typography,
+  useTheme,
+} from "@mui/material";
 import Chart from "@qognicafinance/react-lightweight-charts";
 import { MarketData } from "../types/marketData";
-
-const chartOptions = {
-  alignLabels: true,
-  timeScale: {
-    rightOffset: 0,
-    // barSpacing: 30,
-    fixLeftEdge: true,
-    lockVisibleTimeRangeOnResize: true,
-    borderColor: "#808080",
-    visible: true,
-    timeVisible: true,
-    secondsVisible: false,
-  },
-};
 
 interface PropTypes {
   data?: { data: MarketData[] }[];
@@ -24,6 +16,34 @@ interface PropTypes {
 }
 
 const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
+  const theme = useTheme();
+
+  const chartOptions = {
+    alignLabels: true,
+    timeScale: {
+      rightOffset: 0,
+      // barSpacing: 30,
+      fixLeftEdge: true,
+      lockVisibleTimeRangeOnResize: true,
+      visible: true,
+      timeVisible: true,
+      secondsVisible: false,
+    },
+    layout: {
+      backgroundColor: theme.palette.background.paper,
+      textColor: theme.palette.text.primary,
+      lineColor: theme.palette.text.disabled,
+    },
+    grid: {
+      vertLines: {
+        color: theme.palette.text.disabled,
+      },
+      horzLines: {
+        color: theme.palette.text.disabled,
+      },
+    },
+  };
+
   return (
     <Paper sx={{ padding: 3, position: "relative" }}>
       <Box sx={{ width: "100%" }}>
