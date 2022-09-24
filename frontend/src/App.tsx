@@ -29,15 +29,16 @@ const App: FC = () => {
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <NavBar />
         <Box
-          p={3}
           sx={{
             height: "100vh",
             backgroundColor: paletteMode == "light" ? "#f5f5f5" : null,
           }}
         >
-          <HomePage />
+          <NavBar />
+          <Box p={3}>
+            <HomePage />
+          </Box>
         </Box>
       </ThemeProvider>
     </QueryClientProvider>

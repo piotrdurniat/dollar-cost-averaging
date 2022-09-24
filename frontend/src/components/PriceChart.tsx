@@ -45,15 +45,13 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
   };
 
   return (
-    <Paper sx={{ padding: 3, position: "relative" }}>
-      <Box sx={{ width: "100%" }}>
-        <Chart
-          options={chartOptions}
-          candlestickSeries={data}
-          autoWidth
-          height={320}
-        />
-      </Box>
+    <Box mt={2} sx={{ width: "100%", position: "relative" }}>
+      <Chart
+        options={chartOptions}
+        candlestickSeries={data}
+        autoWidth
+        height={320}
+      />
 
       <Box
         sx={{
@@ -74,7 +72,7 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
           <Typography variant="body1">Eror fetching stock data.</Typography>
         )}
       </Box>
-    </Paper>
+    </Box>
   );
 };
 
