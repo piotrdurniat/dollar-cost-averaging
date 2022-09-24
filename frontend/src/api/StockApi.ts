@@ -16,10 +16,11 @@ export class StockApi {
     ticker: string,
     amount: number,
     startDate: string,
-    endDate: string
+    endDate: string,
+    interval: number
   ): Promise<AxiosResponse<DcaResult>> {
     return Api.get("dca-result", {
-      params: { ticker, amount, startDate, endDate },
+      params: { ticker, amount, startDate, endDate, interval },
     });
   }
 }

@@ -56,6 +56,7 @@ def dca_result():
     amount = request.args["amount"]
     start_date = parse_iso(request.args["startDate"])
     end_date = parse_iso(request.args["endDate"])
+    interval = request.args["interval"]
 
     res = {
         "totalInvestmentValue": 100,

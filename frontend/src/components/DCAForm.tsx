@@ -23,6 +23,7 @@ interface PropTypes {
   startDate: Dayjs;
   setStartDate: (date: Dayjs) => void;
   onSubmit: () => void;
+  setIntervalMs: (ms: number) => void;
 }
 
 const DCAForm: FC<PropTypes> = ({
@@ -33,6 +34,7 @@ const DCAForm: FC<PropTypes> = ({
   startDate,
   setStartDate,
   onSubmit,
+  setIntervalMs,
 }) => {
   return (
     <Box
@@ -90,7 +92,7 @@ const DCAForm: FC<PropTypes> = ({
         </Grid>
 
         <Grid item xs={12} sm={6} lg={3}>
-          <IntervalInput />
+          <IntervalInput setIntervalMs={setIntervalMs} />
         </Grid>
       </Grid>
       <Button type="submit" variant="outlined" size="large">

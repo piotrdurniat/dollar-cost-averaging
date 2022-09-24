@@ -5,6 +5,7 @@ import DCAForm from "../components/DCAForm";
 import PriceChart from "../components/PriceChart";
 import dayjs, { Dayjs } from "dayjs";
 import { Box, Divider, Paper, Typography } from "@mui/material";
+import { getInitialIntervalMs } from "../components/IntervalInput";
 
 const HomePage: FC = () => {
   const [ticker, setTicker] = useState("msft");
@@ -12,6 +13,7 @@ const HomePage: FC = () => {
   const [startDate, setStartDate] = useState<Dayjs>(
     dayjs().subtract(1, "year")
   );
+  const [intervalMs, setIntervalMs] = useState(getInitialIntervalMs());
 
   const chartData = useQuery(
     "chartData",
@@ -35,7 +37,8 @@ const HomePage: FC = () => {
       ticker,
       amount,
       startDateIso,
-      endDateIso
+      endDateIso,
+      intervalMs
     );
     console.log(data);
     return data;
@@ -58,6 +61,7 @@ const HomePage: FC = () => {
               onSubmit={chartData.refetch}
               startDate={startDate}
               setStartDate={setStartDate}
+              setIntervalMs={setIntervalMs}
             />
           </Box>
 
