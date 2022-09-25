@@ -60,7 +60,10 @@ const HomePage: FC = () => {
           setTicker={setTicker}
           amount={amount}
           setAmount={setAmount}
-          onSubmit={chartData.refetch}
+          onSubmit={() => {
+            chartData.refetch();
+            dcaResult.refetch();
+          }}
           startDate={startDate}
           setStartDate={setStartDate}
           setIntervalMs={setIntervalMs}

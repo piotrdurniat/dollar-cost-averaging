@@ -17,24 +17,27 @@ interface PropTypes {
 
 const DcaResultTable: FC<PropTypes> = ({ result }) => {
   const resultTable = [
-    ["Total invested amount:", `\$${result.totalInvestmentValue}`],
-    ["Final investment value:", `\$${result.finalInvestmentValue}`],
+    ["Total invested amount:", `\$ ${result.totalInvestmentValue.toFixed(2)}`],
+    ["Final investment value:", `\$ ${result.finalInvestmentValue.toFixed(2)}`],
     ["Number of investments:", `${result.numberOfInvestments}`],
-    ["Number of shares bought:", `${result.numberOfShares}`],
-    ["Investment return:", `\$${result.return.absolute}`],
-    ["Relative return:", `${result.return.relative * 100}%`],
-    ["Annualized return:", `\$${result.annualizedReturn.absolute}`],
+    ["Number of shares bought:", `${result.numberOfShares.toFixed(4)}`],
+    ["Price change:", `\$ ${result.priceChange.toFixed(2)}`],
+    ["Dividends", `\$ ${result.dividends.toFixed(2)}`],
+
+    ["Investment return:", `\$ ${result.return.absolute.toFixed(2)}`],
+    ["Relative return:", `${(result.return.relative * 100).toFixed(2)}%`],
+    ["Annualized return:", `\$ ${result.annualizedReturn.absolute.toFixed(2)}`],
     [
       "Annualized relative return:",
-      `${result.annualizedReturn.relative * 100}%`,
+      `${(result.annualizedReturn.relative * 100).toFixed(2)}%`,
     ],
   ];
 
   return (
     <Box mb={2} mt={2}>
       <Stack direction="row" spacing={2}>
-        <TablePart tableData={resultTable.slice(0, 4)} />
-        <TablePart tableData={resultTable.slice(4, 8)} />
+        <TablePart tableData={resultTable.slice(0, 5)} />
+        <TablePart tableData={resultTable.slice(5, 10)} />
       </Stack>
     </Box>
   );

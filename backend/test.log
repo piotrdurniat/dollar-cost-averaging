@@ -1,0 +1,96 @@
+172.20.0.1 - - [25/Sep/2022 20:39:16] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:16.240Z HTTP/1.1" 200 -
+0.5
+172.20.0.1 - - [25/Sep/2022 20:39:16] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:16.245Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:20] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:19.720Z HTTP/1.1" 200 -
+0.5
+172.20.0.1 - - [25/Sep/2022 20:39:20] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:19.722Z&interval=2628000000 HTTP/1.1" 200 -
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+172.20.0.1 - - [25/Sep/2022 20:39:42] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:42.558Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:42] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:42.560Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:44] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:43.736Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:44] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:43.734Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:45] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:45.080Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:45] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:45.081Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:46] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:45.922Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:46] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:45.923Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:54] "GET /price-history?ticker=tsla&startDate=2021-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:54.055Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:39:54] "GET /dca-result?ticker=tsla&amount=100&startDate=2021-09-24T22:00:00.000Z&endDate=2022-09-25T20:39:54.055Z&interval=2628000000 HTTP/1.1" 200 -
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+172.20.0.1 - - [25/Sep/2022 20:41:55] "GET /dca-result?ticker=tsla&amount=100&startDate=2021-09-24T22:00:00.000Z&endDate=2022-09-25T20:41:55.417Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:41:55] "GET /price-history?ticker=tsla&startDate=2021-09-24T22:00:00.000Z&endDate=2022-09-25T20:41:55.416Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:42:01] "GET /price-history?ticker=tsla&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:42:00.910Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:42:01] "GET /dca-result?ticker=tsla&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:42:00.911Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:42:12] "GET /price-history?ticker=msft&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:42:11.880Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:42:12] "GET /dca-result?ticker=msft&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:42:11.880Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:42:27] "GET /dca-result?ticker=msft&amount=100&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:42:26.698Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:42:27] "GET /price-history?ticker=msft&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:42:26.697Z HTTP/1.1" 200 -
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+172.20.0.1 - - [25/Sep/2022 20:43:18] "GET /price-history?ticker=msft&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:43:17.983Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:43:18] "GET /dca-result?ticker=msft&amount=100&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:43:17.984Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:43:23] "GET /price-history?ticker=irm&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:43:22.815Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:43:23] "GET /dca-result?ticker=irm&amount=100&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:43:22.817Z&interval=2628000000 HTTP/1.1" 200 -
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+172.20.0.1 - - [25/Sep/2022 20:44:06] "GET /price-history?ticker=irm&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:44:05.502Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:44:06] "GET /dca-result?ticker=irm&amount=100&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:44:05.504Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:44:43] "GET /dca-result?ticker=rklb&amount=100&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:44:43.590Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:44:43] "GET /price-history?ticker=rklb&startDate=2018-09-24T22:00:00.000Z&endDate=2022-09-25T20:44:43.589Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:45:16] "GET /price-history?ticker=rklb&startDate=2021-09-24T22:00:00.000Z&endDate=2022-09-25T20:45:16.305Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:45:16] "GET /dca-result?ticker=rklb&amount=100&startDate=2021-09-24T22:00:00.000Z&endDate=2022-09-25T20:45:16.306Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:45:22] "GET /price-history?ticker=rklb&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:45:21.701Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:45:22] "GET /dca-result?ticker=rklb&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:45:21.703Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:46:14] "GET /dca-result?ticker=rklb&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:46:13.910Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:46:14] "GET /price-history?ticker=rklb&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:46:13.909Z HTTP/1.1" 200 -
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270
+172.20.0.1 - - [25/Sep/2022 20:47:03] "GET /price-history?ticker=rklb&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:03.000Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:03] "GET /dca-result?ticker=rklb&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:03.003Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:05] "GET /price-history?ticker=btc&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:05.317Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:05] "GET /dca-result?ticker=btc&amount=100&startDate=2020-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:05.318Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:14] "GET /price-history?ticker=btc&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:14.093Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:14] "GET /dca-result?ticker=btc&amount=100&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:14.094Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:32] "GET /price-history?ticker=btc&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:31.898Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:32] "GET /dca-result?ticker=btc&amount=100&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:31.900Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:48] "GET /dca-result?ticker=btc&amount=100&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:48.235Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:47:48] "GET /price-history?ticker=btc&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:47:48.231Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:48:15] "GET /price-history?ticker=btc&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:48:15.203Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:48:15] "GET /dca-result?ticker=btc&amount=100&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:48:15.204Z&interval=2628000000 HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:48:26] "GET /price-history?ticker=btc-usd&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:48:26.519Z HTTP/1.1" 200 -
+172.20.0.1 - - [25/Sep/2022 20:48:27] "GET /dca-result?ticker=btc-usd&amount=100&startDate=2017-09-24T22:00:00.000Z&endDate=2022-09-25T20:48:26.520Z&interval=2628000000 HTTP/1.1" 200 -
+ * Detected change in '/app/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 682-288-270

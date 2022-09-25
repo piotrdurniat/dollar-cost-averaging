@@ -3,6 +3,9 @@ export interface DcaResult {
   finalInvestmentValue: number;
   numberOfInvestments: number;
   numberOfShares: number;
+
+  priceChange: number;
+  dividends: number;
   return: {
     absolute: number;
     relative: number;
