@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { useQuery } from "react-query";
 import { StockApi } from "../api/StockApi";
-import DCAForm from "../components/DCAForm";
+import DCAForm from "../components/DcaForm";
 import PriceChart from "../components/PriceChart";
 import dayjs, { Dayjs } from "dayjs";
 import { Box, Divider, Paper, Typography } from "@mui/material";
