@@ -37,11 +37,12 @@ const App: FC = () => {
         <CssBaseline />
         <Box
           sx={{
-            height: "100vh",
+            minHeight: "100vh",
+            display: "flex",
             backgroundColor: paletteMode == "light" ? "#f5f5f5" : null,
           }}
         >
-          <Stack sx={{ height: "100%" }}>
+          <Stack sx={{ flexGrow: 1 }}>
             <NavBar />
             <HomePage />
           </Stack>

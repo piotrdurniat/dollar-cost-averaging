@@ -7,7 +7,7 @@ const NavBar: FC = () => {
   const [settingsDrawerOpen, setSettingsDrawerOpen] = useState(false);
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color="inherit">
         <Toolbar>
           <Typography
             variant="h6"
