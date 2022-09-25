@@ -36,7 +36,7 @@ const App: FC = () => {
           }}
         >
           <NavBar />
-          <Box p={3}>
+          <Box p={2}>
             <HomePage />
           </Box>
         </Box>

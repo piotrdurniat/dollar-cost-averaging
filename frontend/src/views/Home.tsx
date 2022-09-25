@@ -6,6 +6,7 @@ import PriceChart from "../components/PriceChart";
 import dayjs, { Dayjs } from "dayjs";
 import { Box, Divider, Paper, Typography } from "@mui/material";
 import { getInitialIntervalMs } from "../components/IntervalInput";
+import DcaResultTable from "../components/DcaResultTable";
 
 const HomePage: FC = () => {
   const [ticker, setTicker] = useState("msft");
@@ -45,57 +46,39 @@ const HomePage: FC = () => {
   });
 
   return (
-    <>
-      <Paper sx={{ height: "100%" }}>
-        <Box p={2}>
-          <Typography variant="h4" mb={3}>
-            Dollar Cost Averaging Calculator
-          </Typography>
+    <Paper sx={{ height: "100%" }}>
+      <Box p={2}>
+        <Typography variant="h4" mb={3}>
+          Dollar Cost Averaging Calculator
+        </Typography>
 
-          <Box mb={2}>
-            <DCAForm
-              ticker={ticker}
-              setTicker={setTicker}
-              amount={amount}
-              setAmount={setAmount}
-              onSubmit={chartData.refetch}
-              startDate={startDate}
-              setStartDate={setStartDate}
-              setIntervalMs={setIntervalMs}
-            />
-          </Box>
-
-          <Divider />
-
-          {dcaResult.data && (
-            <Box mb={2} mt={2}>
-              <Typography variant="body1">
-                Sum of payments: ${dcaResult.data.totalInvestmentValue}
-                <br />
-                Final investment value: ${dcaResult.data.finalInvestmentValue}
-                <br />
-                Investment return: ${dcaResult.data.return.absolute}
-                <br />
-                Relative return: {dcaResult.data.return.relative * 100}%
-                <br />
-                Annualized return: ${dcaResult.data.annualizedReturn.absolute}
-                <br />
-                Annualized relative return:{" "}
-                {dcaResult.data.annualizedReturn.relative * 100}%
-              </Typography>
-            </Box>
-          )}
-
-          <Divider />
-
-          <PriceChart
-            data={chartData.data}
-            isFetching={chartData.isFetching}
-            isError={chartData.isError}
+        <Box mb={2}>
+          <DCAForm
+            ticker={ticker}
+            setTicker={setTicker}
+            amount={amount}
+            setAmount={setAmount}
+            onSubmit={chartData.refetch}
+            startDate={startDate}
+            setStartDate={setStartDate}
+            setIntervalMs={setIntervalMs}
           />
         </Box>
-      </Paper>
-    </>
+
+        <Divider />
+        <Typography mt={2} variant="h6">
+          Result:
+        </Typography>
+
+        {dcaResult.data && <DcaResultTable result={dcaResult.data} />}
+
+        <PriceChart
+          data={chartData.data}
+          isFetching={chartData.isFetching}
+          isError={chartData.isError}
+        />
+      </Box>
+    </Paper>
   );
 };
 

@@ -61,12 +61,12 @@ const DCAForm: FC<PropTypes> = ({
         <Grid item xs={12} sm={6} lg={3}>
           <FormControl variant="outlined" fullWidth>
             <InputLabel htmlFor="amount-input">
-              Single investment amount
+              Single investment value
             </InputLabel>
             <OutlinedInput
               id="amount-input"
               type="number"
-              label="Single investment amount"
+              label="Single investment value"
               value={amount}
               startAdornment={
                 <InputAdornment position="start">$</InputAdornment>

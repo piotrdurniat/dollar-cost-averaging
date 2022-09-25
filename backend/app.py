@@ -34,20 +34,15 @@ def parse_iso(iso_date: str) -> datetime:
 @app.get("/price-history")
 def price_history():
     ticker = request.args["ticker"]
-    start_date = request.args["startDate"]
-    end_date = request.args["endDate"]
-
-    start_date = parse_iso(start_date)
-    end_date = parse_iso(end_date)
+    start_date = parse_iso(request.args["startDate"])
+    end_date = parse_iso(request.args["endDate"])
 
     stock = yf.Ticker(ticker)
     hist = stock.history(start=start_date, interval="1d")
     hist = format_hist_data(hist)
     res_json = hist.to_json(orient="records", date_format="iso")
 
-    return app.response_class(
-        response=res_json, status=200, mimetype="application/json"
-    )
+    return res_json, 200, {"Content-Type": "application/json"}
 
 
 @app.get("/dca-result")
@@ -56,19 +51,29 @@ def dca_result():
     amount = request.args["amount"]
     start_date = parse_iso(request.args["startDate"])
     end_date = parse_iso(request.args["endDate"])
-    interval = request.args["interval"]
+    interval = int(request.args["interval"])
 
+    date_diff = end_date - start_date
+    date_diff_ms = date_diff.total_seconds() * 1000
+
+    investment_count = date_diff_ms / interval
+
+    stock = yf.Ticker(ticker)
+    hist = stock.history(start=start_date, interval="1d")
+
+    # TODO: sum of dividends
     res = {
         "totalInvestmentValue": 100,
         "finalInvestmentValue": 200,
+        "numberOfInvestments": 12,
+        "numberOfShares": 11.98,
         "return": {"absolute": 100, "relative": 0.5},
         "annualizedReturn": {"absolute": 50, "relative": 0.25},
     }
+
     res_json = json.dumps(res)
 
-    return app.response_class(
-        response=res_json, status=200, mimetype="application/json"
-    )
+    return res_json, 200, {"Content-Type": "application/json"}
 
 
 @app.get("/ping")

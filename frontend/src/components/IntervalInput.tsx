@@ -91,7 +91,7 @@ const IntervalInput: FC<PropTypes> = ({ setIntervalMs }) => {
             borderTopRightRadius: 0,
             borderBottomRightRadius: 0,
             marginRight: "-1px",
-            borderRightColor: "rgba(255, 255, 255, 0.12)",
+            borderRightColor: "transparent",
           },
         }}
       />
@@ -105,7 +105,6 @@ const IntervalInput: FC<PropTypes> = ({ setIntervalMs }) => {
           "& > fieldset": {
             borderTopLeftRadius: 0,
             borderBottomLeftRadius: 0,
-            borderLeftColor: "rgba(255, 255, 255, 0.12)",
           },
         }}
       >
