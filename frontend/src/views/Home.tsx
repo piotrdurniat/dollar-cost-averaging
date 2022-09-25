@@ -46,38 +46,39 @@ const HomePage: FC = () => {
   });
 
   return (
-    <Paper sx={{ height: "100%" }}>
-      <Box p={2}>
-        <Typography variant="h4" mb={3}>
-          Dollar Cost Averaging Calculator
-        </Typography>
+    <Paper
+      // variant="outlined"
+      sx={{ margin: 2, padding: 2, height: "100%" }}
+    >
+      <Typography variant="h4" mb={3}>
+        Dollar Cost Averaging Calculator
+      </Typography>
 
-        <Box mb={2}>
-          <DCAForm
-            ticker={ticker}
-            setTicker={setTicker}
-            amount={amount}
-            setAmount={setAmount}
-            onSubmit={chartData.refetch}
-            startDate={startDate}
-            setStartDate={setStartDate}
-            setIntervalMs={setIntervalMs}
-          />
-        </Box>
-
-        <Divider />
-        <Typography mt={2} variant="h6">
-          Result:
-        </Typography>
-
-        {dcaResult.data && <DcaResultTable result={dcaResult.data} />}
-
-        <PriceChart
-          data={chartData.data}
-          isFetching={chartData.isFetching}
-          isError={chartData.isError}
+      <Box mb={2}>
+        <DCAForm
+          ticker={ticker}
+          setTicker={setTicker}
+          amount={amount}
+          setAmount={setAmount}
+          onSubmit={chartData.refetch}
+          startDate={startDate}
+          setStartDate={setStartDate}
+          setIntervalMs={setIntervalMs}
         />
       </Box>
+
+      <Typography mt={2} variant="h6">
+        Results:
+      </Typography>
+      <Divider />
+
+      {dcaResult.data && <DcaResultTable result={dcaResult.data} />}
+
+      <PriceChart
+        data={chartData.data}
+        isFetching={chartData.isFetching}
+        isError={chartData.isError}
+      />
     </Paper>
   );
 };
