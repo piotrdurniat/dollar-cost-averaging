@@ -58,6 +58,7 @@ def get_financial_results(
     total_investment_value: float = 0
     final_price: float = 0
     dividends: float = 0
+    transactions = []
 
     for (index, row) in price_hist.iterrows():
         date: Timestamp = index  # type: ignore
@@ -67,14 +68,18 @@ def get_financial_results(
         if dividend != 0 and number_of_shares != 0:
             dividends += dividend * number_of_shares
 
-        if date.timestamp() >= end_date.timestamp():
-            break
-
         if date.timestamp() >= target_date.timestamp():
             target_date += interval
             number_of_investments += 1
-            number_of_shares += amount / open_price
+            number_of_shares_new = amount / open_price
+            number_of_shares += number_of_shares_new
             total_investment_value += amount
+            transactions.append(
+                {
+                    "time": date,
+                    "numberOfShares": number_of_shares_new,
+                }
+            )
 
     final_price = price_hist["Close"].values[-1].item()
 
@@ -103,7 +108,7 @@ def get_financial_results(
             "absolute": annualized_return_abs,
             "relative": annualized_return,
         },
-    }
+    }, transactions
 
 
 @app.get("/price-history")
@@ -114,7 +119,7 @@ def price_history():
 
     stock = yf.Ticker(ticker)
 
-    hist = stock.history(start=start_date, interval="1d")
+    hist = stock.history(start=start_date, end=end_date, interval="1d")
     hist_dict = format_hist_data(hist)
 
     return hist_dict, 200, {"Content-Type": "application/json"}
@@ -129,9 +134,13 @@ def dca_result():
     interval = timedelta(milliseconds=int(request.args["interval"]))
 
     stock = yf.Ticker(ticker)
-    price_hist = stock.history(start=start_date, interval="1d")
 
-    financial_results = get_financial_results(
+    price_hist = stock.history(start=start_date, end=end_date, interval="1d")
+
+    if price_hist.empty:
+        return {}, 200
+
+    financial_results, transactions = get_financial_results(
         price_hist, amount, start_date, end_date, interval
     )
     price_hist_dict = format_hist_data(price_hist)
@@ -139,6 +148,7 @@ def dca_result():
     res = {
         "financialResults": financial_results,
         "priceHistory": price_hist_dict,
+        "transactions": transactions,
     }
 
     return res, 200, {"Content-Type": "application/json"}

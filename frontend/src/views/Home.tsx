@@ -60,6 +60,7 @@ const HomePage: FC = () => {
 
       <PriceChart
         data={dcaResult.data?.priceHistory ?? []}
+        transactions={dcaResult.data?.transactions ?? []}
         isFetching={dcaResult.isFetching}
         isError={dcaResult.isError}
       />

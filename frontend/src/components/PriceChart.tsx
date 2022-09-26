@@ -7,15 +7,21 @@ import {
   useTheme,
 } from "@mui/material";
 import Chart from "@qognicafinance/react-lightweight-charts";
-import { MarketData } from "../types/dcaResults";
+import { MarketData, Transaction } from "../types/dcaResults";
 
 interface PropTypes {
   data: MarketData[];
   isFetching: boolean;
   isError: boolean;
+  transactions: Transaction[];
 }
 
-const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
+const PriceChart: FC<PropTypes> = ({
+  data,
+  isFetching,
+  isError,
+  transactions,
+}) => {
   const theme = useTheme();
 
   const chartOptions = {
@@ -48,6 +54,14 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
     },
   };
 
+  const markers = transactions.map(({ time, numberOfShares }) => ({
+    time,
+    position: "belowBar",
+    color: "#2196F3",
+    shape: "arrowUp",
+    text: `Buy ${numberOfShares.toFixed(2)}`,
+  }));
+
   return (
     <Paper
       variant="outlined"
@@ -56,7 +70,7 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
       <Box sx={{ width: "100%", position: "relative" }}>
         <Chart
           options={chartOptions}
-          candlestickSeries={[{ data }]}
+          candlestickSeries={[{ data, markers }]}
           autoWidth
           height={320}
         />
@@ -75,9 +89,14 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
             zIndex: 1,
           }}
         >
-          {isFetching && <CircularProgress />}
-          {isError && (
+          {isFetching ? (
+            <CircularProgress />
+          ) : isError ? (
             <Typography variant="body1">Eror fetching stock data.</Typography>
+          ) : (
+            data.length === 0 && (
+              <Typography variant="body1">No data.</Typography>
+            )
           )}
         </Box>
       </Box>

@@ -1,6 +1,7 @@
 export interface DcaResults {
   financialResults: FinancialResults;
   priceHistory: MarketData[];
+  transactions: Transaction[];
 }
 
 export interface FinancialResults {
@@ -29,4 +30,9 @@ export interface MarketData {
   volume: number;
   dividends: number;
   stockSplits: number;
+}
+
+export interface Transaction {
+  time: string;
+  numberOfShares: number;
 }
