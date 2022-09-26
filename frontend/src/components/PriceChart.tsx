@@ -7,10 +7,10 @@ import {
   useTheme,
 } from "@mui/material";
 import Chart from "@qognicafinance/react-lightweight-charts";
-import { MarketData } from "../types/marketData";
+import { MarketData } from "../types/dcaResults";
 
 interface PropTypes {
-  data?: { data: MarketData[] }[];
+  data: MarketData[];
   isFetching: boolean;
   isError: boolean;
 }
@@ -56,7 +56,7 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError }) => {
       <Box sx={{ width: "100%", position: "relative" }}>
         <Chart
           options={chartOptions}
-          candlestickSeries={data}
+          candlestickSeries={[{ data }]}
           autoWidth
           height={320}
         />

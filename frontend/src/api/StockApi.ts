@@ -1,7 +1,6 @@
 import Api from "./Api";
 import { AxiosResponse } from "axios";
-import { MarketData } from "../types/marketData";
-import { DcaResult } from "../types/dcaStrategy";
+import { DcaResults, MarketData } from "../types/dcaResults";
 
 export class StockApi {
   static getPriceHistory(
@@ -12,14 +11,14 @@ export class StockApi {
     return Api.get("price-history", { params: { ticker, startDate, endDate } });
   }
 
-  static getDcaResult(
+  static getDcaResults(
     ticker: string,
     amount: number,
     startDate: string,
     endDate: string,
     interval: number
-  ): Promise<AxiosResponse<DcaResult>> {
-    return Api.get("dca-result", {
+  ): Promise<AxiosResponse<DcaResults>> {
+    return Api.get("dca-results", {
       params: { ticker, amount, startDate, endDate, interval },
     });
   }

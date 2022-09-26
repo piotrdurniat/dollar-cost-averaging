@@ -9,27 +9,45 @@ import {
   TableContainer,
   TableRow,
 } from "@mui/material";
-import { DcaResult } from "../types/dcaStrategy";
-
+import { FinancialResults } from "../types/dcaResults";
+import { formatPercent, formatPrice } from "../util/formatter";
 interface PropTypes {
-  result: DcaResult;
+  result?: FinancialResults;
 }
 
-const DcaResultTable: FC<PropTypes> = ({ result }) => {
-  const resultTable = [
-    ["Total invested amount:", `\$ ${result.totalInvestmentValue.toFixed(2)}`],
-    ["Final investment value:", `\$ ${result.finalInvestmentValue.toFixed(2)}`],
-    ["Number of investments:", `${result.numberOfInvestments}`],
-    ["Number of shares bought:", `${result.numberOfShares.toFixed(4)}`],
-    ["Price change:", `\$ ${result.priceChange.toFixed(2)}`],
-    ["Dividends", `\$ ${result.dividends.toFixed(2)}`],
+const emptyDcaResult = {
+  totalInvestmentValue: 0,
+  finalInvestmentValue: 0,
+  numberOfInvestments: 0,
+  numberOfShares: 0,
+  priceChange: 0,
+  dividends: 0,
+  return: {
+    absolute: 0,
+    relative: 0,
+  },
+  annualizedReturn: {
+    absolute: 0,
+    relative: 0,
+  },
+} as const;
 
-    ["Investment return:", `\$ ${result.return.absolute.toFixed(2)}`],
-    ["Relative return:", `${(result.return.relative * 100).toFixed(2)}%`],
-    ["Annualized return:", `\$ ${result.annualizedReturn.absolute.toFixed(2)}`],
+const DcaResultTable: FC<PropTypes> = ({ result }) => {
+  const data = result ?? emptyDcaResult;
+
+  const resultTable = [
+    ["Total invested amount:", formatPrice(data.totalInvestmentValue)],
+    ["Final investment value:", formatPrice(data.finalInvestmentValue)],
+    ["Number of investments:", `${data.numberOfInvestments}`],
+    ["Number of shares bought:", `${data.numberOfShares.toFixed(4)}`],
+    ["Price change:", formatPrice(data.priceChange)],
+    ["Dividends", formatPrice(data.dividends)],
+    ["Investment return:", formatPrice(data.return.absolute)],
+    ["Relative return:", formatPercent(data.return.relative)],
+    ["Annualized return:", formatPrice(data.annualizedReturn.absolute)],
     [
       "Annualized relative return:",
-      `${(result.annualizedReturn.relative * 100).toFixed(2)}%`,
+      formatPercent(data.annualizedReturn.relative),
     ],
   ];
 

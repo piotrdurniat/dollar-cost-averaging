@@ -1,11 +1,5 @@
 import { FC, useMemo } from "react";
-import {
-  Box,
-  createTheme,
-  CssBaseline,
-  Stack,
-  ThemeProvider,
-} from "@mui/material";
+import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import { green } from "@mui/material/colors";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { useRecoilValue } from "recoil";
@@ -37,15 +31,11 @@ const App: FC = () => {
         <CssBaseline />
         <Box
           sx={{
-            minHeight: "100vh",
-            display: "flex",
             backgroundColor: paletteMode == "light" ? "#f5f5f5" : null,
           }}
         >
-          <Stack sx={{ flexGrow: 1 }}>
-            <NavBar />
-            <HomePage />
-          </Stack>
+          <NavBar />
+          <HomePage />
         </Box>
       </ThemeProvider>
     </QueryClientProvider>

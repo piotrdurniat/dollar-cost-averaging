@@ -5,17 +5,15 @@ import os
 from flask import Flask, request
 from flask_cors import CORS
 import yfinance as yf
-import logging
 from pandas._libs.tslibs.timestamps import Timestamp
-
+import logging
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": os.environ["FRONTEND_URL"]}})
 
-
 # Logger setup
 logger = logging.getLogger("werkzeug")
-handler = logging.FileHandler("test.log")
+handler = logging.FileHandler("backend.log")
 logger.addHandler(handler)
 
 
@@ -34,38 +32,25 @@ def format_hist_data(hist_data: DataFrame):
         },
         inplace=True,
     )
-    return hist_data
+    hist_data["time"] = hist_data["time"].map(
+        lambda x: x.isoformat(timespec="milliseconds") + "Z"
+    )
+    hist_data_dict = hist_data.to_dict(orient="records")
+
+    return hist_data_dict
 
 
 def parse_iso(iso_date: str) -> datetime:
     return datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
 
 
-@app.get("/price-history")
-def price_history():
-    ticker = request.args["ticker"]
-    start_date = parse_iso(request.args["startDate"])
-    end_date = parse_iso(request.args["endDate"])
-
-    stock = yf.Ticker(ticker)
-    hist = stock.history(start=start_date, interval="1d")
-    hist = format_hist_data(hist)
-    res_json = hist.to_json(orient="records", date_format="iso")
-
-    return res_json, 200, {"Content-Type": "application/json"}
-
-
-@app.get("/dca-result")
-def dca_result():
-    ticker = request.args["ticker"]
-    amount = float(request.args["amount"])
-    start_date = parse_iso(request.args["startDate"])
-    end_date = parse_iso(request.args["endDate"])
-    interval = timedelta(milliseconds=int(request.args["interval"]))
-
-    stock = yf.Ticker(ticker)
-    hist = stock.history(start=start_date, interval="1d")
-
+def get_financial_results(
+    price_hist: DataFrame,
+    amount: float,
+    start_date: datetime,
+    end_date: datetime,
+    interval: timedelta,
+):
     target_date = start_date
 
     number_of_investments = 0
@@ -74,8 +59,8 @@ def dca_result():
     final_price: float = 0
     dividends: float = 0
 
-    for (index, row) in hist.iterrows():
-        date: Timestamp = index
+    for (index, row) in price_hist.iterrows():
+        date: Timestamp = index  # type: ignore
         open_price: float = row["Open"].item()
         dividend: float = row["Dividends"].item()
 
@@ -91,7 +76,7 @@ def dca_result():
             number_of_shares += amount / open_price
             total_investment_value += amount
 
-    final_price = hist["Close"].values[-1].item()
+    final_price = price_hist["Close"].values[-1].item()
 
     final_investment_value = number_of_shares * final_price
     price_change = final_investment_value - total_investment_value
@@ -103,23 +88,60 @@ def dca_result():
     annualized_return = pow(1.0 + return_relative, 365 / date_diff_days) - 1.0
     annualized_return_abs = annualized_return * total_investment_value
 
-    res = {
+    return {
         "totalInvestmentValue": total_investment_value,
         "finalInvestmentValue": final_investment_value,
         "numberOfInvestments": number_of_investments,
         "numberOfShares": number_of_shares,
         "priceChange": price_change,
         "dividends": dividends,
-        "return": {"absolute": return_absolute, "relative": return_relative},
+        "return": {
+            "absolute": return_absolute,
+            "relative": return_relative,
+        },
         "annualizedReturn": {
             "absolute": annualized_return_abs,
             "relative": annualized_return,
         },
     }
 
-    res_json = json.dumps(res)
 
-    return res_json, 200, {"Content-Type": "application/json"}
+@app.get("/price-history")
+def price_history():
+    ticker = request.args["ticker"]
+    start_date = parse_iso(request.args["startDate"])
+    end_date = parse_iso(request.args["endDate"])
+
+    stock = yf.Ticker(ticker)
+
+    hist = stock.history(start=start_date, interval="1d")
+    hist_dict = format_hist_data(hist)
+
+    return hist_dict, 200, {"Content-Type": "application/json"}
+
+
+@app.get("/dca-results")
+def dca_result():
+    ticker = request.args["ticker"]
+    amount = float(request.args["amount"])
+    start_date = parse_iso(request.args["startDate"])
+    end_date = parse_iso(request.args["endDate"])
+    interval = timedelta(milliseconds=int(request.args["interval"]))
+
+    stock = yf.Ticker(ticker)
+    price_hist = stock.history(start=start_date, interval="1d")
+
+    financial_results = get_financial_results(
+        price_hist, amount, start_date, end_date, interval
+    )
+    price_hist_dict = format_hist_data(price_hist)
+
+    res = {
+        "financialResults": financial_results,
+        "priceHistory": price_hist_dict,
+    }
+
+    return res, 200, {"Content-Type": "application/json"}
 
 
 @app.get("/ping")

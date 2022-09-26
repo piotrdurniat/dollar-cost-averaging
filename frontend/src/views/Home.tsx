@@ -16,32 +16,16 @@ const HomePage: FC = () => {
   );
   const [intervalMs, setIntervalMs] = useState(getInitialIntervalMs());
 
-  const chartData = useQuery(
-    "chartData",
-    async () => {
-      const startDateIso = startDate.toISOString();
-      const endDateIso = dayjs().toISOString();
-      const { data } = await StockApi.getPriceHistory(
-        ticker,
-        startDateIso,
-        endDateIso
-      );
-      return [{ data }];
-    },
-    { placeholderData: [{ data: [] }] }
-  );
-
   const dcaResult = useQuery("dcaResult", async () => {
     const startDateIso = startDate.toISOString();
     const endDateIso = dayjs().toISOString();
-    const { data } = await StockApi.getDcaResult(
+    const { data } = await StockApi.getDcaResults(
       ticker,
       amount,
       startDateIso,
       endDateIso,
       intervalMs
     );
-    console.log(data);
     return data;
   });
 
@@ -60,10 +44,7 @@ const HomePage: FC = () => {
           setTicker={setTicker}
           amount={amount}
           setAmount={setAmount}
-          onSubmit={() => {
-            chartData.refetch();
-            dcaResult.refetch();
-          }}
+          onSubmit={dcaResult.refetch}
           startDate={startDate}
           setStartDate={setStartDate}
           setIntervalMs={setIntervalMs}
@@ -75,12 +56,12 @@ const HomePage: FC = () => {
       </Typography>
       <Divider />
 
-      {dcaResult.data && <DcaResultTable result={dcaResult.data} />}
+      <DcaResultTable result={dcaResult.data?.financialResults} />
 
       <PriceChart
-        data={chartData.data}
-        isFetching={chartData.isFetching}
-        isError={chartData.isError}
+        data={dcaResult.data?.priceHistory ?? []}
+        isFetching={dcaResult.isFetching}
+        isError={dcaResult.isError}
       />
     </Paper>
   );
