@@ -88,6 +88,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData, setIntervalMs }) => {
                 fieldState: { error },
               }) => (
                 <DatePicker
+                  label="Start date"
                   value={value}
                   onChange={(value) => onChange(value)}
                   renderInput={(params) => (
