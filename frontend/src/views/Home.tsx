@@ -3,25 +3,28 @@ import { useQuery } from "react-query";
 import { StockApi } from "../api/StockApi";
 import DCAForm from "../components/DcaForm";
 import PriceChart from "../components/PriceChart";
-import dayjs, { Dayjs } from "dayjs";
+import dayjs from "dayjs";
 import { Box, Divider, Paper, Typography } from "@mui/material";
 import { getInitialIntervalMs } from "../components/IntervalInput";
 import DcaResultTable from "../components/DcaResultTable";
+import { FormData } from "../types/FormData";
+
+const initialFormData = {
+  ticker: "msft",
+  amount: 100,
+  startDate: dayjs().subtract(1, "year"),
+} as const;
 
 const HomePage: FC = () => {
-  const [ticker, setTicker] = useState("msft");
-  const [amount, setAmount] = useState(100);
-  const [startDate, setStartDate] = useState<Dayjs>(
-    dayjs().subtract(1, "year")
-  );
+  const [formData, setFormData] = useState<FormData>(initialFormData);
   const [intervalMs, setIntervalMs] = useState(getInitialIntervalMs());
 
-  const dcaResult = useQuery("dcaResult", async () => {
-    const startDateIso = startDate.toISOString();
+  const dcaResult = useQuery(["dcaResult", formData], async () => {
+    const startDateIso = formData.startDate.toISOString();
     const endDateIso = dayjs().toISOString();
     const { data } = await StockApi.getDcaResults(
-      ticker,
-      amount,
+      formData.ticker,
+      formData.amount,
       startDateIso,
       endDateIso,
       intervalMs
@@ -40,13 +43,8 @@ const HomePage: FC = () => {
 
       <Box mb={2}>
         <DCAForm
-          ticker={ticker}
-          setTicker={setTicker}
-          amount={amount}
-          setAmount={setAmount}
-          onSubmit={dcaResult.refetch}
-          startDate={startDate}
-          setStartDate={setStartDate}
+          formData={formData}
+          setFormData={setFormData}
           setIntervalMs={setIntervalMs}
         />
       </Box>
