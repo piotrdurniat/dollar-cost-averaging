@@ -1,27 +1,41 @@
 import { FC, useState } from "react";
 import { useQuery } from "react-query";
+import { Box, Divider, Paper, Typography } from "@mui/material";
+import dayjs from "dayjs";
 import { StockApi } from "../api/StockApi";
 import DCAForm from "../components/DcaForm";
 import PriceChart from "../components/PriceChart";
-import dayjs from "dayjs";
-import { Box, Divider, Paper, Typography } from "@mui/material";
-import { getInitialIntervalMs } from "../components/IntervalInput";
 import DcaResultTable from "../components/DcaResultTable";
-import { FormData } from "../types/FormData";
+import { FormData, IntervalFrequency } from "../types/FormData";
+import { INTERVAL_MS } from "../constants/intervalMs";
 
 const initialFormData = {
   ticker: "msft",
   amount: 100,
   startDate: dayjs().subtract(1, "year"),
+  intervalCount: 1,
+  intervalFrequency: "MONTHLY",
 } as const;
+
+const getIntervalMs = (
+  intervalCount: number,
+  intervalFrequency: IntervalFrequency
+) => {
+  return INTERVAL_MS[intervalFrequency] * intervalCount;
+};
 
 const HomePage: FC = () => {
   const [formData, setFormData] = useState<FormData>(initialFormData);
-  const [intervalMs, setIntervalMs] = useState(getInitialIntervalMs());
 
   const dcaResult = useQuery(["dcaResult", formData], async () => {
     const startDateIso = formData.startDate.toISOString();
     const endDateIso = dayjs().toISOString();
+
+    const intervalMs = getIntervalMs(
+      formData.intervalCount,
+      formData.intervalFrequency
+    );
+
     const { data } = await StockApi.getDcaResults(
       formData.ticker,
       formData.amount,
@@ -42,11 +56,7 @@ const HomePage: FC = () => {
       </Typography>
 
       <Box mb={2}>
-        <DCAForm
-          formData={formData}
-          setFormData={setFormData}
-          setIntervalMs={setIntervalMs}
-        />
+        <DCAForm formData={formData} setFormData={setFormData} />
       </Box>
 
       <Typography mt={2} variant="h6">

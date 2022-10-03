@@ -11,8 +11,7 @@ import {
   FormHelperText,
 } from "@mui/material";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import IntervalInput from "./IntervalInput";
@@ -22,15 +21,15 @@ import { FormData } from "../types/FormData";
 interface PropTypes {
   formData: FormData;
   setFormData: (data: FormData) => void;
-  setIntervalMs: (ms: number) => void;
 }
 
-const DCAForm: FC<PropTypes> = ({ formData, setFormData, setIntervalMs }) => {
+const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
   const {
     control,
     register,
     handleSubmit,
     formState: { errors, isValid },
+    watch,
   } = useForm({
     mode: "onChange",
     resolver: yupResolver(schema),
@@ -60,14 +59,17 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData, setIntervalMs }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} lg={3}>
-          <FormControl variant="outlined" fullWidth>
+          <FormControl
+            variant="outlined"
+            fullWidth
+            error={Boolean(errors.amount)}
+          >
             <InputLabel htmlFor="amount">Single investment value</InputLabel>
             <OutlinedInput
               id="amount"
               type="number"
               label="Single investment value"
               {...register("amount")}
-              error={Boolean(errors.amount)}
               startAdornment={
                 <InputAdornment position="start">$</InputAdornment>
               }
@@ -107,7 +109,12 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData, setIntervalMs }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} lg={3}>
-          <IntervalInput setIntervalMs={setIntervalMs} />
+          <IntervalInput
+            register={register}
+            errors={errors}
+            control={control}
+            watch={watch}
+          />
         </Grid>
       </Grid>
       <Button type="submit" variant="outlined" size="large" disabled={!isValid}>
