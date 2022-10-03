@@ -67,7 +67,6 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
             <InputLabel htmlFor="amount">Single investment value</InputLabel>
             <OutlinedInput
               id="amount"
-              type="number"
               label="Single investment value"
               {...register("amount")}
               startAdornment={

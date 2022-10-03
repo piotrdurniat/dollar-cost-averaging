@@ -1,8 +1,8 @@
 import { FC } from "react";
 import {
   Box,
+  Grid,
   Paper,
-  Stack,
   Table,
   TableBody,
   TableCell,
@@ -53,10 +53,14 @@ const DcaResultTable: FC<PropTypes> = ({ result }) => {
 
   return (
     <Box mb={2} mt={2}>
-      <Stack direction="row" spacing={2}>
-        <TablePart tableData={resultTable.slice(0, 5)} />
-        <TablePart tableData={resultTable.slice(5, 10)} />
-      </Stack>
+      <Grid container direction="row" spacing={2} sx={{ maxWidth: 1000 }}>
+        <Grid item xs={12} md={6}>
+          <TablePart tableData={resultTable.slice(0, 5)} />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <TablePart tableData={resultTable.slice(5, 10)} />
+        </Grid>
+      </Grid>
     </Box>
   );
 };
@@ -70,7 +74,7 @@ const TablePart: FC<{ tableData: string[][] }> = ({ tableData }) => {
           sx={{
             backgroundColor: "transparent",
             padding: 1,
-            maxWidth: 400,
+            maxWidth: 600,
           }}
           {...props}
         />
