@@ -8,6 +8,7 @@ import {
   TableCell,
   TableContainer,
   TableRow,
+  Typography,
 } from "@mui/material";
 import { FinancialResults } from "../types/dcaResults";
 import { formatPercent, formatPrice } from "../util/formatter";
@@ -36,17 +37,17 @@ const DcaResultTable: FC<PropTypes> = ({ result }) => {
   const data = result ?? emptyDcaResult;
 
   const resultTable = [
-    ["Total invested amount:", formatPrice(data.totalInvestmentValue)],
-    ["Final investment value:", formatPrice(data.finalInvestmentValue)],
-    ["Number of investments:", `${data.numberOfInvestments}`],
-    ["Number of shares bought:", `${data.numberOfShares.toFixed(4)}`],
-    ["Price change:", formatPrice(data.priceChange)],
+    ["Total invested amount", formatPrice(data.totalInvestmentValue)],
+    ["Final investment value", formatPrice(data.finalInvestmentValue)],
+    ["Number of investments", `${data.numberOfInvestments}`],
+    ["Number of shares bought", `${data.numberOfShares.toFixed(4)}`],
+    ["Price change", formatPrice(data.priceChange)],
     ["Dividends", formatPrice(data.dividends)],
-    ["Investment return:", formatPrice(data.return.absolute)],
-    ["Relative return:", formatPercent(data.return.relative)],
-    ["Annualized return:", formatPrice(data.annualizedReturn.absolute)],
+    ["Investment return", formatPrice(data.return.absolute)],
+    ["Relative return", formatPercent(data.return.relative)],
+    ["Annualized return", formatPrice(data.annualizedReturn.absolute)],
     [
-      "Annualized relative return:",
+      "Annualized relative return",
       formatPercent(data.annualizedReturn.relative),
     ],
   ];
@@ -84,9 +85,23 @@ const TablePart: FC<{ tableData: string[][] }> = ({ tableData }) => {
         <TableBody>
           {tableData.map((row, index) => (
             <TableRow key={index}>
-              {row.map((cell, index) => (
-                <TableCell key={index}>{cell}</TableCell>
-              ))}
+              <TableCell sx={{ padding: 1.5 }}>
+                <Typography
+                  variant="body2"
+                  sx={{
+                    letterSpacing: ".07272727em",
+                    fontWeight: 500,
+                    fontSize: ".6875rem",
+                    color: "text.secondary",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  {row[0]}
+                </Typography>
+              </TableCell>
+              <TableCell sx={{ fontWeight: 500, textAlign: "right" }}>
+                {row[1]}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>

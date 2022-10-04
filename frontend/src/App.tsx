@@ -21,6 +21,17 @@ const App: FC = () => {
           },
           mode: paletteMode,
         },
+        components: {
+          MuiTableRow: {
+            styleOverrides: {
+              root: {
+                "&:last-child td": {
+                  borderBottom: 0,
+                },
+              },
+            },
+          },
+        },
       }),
     [paletteMode]
   );
