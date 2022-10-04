@@ -6,7 +6,7 @@ import {
   UseFormRegister,
   UseFormWatch,
 } from "react-hook-form";
-import { FormData } from "../types/FormData";
+import { FormData } from "../../types/FormData";
 
 const intervals = [
   {

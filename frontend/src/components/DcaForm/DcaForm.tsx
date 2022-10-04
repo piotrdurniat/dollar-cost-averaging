@@ -16,7 +16,7 @@ import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import IntervalInput from "./IntervalInput";
 import schema from "./dcaFormSchema";
-import { FormData } from "../types/FormData";
+import { FormData } from "../../types/FormData";
 
 interface PropTypes {
   formData: FormData;

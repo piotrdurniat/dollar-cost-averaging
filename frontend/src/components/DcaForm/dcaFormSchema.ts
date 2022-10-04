@@ -1,5 +1,5 @@
 import * as yup from "yup";
-import { IntervalFrequency } from "../types/FormData";
+import { IntervalFrequency } from "../../types/FormData";
 
 const schema = yup.object().shape({
   ticker: yup.string().required("Ticker symbol is required."),
