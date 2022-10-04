@@ -15,7 +15,7 @@ const schema = yup.object().shape({
   intervalCount: yup
     .number()
     .positive("Interval count value must be positive.")
-    .integer("Interval count must value be an integer.")
+    .integer("Interval count value must be an integer.")
     .required("Interval count is required.")
     .typeError("Interval count value must be a number."),
   intervalFrequency: yup

@@ -17,6 +17,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import IntervalInput from "./IntervalInput";
 import schema from "./dcaFormSchema";
 import { FormData } from "../../types/FormData";
+import StockInput from "./StockInput";
 
 interface PropTypes {
   formData: FormData;
@@ -46,16 +47,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     >
       <Grid container spacing={2} mb={2} sx={{ maxWidth: 1400 }}>
         <Grid item xs={12} sm={6} lg={3}>
-          <TextField
-            fullWidth
-            variant="outlined"
-            id="ticker"
-            type="text"
-            label="Ticker symbol"
-            {...register("ticker")}
-            error={Boolean(errors.ticker)}
-            helperText={errors.ticker ? errors.ticker.message : " "}
-          />
+          <StockInput register={register} errors={errors} />
         </Grid>
 
         <Grid item xs={12} sm={6} lg={3}>
