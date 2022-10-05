@@ -17,7 +17,7 @@ const App: FC = () => {
       createTheme({
         palette: {
           primary: {
-            main: green[600],
+            main: "#26A69A",
           },
           mode: paletteMode,
         },

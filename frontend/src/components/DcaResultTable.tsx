@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import { FinancialResults } from "../types/dcaResults";
 import { formatPercent, formatPrice } from "../util/formatter";
+
 interface PropTypes {
   result?: FinancialResults;
 }
@@ -33,23 +34,77 @@ const emptyDcaResult = {
   },
 } as const;
 
+interface TableRow {
+  label: string;
+  value: number;
+  format: (x: number) => string;
+  color: boolean;
+}
+
 const DcaResultTable: FC<PropTypes> = ({ result }) => {
   const data = result ?? emptyDcaResult;
 
-  const resultTable = [
-    ["Total invested amount", formatPrice(data.totalInvestmentValue)],
-    ["Final investment value", formatPrice(data.finalInvestmentValue)],
-    ["Number of investments", `${data.numberOfInvestments}`],
-    ["Number of shares bought", `${data.numberOfShares.toFixed(4)}`],
-    ["Price change", formatPrice(data.priceChange)],
-    ["Dividends", formatPrice(data.dividends)],
-    ["Investment return", formatPrice(data.return.absolute)],
-    ["Relative return", formatPercent(data.return.relative)],
-    ["Annualized return", formatPrice(data.annualizedReturn.absolute)],
-    [
-      "Annualized relative return",
-      formatPercent(data.annualizedReturn.relative),
-    ],
+  const resultTable: TableRow[] = [
+    {
+      label: "Total invested amount",
+      value: data.totalInvestmentValue,
+      format: formatPrice,
+      color: false,
+    },
+    {
+      label: "Final investment value",
+      value: data.finalInvestmentValue,
+      format: formatPrice,
+      color: false,
+    },
+    {
+      label: "Number of investments",
+      value: data.numberOfInvestments,
+      format: (x: number) => String(x),
+      color: false,
+    },
+    {
+      label: "Number of shares bought",
+      value: data.numberOfShares,
+      format: (x: number) => x.toFixed(4),
+      color: false,
+    },
+    {
+      label: "Price change",
+      value: data.priceChange,
+      format: formatPrice,
+      color: true,
+    },
+    {
+      label: "Dividends",
+      value: data.dividends,
+      format: formatPrice,
+      color: true,
+    },
+    {
+      label: "Investment return",
+      value: data.return.absolute,
+      format: formatPrice,
+      color: true,
+    },
+    {
+      label: "Relative investment return",
+      value: data.return.relative,
+      format: formatPercent,
+      color: true,
+    },
+    {
+      label: "Annualized return",
+      value: data.annualizedReturn.absolute,
+      format: formatPrice,
+      color: true,
+    },
+    {
+      label: "Relative annualized return",
+      value: data.annualizedReturn.relative,
+      format: formatPercent,
+      color: true,
+    },
   ];
 
   return (
@@ -66,7 +121,7 @@ const DcaResultTable: FC<PropTypes> = ({ result }) => {
   );
 };
 
-const TablePart: FC<{ tableData: string[][] }> = ({ tableData }) => {
+const TablePart: FC<{ tableData: TableRow[] }> = ({ tableData }) => {
   return (
     <TableContainer
       component={(props) => (
@@ -96,11 +151,22 @@ const TablePart: FC<{ tableData: string[][] }> = ({ tableData }) => {
                     textTransform: "uppercase",
                   }}
                 >
-                  {row[0]}
+                  {row.label}
                 </Typography>
               </TableCell>
-              <TableCell sx={{ fontWeight: 500, textAlign: "right" }}>
-                {row[1]}
+              <TableCell
+                sx={{
+                  fontWeight: 500,
+                  textAlign: "right",
+                  color:
+                    !row.color || row.value == 0
+                      ? "text.primary"
+                      : row.value < 0
+                      ? "#EF5350"
+                      : "#26A69A",
+                }}
+              >
+                {row.format(row.value)}
               </TableCell>
             </TableRow>
           ))}
