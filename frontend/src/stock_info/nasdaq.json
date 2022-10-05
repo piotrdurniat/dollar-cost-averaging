@@ -42,12 +42,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "AAIC^C",
-    "name": "Arlington Asset Investment Corp 8.250% Seies C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "AAIN",
     "name": "Arlington Asset Investment Corp 6.000% Senior Notes Due 2026",
     "country": "United States",
@@ -56,18 +50,6 @@
   {
     "symbol": "AAL",
     "name": "American Airlines Group Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AAM^A",
-    "name": "Apollo Asset Management Inc. 6.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AAM^B",
-    "name": "Apollo Asset Management Inc. 6.375% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -246,24 +228,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "ABR^D",
-    "name": "Arbor Realty Trust 6.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ABR^E",
-    "name": "Arbor Realty Trust 6.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ABR^F",
-    "name": "Arbor Realty Trust 6.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ABSI",
     "name": "Absci Corporation",
     "country": "United States",
@@ -391,7 +355,7 @@
   },
   {
     "symbol": "ACBA",
-    "name": "Ace Global Business Acquisition Limited Ordinary Shares",
+    "name": "Ace Global Business Acquisition Limited",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -594,12 +558,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "ACP^A",
-    "name": "abrdn Income Credit Strategies Fund 5.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ACQR",
     "name": "Independence Holdings Corp.",
     "country": "United States",
@@ -614,18 +572,6 @@
   {
     "symbol": "ACR",
     "name": "ACRES Commercial Realty Corp.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ACR^C",
-    "name": "ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ACR^D",
-    "name": "ACRES Commercial Realty Corp. 7.875% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -738,12 +684,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "ADC^A",
-    "name": "Agree Realty Corporation Depositary Shares each representing 1/1000th of a 4.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ADCT",
     "name": "ADC Therapeutics SA",
     "country": "",
@@ -805,7 +745,7 @@
   },
   {
     "symbol": "ADNT",
-    "name": "Adient plc Ordinary Shares",
+    "name": "Adient plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -853,7 +793,7 @@
   },
   {
     "symbol": "ADSE",
-    "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+    "name": "ADS-TEC ENERGY PLC",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -1050,18 +990,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "AEL^A",
-    "name": "American Equity Investment Life Holding Company Depositary Shares each representing a 1/1000th interest in a share of 5.95% Fixed-Rate Reset Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AEL^B",
-    "name": "American Equity Investment Life Holding Company Depositary Shares each representing a 1/1000th interest in a share of 6.625% Fixed-Rate Reset Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "AEM",
     "name": "Agnico Eagle Mines Limited",
     "country": "Canada",
@@ -1099,7 +1027,7 @@
   },
   {
     "symbol": "AER",
-    "name": "AerCap Holdings N.V. Ordinary Shares",
+    "name": "AerCap Holdings N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -1261,7 +1189,7 @@
   },
   {
     "symbol": "AFRI",
-    "name": "Forafric Global PLC Ordinary Shares",
+    "name": "Forafric Global PLC",
     "country": "Gibraltar",
     "exchange": "NASDAQ"
   },
@@ -1297,7 +1225,7 @@
   },
   {
     "symbol": "AG",
-    "name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
+    "name": "First Majestic Silver Corp. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -1418,36 +1346,6 @@
   {
     "symbol": "AGM",
     "name": "Federal Agricultural Mortgage Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AGM^C",
-    "name": "Federal Agricultural Mortgage Corporation Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AGM^D",
-    "name": "Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AGM^E",
-    "name": "Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AGM^F",
-    "name": "Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AGM^G",
-    "name": "Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -1578,33 +1476,9 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "AHH^A",
-    "name": "Armada Hoffler Properties Inc. 6.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "AHI",
     "name": "Advanced Human Imaging Limited. American Depositary Shares",
     "country": "Australia",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHL^C",
-    "name": "Aspen Insurance Holdings Limited 5.95% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Shares",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHL^D",
-    "name": "Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHL^E",
-    "name": "Aspen Insurance Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 5.625% Perpetual Non-Cumulative Preference Shares",
-    "country": "Bermuda",
     "exchange": "NASDAQ"
   },
   {
@@ -1644,36 +1518,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "AHT^D",
-    "name": "Ashford Hospitality Trust Inc 8.45% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHT^F",
-    "name": "Ashford Hospitality Trust Inc 7.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHT^G",
-    "name": "Ashford Hospitality Trust Inc 7.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHT^H",
-    "name": "Ashford Hospitality Trust Inc 7.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AHT^I",
-    "name": "Ashford Hospitality Trust Inc 7.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "AI",
     "name": "C3.ai Inc.",
     "country": "",
@@ -1706,12 +1550,6 @@
   {
     "symbol": "AIG",
     "name": "American International Group Inc. New",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AIG^A",
-    "name": "American International Group Inc. Depositary Shares Each Representing a 1/1000th Interest in a Share of ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -1986,12 +1824,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "AL^A",
-    "name": "Air Lease Corporation 6.150% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ALB",
     "name": "Albemarle Corporation",
     "country": "United States",
@@ -2005,7 +1837,7 @@
   },
   {
     "symbol": "ALC",
-    "name": "Alcon Inc. Ordinary Shares",
+    "name": "Alcon Inc.",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -2113,7 +1945,7 @@
   },
   {
     "symbol": "ALKS",
-    "name": "Alkermes plc Ordinary Shares",
+    "name": "Alkermes plc",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -2125,37 +1957,13 @@
   },
   {
     "symbol": "ALL",
-    "name": "Allstate Corporation (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ALL^B",
-    "name": "Allstate Corporation (The) 5.100% Fixed-to-Floating Rate Subordinated Debentures due 2053",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ALL^G",
-    "name": "Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ALL^H",
-    "name": "Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ALL^I",
-    "name": "Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock ",
+    "name": "Allstate Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "ALLE",
-    "name": "Allegion plc Ordinary Shares",
+    "name": "Allegion plc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -2185,7 +1993,7 @@
   },
   {
     "symbol": "ALLT",
-    "name": "Allot Ltd. Ordinary Shares",
+    "name": "Allot Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -2216,12 +2024,6 @@
   {
     "symbol": "ALOT",
     "name": "AstroNova Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ALP^Q",
-    "name": "Alabama Power Company 5.00%",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -2269,7 +2071,7 @@
   },
   {
     "symbol": "ALSA",
-    "name": "Alpha Star Acquisition Corporation Ordinary Shares",
+    "name": "Alpha Star Acquisition Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -2306,12 +2108,6 @@
   {
     "symbol": "ALTG",
     "name": "Alta Equipment Group Inc.",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ALTG^A",
-    "name": "Alta Equipment Group Inc. Depositary Shares (each representing 1/1000th in a share of 10% ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -2353,7 +2149,7 @@
   },
   {
     "symbol": "ALVO",
-    "name": "Alvotech Ordinary Shares",
+    "name": "Alvotech",
     "country": "Luxembourg",
     "exchange": "NASDAQ"
   },
@@ -2401,7 +2197,7 @@
   },
   {
     "symbol": "AMAM",
-    "name": "Ambrx Biopharma Inc. American Depositary Shares (each representing seven Ordinary Shares)",
+    "name": "Ambrx Biopharma Inc. American Depositary Shares (each representing seven)",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -2431,7 +2227,7 @@
   },
   {
     "symbol": "AMBA",
-    "name": "Ambarella Inc. Ordinary Shares",
+    "name": "Ambarella Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -2449,7 +2245,7 @@
   },
   {
     "symbol": "AMBP",
-    "name": "Ardagh Metal Packaging S.A. Ordinary Shares",
+    "name": "Ardagh Metal Packaging S.A.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -2479,7 +2275,7 @@
   },
   {
     "symbol": "AMCR",
-    "name": "Amcor plc Ordinary Shares",
+    "name": "Amcor plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -2528,18 +2324,6 @@
   {
     "symbol": "AMH",
     "name": "American Homes 4 Rent Common Shares of Beneficial Interest",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AMH^G",
-    "name": "American Homes 4 Rent ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "AMH^H",
-    "name": "American Homes 4 Rent ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -2791,7 +2575,7 @@
   },
   {
     "symbol": "ANDE",
-    "name": "Andersons Inc. (The)",
+    "name": "Andersons Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -2815,7 +2599,7 @@
   },
   {
     "symbol": "ANGH",
-    "name": "Anghami Inc. Ordinary Shares",
+    "name": "Anghami Inc.",
     "country": "United Arab Emirates",
     "exchange": "NASDAQ"
   },
@@ -3199,13 +2983,7 @@
   },
   {
     "symbol": "APTV",
-    "name": "Aptiv PLC Ordinary Shares",
-    "country": "United Kingdom",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "APTV^A",
-    "name": "Aptiv PLC 5.50% ",
+    "name": "Aptiv PLC",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -3223,7 +3001,7 @@
   },
   {
     "symbol": "APWC",
-    "name": "Asia Pacific Wire & Cable Corporation Ltd. Ordinary Shares (Bermuda)",
+    "name": "Asia Pacific Wire & Cable Corporation Ltd. (Bermuda)",
     "country": "Taiwan",
     "exchange": "NASDAQ"
   },
@@ -3313,7 +3091,7 @@
   },
   {
     "symbol": "ARBE",
-    "name": "Arbe Robotics Ltd. Ordinary Shares",
+    "name": "Arbe Robotics Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -3474,12 +3252,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "ARGO^A",
-    "name": "Argo Group International Holdings Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 7.00% Resettable Fixed Rate Preference Share ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ARGU",
     "name": "Argus Capital Corp.",
     "country": "United States",
@@ -3613,7 +3385,7 @@
   },
   {
     "symbol": "ARQQ",
-    "name": "Arqit Quantum Inc. Ordinary Shares",
+    "name": "Arqit Quantum Inc.",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -3632,12 +3404,6 @@
   {
     "symbol": "ARR",
     "name": "ARMOUR Residential REIT Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ARR^C",
-    "name": "ARMOUR Residential REIT Inc. 7% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -3697,7 +3463,7 @@
   },
   {
     "symbol": "ARVL",
-    "name": "Arrival Ordinary Shares",
+    "name": "Arrival",
     "country": "Luxembourg",
     "exchange": "NASDAQ"
   },
@@ -3764,18 +3530,6 @@
   {
     "symbol": "ASB",
     "name": "Associated Banc-Corp",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ASB^E",
-    "name": "Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of 5.875% Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ASB^F",
-    "name": "Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of Associated Banc-Corp 5.625% Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -4021,7 +3775,7 @@
   },
   {
     "symbol": "ATA",
-    "name": "Americas Technology Acquisition Corp. Ordinary Shares",
+    "name": "Americas Technology Acquisition Corp.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -4058,24 +3812,6 @@
   {
     "symbol": "ATCO",
     "name": "Atlas Corp.",
-    "country": "United Kingdom",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ATCO^D",
-    "name": "Atlas Corp. 7.95% ",
-    "country": "United Kingdom",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ATCO^H",
-    "name": "Atlas Corp. 7.875% ",
-    "country": "United Kingdom",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ATCO^I",
-    "name": "Atlas Corp. ",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -4128,30 +3864,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "ATH^A",
-    "name": "Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 6.35% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Share ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ATH^B",
-    "name": "Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 5.625% Fixed Rate Perpetual Non- Cumulative Preference Share ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ATH^C",
-    "name": "Athene Holding Ltd. Depositary Shares each representing a 1/1000th Interest in a Share of 6.375% Fixed-Rate Reset Perpetual Non-Cumulative Preference Shares ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ATH^D",
-    "name": "Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 4.875% Fixed-Rate Perpetual Non-Cumulative Preference Share ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ATHA",
     "name": "Athira Pharma Inc.",
     "country": "United States",
@@ -4183,7 +3895,7 @@
   },
   {
     "symbol": "ATIF",
-    "name": "ATIF Holdings Limited Ordinary Shares",
+    "name": "ATIF Holdings Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -4309,7 +4021,7 @@
   },
   {
     "symbol": "ATTO",
-    "name": "Atento S.A. Ordinary Shares",
+    "name": "Atento S.A.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -4405,7 +4117,7 @@
   },
   {
     "symbol": "AUPH",
-    "name": "Aurinia Pharmaceuticals Inc Ordinary Shares",
+    "name": "Aurinia Pharmaceuticals Inc",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -4477,7 +4189,7 @@
   },
   {
     "symbol": "AUY",
-    "name": "Yamana Gold Inc. Ordinary Shares (Canada)",
+    "name": "Yamana Gold Inc. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -4836,12 +4548,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "AXS^E",
-    "name": "Axis Capital Holdings Limited Depositary Shares each representing 1/100th interest in a share of a 5.50% ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "AXSM",
     "name": "Axsome Therapeutics Inc.",
     "country": "United States",
@@ -4861,7 +4567,7 @@
   },
   {
     "symbol": "AY",
-    "name": "Atlantica Sustainable Infrastructure plc Ordinary Shares",
+    "name": "Atlantica Sustainable Infrastructure plc",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -4963,7 +4669,7 @@
   },
   {
     "symbol": "BA",
-    "name": "Boeing Company (The)",
+    "name": "Boeing Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -4976,66 +4682,6 @@
   {
     "symbol": "BAC",
     "name": "Bank of America Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^B",
-    "name": "Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^E",
-    "name": "Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^K",
-    "name": "Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.875% Non- Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^L",
-    "name": "Bank of America Corporation Non Cumulative Perpetual Conv Pfd Ser L",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^M",
-    "name": "Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^N",
-    "name": "Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 5.000% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^O",
-    "name": "Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 4.375% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^P",
-    "name": "Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.125% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^Q",
-    "name": "Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 4.250% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BAC^S",
-    "name": "Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 4.750% Non-Cumulative Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -5143,7 +4789,7 @@
   },
   {
     "symbol": "BAOS",
-    "name": "Baosheng Media Group Holdings Limited Ordinary shares",
+    "name": "Baosheng Media Group Holdings Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -5334,24 +4980,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BC^A",
-    "name": "Brunswick Corporation 6.500% Senior Notes due 2048",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BC^B",
-    "name": "Brunswick Corporation 6.625% Senior Notes due 2049",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BC^C",
-    "name": "Brunswick Corporation 6.375% Notes due 2049",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BCAB",
     "name": "BioAtla Inc.",
     "country": "United States",
@@ -5425,7 +5053,7 @@
   },
   {
     "symbol": "BCO",
-    "name": "Brinks Company (The)",
+    "name": "Brinks Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -5504,12 +5132,6 @@
   {
     "symbol": "BCV",
     "name": "Bancroft Fund Ltd.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BCV^A",
-    "name": "Bancroft Fund Limited 5.375% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -5670,12 +5292,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BEP^A",
-    "name": "Brookfield Renewable Partners L.P. 5.25%",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BEPC",
     "name": "Brookfield Renewable Corporation",
     "country": "",
@@ -5786,18 +5402,6 @@
   {
     "symbol": "BFS",
     "name": "Saul Centers Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BFS^D",
-    "name": "Saul Centers Inc. Depositary Shares each representing 1/100th of a share of 6.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BFS^E",
-    "name": "Saul Centers Inc. Depositary shares each representing a 1/100th fractional interest in a share of 6.000% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -5923,7 +5527,7 @@
   },
   {
     "symbol": "BHAT",
-    "name": "Blue Hat Interactive Entertainment Technology Ordinary Shares",
+    "name": "Blue Hat Interactive Entertainment Technology",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -6007,7 +5611,7 @@
   },
   {
     "symbol": "BHP",
-    "name": "BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)",
+    "name": "BHP Group Limited American Depositary Shares (Each representing two)",
     "country": "Australia",
     "exchange": "NASDAQ"
   },
@@ -6018,20 +5622,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BHR^B",
-    "name": "Braemar Hotels & Resorts Inc. 5.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BHR^D",
-    "name": "Braemar Hotels & Resorts Inc. 8.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BHSE",
-    "name": "Bull Horn Holdings Corp. Ordinary Shares",
+    "name": "Bull Horn Holdings Corp.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -6175,25 +5767,13 @@
   },
   {
     "symbol": "BIOX",
-    "name": "Bioceres Crop Solutions Corp. Ordinary Shares",
+    "name": "Bioceres Crop Solutions Corp.",
     "country": "Argentina",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "BIP",
     "name": "Brookfield Infrastructure Partners LP Limited Partnership Units",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BIP^A",
-    "name": "Brookfield Infrastructure Partners LP 5.125%",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BIP^B",
-    "name": "Brookfield Infrastructure Partners LP 5.000%",
     "country": "Bermuda",
     "exchange": "NASDAQ"
   },
@@ -6283,7 +5863,7 @@
   },
   {
     "symbol": "BKE",
-    "name": "Buckle Inc. (The)",
+    "name": "Buckle Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -6307,7 +5887,7 @@
   },
   {
     "symbol": "BKN",
-    "name": "BlackRock Investment Quality Municipal Trust Inc. (The)",
+    "name": "BlackRock Investment Quality Municipal Trust Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -6337,7 +5917,7 @@
   },
   {
     "symbol": "BKT",
-    "name": "BlackRock Income Trust Inc. (The)",
+    "name": "BlackRock Income Trust Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -6642,30 +6222,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BML^G",
-    "name": "Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a share of Floating Rate Non-Cumulative Preferred Stock  Series 1)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BML^H",
-    "name": "Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 2)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BML^J",
-    "name": "Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 4)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BML^L",
-    "name": "Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 5)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BMO",
     "name": "Bank Of Montreal",
     "country": "Canada",
@@ -6763,13 +6319,13 @@
   },
   {
     "symbol": "BNRG",
-    "name": "Brenmiller Energy Ltd Ordinary Shares",
+    "name": "Brenmiller Energy Ltd",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "BNS",
-    "name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
+    "name": "Bank Nova Scotia Halifax Pfd 3",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -6846,12 +6402,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BOH^A",
-    "name": "Bank of Hawaii Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.375% Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BOKF",
     "name": "BOK Financial Corporation",
     "country": "United States",
@@ -6865,7 +6415,7 @@
   },
   {
     "symbol": "BON",
-    "name": "Bon Natural Life Limited Ordinary Shares",
+    "name": "Bon Natural Life Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -7116,18 +6666,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BRG^C",
-    "name": "Bluerock Residential Growth REIT Inc. 7.625% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BRG^D",
-    "name": "Bluerock Residential Growth REIT Inc. 7.125% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BRID",
     "name": "Bridgford Foods Corporation",
     "country": "United States",
@@ -7189,7 +6727,7 @@
   },
   {
     "symbol": "BRLI",
-    "name": "Brilliant Acquisition Corporation Ordinary Shares",
+    "name": "Brilliant Acquisition Corporation",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -7219,7 +6757,7 @@
   },
   {
     "symbol": "BROG",
-    "name": "Brooge Energy Limited Ordinary Shares",
+    "name": "Brooge Energy Limited",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -7243,7 +6781,7 @@
   },
   {
     "symbol": "BRQS",
-    "name": "Borqs Technologies Inc. Ordinary Shares",
+    "name": "Borqs Technologies Inc.",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -7440,12 +6978,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "BSX^A",
-    "name": "Boston Scientific Corporation 5.50% Mandatory Convertible Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "BSY",
     "name": "Bentley Systems Incorporated",
     "country": "United States",
@@ -7483,7 +7015,7 @@
   },
   {
     "symbol": "BTBT",
-    "name": "Bit Digital Inc. Ordinary Shares",
+    "name": "Bit Digital Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -7543,7 +7075,7 @@
   },
   {
     "symbol": "BTOG",
-    "name": "Bit Origin Limited Ordinary Shares",
+    "name": "Bit Origin Limited",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -7621,7 +7153,7 @@
   },
   {
     "symbol": "BUR",
-    "name": "Burford Capital Limited Ordinary Shares",
+    "name": "Burford Capital Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -7670,12 +7202,6 @@
   {
     "symbol": "BW",
     "name": "Babcock & Wilcox Enterprises Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "BW^A",
-    "name": "Babcock & Wilcox Enterprises Inc. 7.75% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -7747,7 +7273,7 @@
   },
   {
     "symbol": "BWMX",
-    "name": "Betterware de Mexico S.A.P.I. de C.V. Ordinary Shares",
+    "name": "Betterware de Mexico S.A.P.I. de C.V.",
     "country": "Mexico",
     "exchange": "NASDAQ"
   },
@@ -7867,7 +7393,7 @@
   },
   {
     "symbol": "BYSI",
-    "name": "BeyondSpring Inc. Ordinary Shares",
+    "name": "BeyondSpring Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -7910,24 +7436,6 @@
   {
     "symbol": "C",
     "name": "Citigroup Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "C^J",
-    "name": "Citigroup Inc. Dep Shs Repstg 1/1000 Pfd Ser J Fixed/Fltg",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "C^K",
-    "name": "Citigroup Inc. Dep Shs Repstg 1/1000th Pfd Ser K",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "C^N",
-    "name": "Citigroup Capital XIII 7.875% Fixed rate Floating Rate trust Preferred Securities (TruPS)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -7980,12 +7488,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CADE^A",
-    "name": "Cadence Bank 5.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CADL",
     "name": "Candel Therapeutics Inc.",
     "country": "United States",
@@ -7993,7 +7495,7 @@
   },
   {
     "symbol": "CAE",
-    "name": "CAE Inc. Ordinary Shares",
+    "name": "CAE Inc.",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -8023,7 +7525,7 @@
   },
   {
     "symbol": "CAKE",
-    "name": "Cheesecake Factory Incorporated (The)",
+    "name": "Cheesecake Factory Incorporated",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -8071,7 +7573,7 @@
   },
   {
     "symbol": "CAMT",
-    "name": "Camtek Ltd. Ordinary Shares",
+    "name": "Camtek Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -8209,7 +7711,7 @@
   },
   {
     "symbol": "CATO",
-    "name": "Cato Corporation (The)",
+    "name": "Cato Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -8347,7 +7849,7 @@
   },
   {
     "symbol": "CC",
-    "name": "Chemours Company (The)",
+    "name": "Chemours Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -8407,7 +7909,7 @@
   },
   {
     "symbol": "CCEP",
-    "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+    "name": "Coca-Cola Europacific Partners plc",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -8449,7 +7951,7 @@
   },
   {
     "symbol": "CCM",
-    "name": "Concord Medical Services Holdings Limited ADS (Each represents three ordinary shares)",
+    "name": "Concord Medical Services Holdings Limited ADS (Each represents three)",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -8610,18 +8112,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CDR^B",
-    "name": "Cedar Realty Trust Inc. 7.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CDR^C",
-    "name": "Cedar Realty Trust Inc. 6.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CDRE",
     "name": "Cadre Holdings Inc.",
     "country": "",
@@ -8629,7 +8119,7 @@
   },
   {
     "symbol": "CDRO",
-    "name": "Codere Online Luxembourg S.A. Ordinary Shares",
+    "name": "Codere Online Luxembourg S.A.",
     "country": "Luxembourg",
     "exchange": "NASDAQ"
   },
@@ -8707,7 +8197,7 @@
   },
   {
     "symbol": "CEE",
-    "name": "The Central and Eastern Europe Fund Inc. (The)",
+    "name": "The Central and Eastern Europe Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -8779,7 +8269,7 @@
   },
   {
     "symbol": "CENN",
-    "name": "Cenntro Electric Group Limited Ordinary Shares",
+    "name": "Cenntro Electric Group Limited",
     "country": "New Zealand",
     "exchange": "NASDAQ"
   },
@@ -8946,18 +8436,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CFG^D",
-    "name": "Citizens Financial Group Inc. Depositary Shares each representing a 1/40th Interest in a Share of 6.350% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CFG^E",
-    "name": "Citizens Financial Group Inc. Depositary Shares Each Representing 1/40th Interest in a Share of 5.000% Fixed-Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CFIV",
     "name": "CF Acquisition Corp. IV",
     "country": "United States",
@@ -8990,12 +8468,6 @@
   {
     "symbol": "CFR",
     "name": "Cullen/Frost Bankers Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CFR^B",
-    "name": "Cullen/Frost Bankers Inc. Depositary Shares each representing a 1/40th ownership interest in a share of 4.450% non-cumulative perpetual preferred stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -9055,13 +8527,13 @@
   },
   {
     "symbol": "CGEN",
-    "name": "Compugen Ltd. Ordinary Shares",
+    "name": "Compugen Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "CGNT",
-    "name": "Cognyte Software Ltd. Ordinary Shares",
+    "name": "Cognyte Software Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -9211,7 +8683,7 @@
   },
   {
     "symbol": "CHKP",
-    "name": "Check Point Software Technologies Ltd. Ordinary Shares",
+    "name": "Check Point Software Technologies Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -9228,20 +8700,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CHMI^A",
-    "name": "Cherry Hill Mortgage Investment Corporation 8.20% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CHMI^B",
-    "name": "Cherry Hill Mortgage Investment Corporation 8.250% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CHN",
-    "name": "China Fund Inc. (The)",
+    "name": "China Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -9468,30 +8928,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CIM^A",
-    "name": "Chimera Investment Corporation 8.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CIM^B",
-    "name": "Chimera Investment Corporation 8.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CIM^C",
-    "name": "Chimera Investment Corporation 7.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CIM^D",
-    "name": "Chimera Investment Corporation 8.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CINC",
     "name": "CinCor Pharma Inc.",
     "country": "United States",
@@ -9524,12 +8960,6 @@
   {
     "symbol": "CIO",
     "name": "City Office REIT Inc.",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CIO^A",
-    "name": "City Office REIT Inc. 6.625% ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -9601,7 +9031,7 @@
   },
   {
     "symbol": "CJJD",
-    "name": "China Jo-Jo Drugstores Inc. (Cayman Islands) Ordinary Shares",
+    "name": "China Jo-Jo Drugstores Inc. (Cayman Islands)",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -9643,7 +9073,7 @@
   },
   {
     "symbol": "CLAY",
-    "name": "Chavant Capital Acquisition Corp. Ordinary Shares",
+    "name": "Chavant Capital Acquisition Corp.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -9679,7 +9109,7 @@
   },
   {
     "symbol": "CLBT",
-    "name": "Cellebrite DI Ltd. Ordinary Shares",
+    "name": "Cellebrite DI Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -9696,12 +9126,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CLDT^A",
-    "name": "Chatham Lodging Trust (REIT) 6.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CLDX",
     "name": "Celldex Therapeutics Inc.",
     "country": "United States",
@@ -9709,7 +9133,7 @@
   },
   {
     "symbol": "CLEU",
-    "name": "China Liberal Education Holdings Limited Ordinary Shares",
+    "name": "China Liberal Education Holdings Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -9727,7 +9151,7 @@
   },
   {
     "symbol": "CLGN",
-    "name": "CollPlant Biotechnologies Ltd Ordinary Shares",
+    "name": "CollPlant Biotechnologies Ltd",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -9937,13 +9361,7 @@
   },
   {
     "symbol": "CLVT",
-    "name": "Clarivate Plc Ordinary Shares",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CLVT^A",
-    "name": "Clarivate Plc 5.25% ",
+    "name": "Clarivate Plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -9961,7 +9379,7 @@
   },
   {
     "symbol": "CLX",
-    "name": "Clorox Company (The)",
+    "name": "Clorox Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -9991,7 +9409,7 @@
   },
   {
     "symbol": "CMBM",
-    "name": "Cambium Networks Corporation Ordinary Shares",
+    "name": "Cambium Networks Corporation",
     "country": "Cayman Islands",
     "exchange": "NASDAQ"
   },
@@ -10099,7 +9517,7 @@
   },
   {
     "symbol": "CMPR",
-    "name": "Cimpress plc Ordinary Shares (Ireland)",
+    "name": "Cimpress plc (Ireland)",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -10134,30 +9552,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CMRE^B",
-    "name": "Costamare Inc. Perpetual Preferred Stock ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CMRE^C",
-    "name": "Costamare Inc. Perpetual Preferred ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CMRE^D",
-    "name": "Costamare Inc. 8.75% ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CMRE^E",
-    "name": "Costamare Inc. 8.875% ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CMRX",
     "name": "Chimerix Inc.",
     "country": "United States",
@@ -10166,18 +9560,6 @@
   {
     "symbol": "CMS",
     "name": "CMS Energy Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CMS^B",
-    "name": "CMS Energy Corporation Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CMS^C",
-    "name": "CMS Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.200% Cumulative Redeemable Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -10279,7 +9661,7 @@
   },
   {
     "symbol": "CNF",
-    "name": "CNFinance Holdings Limited American Depositary Shares each representing  twenty (20) Ordinary Shares",
+    "name": "CNFinance Holdings Limited American Depositary Shares each representing  twenty (20)",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -10358,12 +9740,6 @@
   {
     "symbol": "CNO",
     "name": "CNO Financial Group Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CNO^A",
-    "name": "CNO Financial Group Inc. 5.125% Subordinated Debentures due 2060",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -10512,24 +9888,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CODI^A",
-    "name": "Compass Diversified Holdings 7.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CODI^B",
-    "name": "Compass Diversified Holdings 7.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CODI^C",
-    "name": "Compass Diversified Holdings 7.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CODX",
     "name": "Co-Diagnostics Inc.",
     "country": "United States",
@@ -10544,36 +9902,6 @@
   {
     "symbol": "COF",
     "name": "Capital One Financial Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "COF^I",
-    "name": "Capital One Financial Corporation Depositary shares each representing a 1/40th interest in a share of Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "COF^J",
-    "name": "Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non- Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "COF^K",
-    "name": "Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "COF^L",
-    "name": "Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "COF^N",
-    "name": "Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -10764,12 +10092,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CORR^A",
-    "name": "CorEnergy Infrastructure Trust Inc. Depositary Shares each representing a 1/100th fractional interest of a share of 7.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CORS",
     "name": "Corsair Partnering Corporation",
     "country": "",
@@ -10921,7 +10243,7 @@
   },
   {
     "symbol": "CPG",
-    "name": "Crescent Point Energy Corporation Ordinary Shares (Canada)",
+    "name": "Crescent Point Energy Corporation (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -10969,7 +10291,7 @@
   },
   {
     "symbol": "CPRI",
-    "name": "Capri Holdings Limited Ordinary Shares",
+    "name": "Capri Holdings Limited",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -11119,7 +10441,7 @@
   },
   {
     "symbol": "CRDO",
-    "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+    "name": "Credo Technology Group Holding Ltd",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -11167,7 +10489,7 @@
   },
   {
     "symbol": "CRF",
-    "name": "Cornerstone Total Return Fund Inc. (The)",
+    "name": "Cornerstone Total Return Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -11251,7 +10573,7 @@
   },
   {
     "symbol": "CRNT",
-    "name": "Ceragon Networks Ltd. Ordinary Shares",
+    "name": "Ceragon Networks Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -11377,7 +10699,7 @@
   },
   {
     "symbol": "CSCW",
-    "name": "Color Star Technology Co. Ltd. Ordinary Shares",
+    "name": "Color Star Technology Co. Ltd.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -11448,12 +10770,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CSR^C",
-    "name": "D/B/A Centerspace 6.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CSSE",
     "name": "Chicken Soup for the Soul Entertainment Inc.",
     "country": "United States",
@@ -11485,7 +10801,7 @@
   },
   {
     "symbol": "CSTE",
-    "name": "Caesarstone Ltd. Ordinary Shares",
+    "name": "Caesarstone Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -11497,7 +10813,7 @@
   },
   {
     "symbol": "CSTM",
-    "name": "Constellium SE Ordinary Shares (France)",
+    "name": "Constellium SE (France)",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -11528,18 +10844,6 @@
   {
     "symbol": "CSX",
     "name": "CSX Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CTA^A",
-    "name": "E.I. du Pont de Nemours and Company Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CTA^B",
-    "name": "E.I. du Pont de Nemours and Company Preferred Stock",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -11646,12 +10950,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "CTO^A",
-    "name": "CTO Realty Growth Inc. 6.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "CTOS",
     "name": "Custom Truck One Source Inc.",
     "country": "Cayman Islands",
@@ -11731,7 +11029,7 @@
   },
   {
     "symbol": "CUBA",
-    "name": "Herzfeld Caribbean Basin Fund Inc. (The)",
+    "name": "Herzfeld Caribbean Basin Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -11750,18 +11048,6 @@
   {
     "symbol": "CUBI",
     "name": "Customers Bancorp Inc",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CUBI^E",
-    "name": "Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "CUBI^F",
-    "name": "Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -11839,7 +11125,7 @@
   },
   {
     "symbol": "CVAC",
-    "name": "CureVac N.V. Ordinary Shares",
+    "name": "CureVac N.V.",
     "country": "Germany",
     "exchange": "NASDAQ"
   },
@@ -11995,7 +11281,7 @@
   },
   {
     "symbol": "CWCO",
-    "name": "Consolidated Water Co. Ltd. Ordinary Shares",
+    "name": "Consolidated Water Co. Ltd.",
     "country": "Cayman Islands",
     "exchange": "NASDAQ"
   },
@@ -12013,7 +11299,7 @@
   },
   {
     "symbol": "CWK",
-    "name": "Cushman & Wakefield plc Ordinary Shares",
+    "name": "Cushman & Wakefield plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -12097,7 +11383,7 @@
   },
   {
     "symbol": "CYBR",
-    "name": "CyberArk Software Ltd. Ordinary Shares",
+    "name": "CyberArk Software Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -12139,7 +11425,7 @@
   },
   {
     "symbol": "CYRN",
-    "name": "CYREN Ltd. Ordinary Shares",
+    "name": "CYREN Ltd.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -12384,24 +11670,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DBRG^H",
-    "name": "DigitalBridge Group Inc. 7.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DBRG^I",
-    "name": "DigitalBridge Group Inc. 7.15% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DBRG^J",
-    "name": "DigitalBridge Group Inc. 7.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DBTX",
     "name": "Decibel Therapeutics Inc.",
     "country": "United States",
@@ -12439,7 +11707,7 @@
   },
   {
     "symbol": "DCFC",
-    "name": "Tritium DCFC Limited Ordinary Shares",
+    "name": "Tritium DCFC Limited",
     "country": "Australia",
     "exchange": "NASDAQ"
   },
@@ -12482,18 +11750,6 @@
   {
     "symbol": "DCP",
     "name": "DCP Midstream  LP Common Units",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DCP^B",
-    "name": "DCP Midstream LP 7.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DCP^C",
-    "name": "DCP Midstream LP 7.95% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -12553,7 +11809,7 @@
   },
   {
     "symbol": "DDL",
-    "name": "Dingdong (Cayman) Limited American Depositary Shares (each two representing three Ordinary Shares)",
+    "name": "Dingdong (Cayman) Limited American Depositary Shares (each two representing three)",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -12637,7 +11893,7 @@
   },
   {
     "symbol": "DESP",
-    "name": "Despegar.com Corp. Ordinary Shares",
+    "name": "Despegar.com Corp.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -12834,12 +12090,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DHR^B",
-    "name": "Danaher Corporation 5.00% Mandatory Convertible Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DHT",
     "name": "DHT Holdings Inc.",
     "country": "Jersey",
@@ -12907,7 +12157,7 @@
   },
   {
     "symbol": "DIS",
-    "name": "Walt Disney Company (The)",
+    "name": "Walt Disney Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -13026,18 +12276,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DLNG^A",
-    "name": "Dynagas LNG Partners LP 9.00% ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DLNG^B",
-    "name": "Dynagas LNG Partners LP 8.75% ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DLO",
     "name": "DLocal Limited",
     "country": "Uruguay",
@@ -13052,24 +12290,6 @@
   {
     "symbol": "DLR",
     "name": "Digital Realty Trust Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DLR^J",
-    "name": "Digital Realty Trust Inc. 5.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DLR^K",
-    "name": "Digital Realty Trust Inc. 5.850% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DLR^L",
-    "name": "Digital Realty Trust Inc. 5.200% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -13213,7 +12433,7 @@
   },
   {
     "symbol": "DNN",
-    "name": "Denison Mines Corp Ordinary Shares (Canada)",
+    "name": "Denison Mines Corp (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -13279,7 +12499,7 @@
   },
   {
     "symbol": "DOLE",
-    "name": "Dole plc Ordinary Shares",
+    "name": "Dole plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -13303,7 +12523,7 @@
   },
   {
     "symbol": "DOOR",
-    "name": "Masonite International Corporation Ordinary Shares (Canada)",
+    "name": "Masonite International Corporation (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -13333,7 +12553,7 @@
   },
   {
     "symbol": "DOX",
-    "name": "Amdocs Limited Ordinary Shares",
+    "name": "Amdocs Limited",
     "country": "Guernsey",
     "exchange": "NASDAQ"
   },
@@ -13375,7 +12595,7 @@
   },
   {
     "symbol": "DQ",
-    "name": "DAQO New Energy Corp. American Depositary Shares each representing five ordinary shares",
+    "name": "DAQO New Energy Corp. American Depositary Shares each representing five",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -13422,12 +12642,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DRH^A",
-    "name": "Diamondrock Hospitality Company 8.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DRI",
     "name": "Darden Restaurants Inc.",
     "country": "United States",
@@ -13465,7 +12679,7 @@
   },
   {
     "symbol": "DRTS",
-    "name": "Alpha Tau Medical Ltd. Ordinary Shares",
+    "name": "Alpha Tau Medical Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -13500,24 +12714,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DS^B",
-    "name": "Drive Shack Inc. Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DS^C",
-    "name": "Drive Shack Inc. Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DS^D",
-    "name": "Drive Shack Inc. Pfd Ser D",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DSAQ",
     "name": "Direct Selling Acquisition Corp.",
     "country": "",
@@ -13525,7 +12721,7 @@
   },
   {
     "symbol": "DSEY",
-    "name": "Diversey Holdings Ltd. Ordinary Shares",
+    "name": "Diversey Holdings Ltd.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -13543,7 +12739,7 @@
   },
   {
     "symbol": "DSGX",
-    "name": "Descartes Systems Group Inc. (The)",
+    "name": "Descartes Systems Group Inc.",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -13592,12 +12788,6 @@
   {
     "symbol": "DSX",
     "name": "Diana Shipping inc.",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "DSX^B",
-    "name": "Diana Shipping Inc. Perpetual Preferred Shares ",
     "country": "Greece",
     "exchange": "NASDAQ"
   },
@@ -13740,12 +12930,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DUK^A",
-    "name": "Duke Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DUKB",
     "name": "Duke Energy Corporation 5.625% Junior Subordinated Debentures due 2078",
     "country": "United States",
@@ -13842,12 +13026,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "DX^C",
-    "name": "Dynex Capital Inc. 6.900% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "DXC",
     "name": "DXC Technology Company",
     "country": "",
@@ -13885,7 +13063,7 @@
   },
   {
     "symbol": "DXYN",
-    "name": "Dixie Group Inc. (The)",
+    "name": "Dixie Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -14100,12 +13278,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "ECC^D",
-    "name": "Eagle Point Credit Company Inc. 6.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "ECCC",
     "name": "Eagle Point Credit Company Inc. 6.50% ",
     "country": "United States",
@@ -14132,12 +13304,6 @@
   {
     "symbol": "ECF",
     "name": "Ellsworth Growth and Income Fund Ltd.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ECF^A",
-    "name": "Ellsworth Growth and Income Fund Ltd. 5.25% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -14328,18 +13494,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "EFC^A",
-    "name": "Ellington Financial Inc. 6.750% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "EFC^B",
-    "name": "Ellington Financial Inc. 6.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "EFHTU",
     "name": "EF Hutton Acquisition Corporation I Unit",
     "country": "United States",
@@ -14455,7 +13609,7 @@
   },
   {
     "symbol": "EGO",
-    "name": "Eldorado Gold Corporation Ordinary Shares",
+    "name": "Eldorado Gold Corporation",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -14545,7 +13699,7 @@
   },
   {
     "symbol": "EJH",
-    "name": "E-Home Household Service Holdings Limited Ordinary Shares",
+    "name": "E-Home Household Service Holdings Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -14557,7 +13711,7 @@
   },
   {
     "symbol": "EL",
-    "name": "Estee Lauder Companies Inc. (The)",
+    "name": "Estee Lauder Companies Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -14611,7 +13765,7 @@
   },
   {
     "symbol": "ELLO",
-    "name": "Ellomay Capital Ltd Ordinary Shares (Israel)",
+    "name": "Ellomay Capital Ltd (Israel)",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -14647,7 +13801,7 @@
   },
   {
     "symbol": "ELTK",
-    "name": "Eltek Ltd. Ordinary Shares",
+    "name": "Eltek Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -14743,7 +13897,7 @@
   },
   {
     "symbol": "EML",
-    "name": "Eastern Company (The)",
+    "name": "Eastern Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -14869,7 +14023,7 @@
   },
   {
     "symbol": "ENLV",
-    "name": "Enlivex Therapeutics Ltd. Ordinary Shares",
+    "name": "Enlivex Therapeutics Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -14953,7 +14107,7 @@
   },
   {
     "symbol": "ENTX",
-    "name": "Entera Bio Ltd. Ordinary Shares",
+    "name": "Entera Bio Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -15054,12 +14208,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "EP^C",
-    "name": "El Paso Corporation Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "EPAC",
     "name": "Enerpac Tool Group Corp.",
     "country": "United States",
@@ -15115,31 +14263,13 @@
   },
   {
     "symbol": "EPOW",
-    "name": "Sunrise New Energy Co. Ltd Ordinary Shares",
+    "name": "Sunrise New Energy Co. Ltd",
     "country": "China",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "EPR",
     "name": "EPR Properties",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "EPR^C",
-    "name": "EPR Properties 5.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "EPR^E",
-    "name": "EPR Properties ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "EPR^G",
-    "name": "EPR Properties 5.750% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -15180,26 +14310,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "EQC^D",
-    "name": "Equity Commonwealth 6.50% Pfd Conv Shs Ser D",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "EQH",
     "name": "Equitable Holdings Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "EQH^A",
-    "name": "Equitable Holdings Inc. Depositary Shares",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "EQH^C",
-    "name": "Equitable Holdings Inc. Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -15223,7 +14335,7 @@
   },
   {
     "symbol": "EQOS",
-    "name": "EQONEX LIMITED Ordinary Shares",
+    "name": "EQONEX LIMITED",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -15391,7 +14503,7 @@
   },
   {
     "symbol": "ESGR",
-    "name": "Enstar Group Limited Ordinary Shares",
+    "name": "Enstar Group Limited",
     "country": "Bermuda",
     "exchange": "NASDAQ"
   },
@@ -15415,7 +14527,7 @@
   },
   {
     "symbol": "ESLT",
-    "name": "Elbit Systems Ltd. Ordinary Shares",
+    "name": "Elbit Systems Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -15481,7 +14593,7 @@
   },
   {
     "symbol": "ESSC",
-    "name": "East Stone Acquisition Corporation Ordinary Shares",
+    "name": "East Stone Acquisition Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -15499,7 +14611,7 @@
   },
   {
     "symbol": "ESTC",
-    "name": "Elastic N.V. Ordinary Shares",
+    "name": "Elastic N.V.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -15512,24 +14624,6 @@
   {
     "symbol": "ET",
     "name": "Energy Transfer LP Common Units",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ET^C",
-    "name": "Energy Transfer L.P. 7.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ET^D",
-    "name": "Energy Transfer L.P. 7.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ET^E",
-    "name": "Energy Transfer L.P. 7.600% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -15565,7 +14659,7 @@
   },
   {
     "symbol": "ETN",
-    "name": "Eaton Corporation PLC Ordinary Shares",
+    "name": "Eaton Corporation PLC",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -15637,7 +14731,7 @@
   },
   {
     "symbol": "EUCR",
-    "name": "Eucrates Biomedical Acquisition Corp. Ordinary Shares",
+    "name": "Eucrates Biomedical Acquisition Corp.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -15649,7 +14743,7 @@
   },
   {
     "symbol": "EURN",
-    "name": "Euronav NV Ordinary Shares",
+    "name": "Euronav NV",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -15721,7 +14815,7 @@
   },
   {
     "symbol": "EVGN",
-    "name": "Evogene Ltd Ordinary Shares",
+    "name": "Evogene Ltd",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -15859,7 +14953,7 @@
   },
   {
     "symbol": "EVTL",
-    "name": "Vertical Aerospace Ltd. Ordinary Shares",
+    "name": "Vertical Aerospace Ltd.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -15943,7 +15037,7 @@
   },
   {
     "symbol": "EXK",
-    "name": "Endeavour Silver Corporation Ordinary Shares (Canada)",
+    "name": "Endeavour Silver Corporation (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -16039,7 +15133,7 @@
   },
   {
     "symbol": "EZGO",
-    "name": "EZGO Technologies Ltd. Ordinary Shares",
+    "name": "EZGO Technologies Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -16052,24 +15146,6 @@
   {
     "symbol": "F",
     "name": "Ford Motor Company",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "F^B",
-    "name": "Ford Motor Company 6.20% Notes due June 1 2059",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "F^C",
-    "name": "Ford Motor Company 6% Notes due December 1 2059",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "F^D",
-    "name": "Ford Motor Company 6.500% Notes due August 15 2062",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -16105,7 +15181,7 @@
   },
   {
     "symbol": "FAMI",
-    "name": "Farmmi Inc. Ordinary Shares",
+    "name": "Farmmi Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -16262,12 +15338,6 @@
   {
     "symbol": "FBRT",
     "name": "Franklin BSP Realty Trust Inc.",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FBRT^E",
-    "name": "Franklin BSP Realty Trust Inc. 7.50% ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -16447,7 +15517,7 @@
   },
   {
     "symbol": "FEDU",
-    "name": "Four Seasons Education (Cayman) Inc. American Depositary Shares each ADS representing 10 ordinary shares",
+    "name": "Four Seasons Education (Cayman) Inc. American Depositary Shares each ADS representing 10",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -16501,7 +15571,7 @@
   },
   {
     "symbol": "FERG",
-    "name": "Ferguson plc Ordinary Shares",
+    "name": "Ferguson plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -16555,7 +15625,7 @@
   },
   {
     "symbol": "FFHL",
-    "name": "Fuwei Films (Holdings) Co. Ltd. Ordinary Shares",
+    "name": "Fuwei Films (Holdings) Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -16639,7 +15709,7 @@
   },
   {
     "symbol": "FGI",
-    "name": "FGI Industries Ltd. Ordinary Shares",
+    "name": "FGI Industries Ltd.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -16694,36 +15764,6 @@
   {
     "symbol": "FHN",
     "name": "First Horizon Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FHN^B",
-    "name": "First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FHN^C",
-    "name": "First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FHN^D",
-    "name": "First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FHN^E",
-    "name": "First Horizon Corporation Depositary Shares each representing a 1/4000th interest in a share of Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FHN^F",
-    "name": "First Horizon Corporation Depositary Shares each representing 1/4000th Interest in a Share of Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -16933,7 +15973,7 @@
   },
   {
     "symbol": "FLEX",
-    "name": "Flex Ltd. Ordinary Shares",
+    "name": "Flex Ltd.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -16969,7 +16009,7 @@
   },
   {
     "symbol": "FLIC",
-    "name": "First of Long Island Corporation (The)",
+    "name": "First of Long Island Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -16993,7 +16033,7 @@
   },
   {
     "symbol": "FLNG",
-    "name": "FLEX LNG Ltd. Ordinary Shares",
+    "name": "FLEX LNG Ltd.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -17125,7 +16165,7 @@
   },
   {
     "symbol": "FN",
-    "name": "Fabrinet Ordinary Shares",
+    "name": "Fabrinet",
     "country": "Cayman Islands",
     "exchange": "NASDAQ"
   },
@@ -17138,12 +16178,6 @@
   {
     "symbol": "FNB",
     "name": "F.N.B. Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FNB^E",
-    "name": "F.N.B. Corporation Depositary Shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred  Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -17448,48 +16482,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "FRC^H",
-    "name": "FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.125% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRC^I",
-    "name": "FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.50% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRC^J",
-    "name": "FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.70% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRC^K",
-    "name": "FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.125% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRC^L",
-    "name": "FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.250% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRC^M",
-    "name": "FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 4.000% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRC^N",
-    "name": "First Republic Bank Depositary Shares Each Representing a 1/40th Interest in a Share of 4.500% Noncumulative Perpetual ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "FRD",
     "name": "Friedman Industries Inc.",
     "country": "United States",
@@ -17515,7 +16507,7 @@
   },
   {
     "symbol": "FREY",
-    "name": "FREYR Battery Ordinary Shares",
+    "name": "FREYR Battery",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -17545,7 +16537,7 @@
   },
   {
     "symbol": "FRGT",
-    "name": "Freight Technologies Inc. Ordinary Shares",
+    "name": "Freight Technologies Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -17581,13 +16573,13 @@
   },
   {
     "symbol": "FRO",
-    "name": "Frontline Ltd. Ordinary Shares",
+    "name": "Frontline Ltd.",
     "country": "Bermuda",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "FROG",
-    "name": "JFrog Ltd. Ordinary Shares",
+    "name": "JFrog Ltd.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -17654,12 +16646,6 @@
   {
     "symbol": "FRT",
     "name": "Federal Realty Investment Trust",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "FRT^C",
-    "name": "Federal Realty Investment Trust Depositary Shares each representing a 1/1000th interest in a 5.000% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -17743,7 +16729,7 @@
   },
   {
     "symbol": "FSM",
-    "name": "Fortuna Silver Mines Inc Ordinary Shares (Canada)",
+    "name": "Fortuna Silver Mines Inc (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -18097,7 +17083,7 @@
   },
   {
     "symbol": "FVRR",
-    "name": "Fiverr International Ltd. Ordinary Shares no par value",
+    "name": "Fiverr International Ltd. no par value",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -18199,25 +17185,7 @@
   },
   {
     "symbol": "GAB",
-    "name": "Gabelli Equity Trust Inc. (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GAB^G",
-    "name": "Gabelli Equity Trust Inc. (The) ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GAB^H",
-    "name": "Gabelli Equity Trust Inc. (The) Pfd Ser H",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GAB^K",
-    "name": "Gabelli Equity Trust Inc. (The) 5.00% ",
+    "name": "Gabelli Equity Trust Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -18270,14 +17238,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GAM^B",
-    "name": "General American Investors Company Inc. Cumulative Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GAMB",
-    "name": "Gambling.com Group Limited Ordinary Shares",
+    "name": "Gambling.com Group Limited",
     "country": "Jersey",
     "exchange": "NASDAQ"
   },
@@ -18301,7 +17263,7 @@
   },
   {
     "symbol": "GAN",
-    "name": "GAN Limited Ordinary Shares",
+    "name": "GAN Limited",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -18367,7 +17329,7 @@
   },
   {
     "symbol": "GB",
-    "name": "Global Blue Group Holding AG Ordinary Shares",
+    "name": "Global Blue Group Holding AG",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -18439,7 +17401,7 @@
   },
   {
     "symbol": "GBRG",
-    "name": "Goldenbridge Acquisition Limited Ordinary Shares",
+    "name": "Goldenbridge Acquisition Limited",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -18475,7 +17437,7 @@
   },
   {
     "symbol": "GBX",
-    "name": "Greenbrier Companies Inc. (The)",
+    "name": "Greenbrier Companies Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -18529,7 +17491,7 @@
   },
   {
     "symbol": "GCV",
-    "name": "Gabelli Convertible and Income Securities Fund Inc. (The)",
+    "name": "Gabelli Convertible and Income Securities Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -18608,18 +17570,6 @@
   {
     "symbol": "GDV",
     "name": "Gabelli Dividend & Income Trust Common Shares of Beneficial Interest",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GDV^H",
-    "name": "The Gabelli Dividend & Income Trust 5.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GDV^K",
-    "name": "The Gabelli Dividend & Income Trust 4.250% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -18715,7 +17665,7 @@
   },
   {
     "symbol": "GENI",
-    "name": "Genius Sports Limited Ordinary Shares",
+    "name": "Genius Sports Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -18739,7 +17689,7 @@
   },
   {
     "symbol": "GEO",
-    "name": "Geo Group Inc (The) REIT",
+    "name": "Geo Group Inc REIT",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -18787,13 +17737,13 @@
   },
   {
     "symbol": "GF",
-    "name": "New Germany Fund Inc. (The)",
+    "name": "New Germany Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "GFAI",
-    "name": "Guardforce AI Co. Limited Ordinary Shares",
+    "name": "Guardforce AI Co. Limited",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -18841,7 +17791,7 @@
   },
   {
     "symbol": "GFS",
-    "name": "GlobalFoundries Inc. Ordinary Shares",
+    "name": "GlobalFoundries Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -18912,14 +17862,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GGN^B",
-    "name": "GAMCO Global Gold Natural Reources & Income Trust 5.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GGR",
-    "name": "Gogoro Inc. Ordinary Shares",
+    "name": "Gogoro Inc.",
     "country": "Taiwan",
     "exchange": "NASDAQ"
   },
@@ -18931,25 +17875,13 @@
   },
   {
     "symbol": "GGT",
-    "name": "Gabelli Multi-Media Trust Inc. (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GGT^E",
-    "name": "Gabelli Multi-Media Trust Inc. (The) 5.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GGT^G",
-    "name": "Gabelli Multi-Media Trust Inc. (The) 5.125% ",
+    "name": "Gabelli Multi-Media Trust Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "GGZ",
-    "name": "Gabelli Global Small and Mid Cap Value Trust (The) Common Shares of Beneficial Interest",
+    "name": "Gabelli Global Small and Mid Cap Value Trust Common Shares of Beneficial Interest",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -19015,7 +17947,7 @@
   },
   {
     "symbol": "GHRS",
-    "name": "GH Research PLC Ordinary Shares",
+    "name": "GH Research PLC",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -19075,7 +18007,7 @@
   },
   {
     "symbol": "GIGM",
-    "name": "GigaMedia Limited Ordinary Shares",
+    "name": "GigaMedia Limited",
     "country": "Taiwan",
     "exchange": "NASDAQ"
   },
@@ -19117,7 +18049,7 @@
   },
   {
     "symbol": "GILT",
-    "name": "Gilat Satellite Networks Ltd. Ordinary Shares",
+    "name": "Gilat Satellite Networks Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -19206,12 +18138,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GL^D",
-    "name": "Globe Life Inc. 4.25% Junior Subordinated Debentures due 2061",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GLAD",
     "name": "Gladstone Capital Corporation",
     "country": "United States",
@@ -19219,7 +18145,7 @@
   },
   {
     "symbol": "GLBE",
-    "name": "Global-E Online Ltd. Ordinary Shares",
+    "name": "Global-E Online Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -19309,7 +18235,7 @@
   },
   {
     "symbol": "GLMD",
-    "name": "Galmed Pharmaceuticals Ltd. Ordinary Shares",
+    "name": "Galmed Pharmaceuticals Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -19332,50 +18258,14 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GLOG^A",
-    "name": "GasLog LP. 8.75% ",
-    "country": "Monaco",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GLOP",
     "name": "GasLog Partners LP Common Units representing limited partnership interests",
     "country": "",
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GLOP^A",
-    "name": "GasLog Partners LP 8.625% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GLOP^B",
-    "name": "GasLog Partners LP 8.200% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GLOP^C",
-    "name": "GasLog Partners LP 8.500% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GLP",
     "name": "Global Partners LP Global Partners LP Common Units representing Limited Partner Interests",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GLP^A",
-    "name": "Global Partners LP 9.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GLP^B",
-    "name": "Global Partners LP 9.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -19446,12 +18336,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GLU^B",
-    "name": "The Gabelli Global Utility and Income Trust ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GLUE",
     "name": "Monte Rosa Therapeutics Inc.",
     "country": "United States",
@@ -19513,7 +18397,7 @@
   },
   {
     "symbol": "GMDA",
-    "name": "Gamida Cell Ltd. Ordinary Shares",
+    "name": "Gamida Cell Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -19560,12 +18444,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GMRE^A",
-    "name": "Global Medical REIT Inc. ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GMS",
     "name": "GMS Inc.",
     "country": "United States",
@@ -19579,7 +18457,7 @@
   },
   {
     "symbol": "GMVD",
-    "name": "G Medical Innovations Holdings Ltd. Ordinary Shares",
+    "name": "G Medical Innovations Holdings Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -19608,12 +18486,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GNE^A",
-    "name": "Genie Energy Ltd. Series 2012 - A Preferred Stock $0.01 par value",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GNFT",
     "name": "GENFIT S.A. American Depositary Shares",
     "country": "France",
@@ -19621,25 +18493,13 @@
   },
   {
     "symbol": "GNK",
-    "name": "Genco Shipping & Trading Limited Ordinary Shares New (Marshall Islands)",
+    "name": "Genco Shipping & Trading Limited New (Marshall Islands)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "GNL",
     "name": "Global Net Lease Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GNL^A",
-    "name": "Global Net Lease Inc. 7.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GNL^B",
-    "name": "Global Net Lease Inc. 6.875% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -19663,7 +18523,7 @@
   },
   {
     "symbol": "GNS",
-    "name": "Genius Group Limited Ordinary Shares",
+    "name": "Genius Group Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -19676,12 +18536,6 @@
   {
     "symbol": "GNT",
     "name": "GAMCO Natural Resources Gold & Income Trust",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GNT^A",
-    "name": "GAMCO Natural Resources Gold & Income Tust  5.20% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -19902,12 +18756,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GPMT^A",
-    "name": "Granite Point Mortgage Trust Inc. 7.00% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GPN",
     "name": "Global Payments Inc.",
     "country": "United States",
@@ -19945,7 +18793,7 @@
   },
   {
     "symbol": "GPS",
-    "name": "Gap Inc. (The)",
+    "name": "Gap Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -19974,14 +18822,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GRBK^A",
-    "name": "Green Brick Partners Inc. Depositary Shares (each representing a 1/1000th fractional interest in a share of 5.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GRC",
-    "name": "Gorman-Rupp Company (The)",
+    "name": "Gorman-Rupp Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -20023,7 +18865,7 @@
   },
   {
     "symbol": "GRFX",
-    "name": "Graphex Group Limited American Depositary Shares each American Depositary Share representing 20 Ordinary Shares",
+    "name": "Graphex Group Limited American Depositary Shares each American Depositary Share representing 20",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -20035,7 +18877,7 @@
   },
   {
     "symbol": "GRIN",
-    "name": "Grindrod Shipping Holdings Ltd. Ordinary Shares",
+    "name": "Grindrod Shipping Holdings Ltd.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -20107,7 +18949,7 @@
   },
   {
     "symbol": "GRRR",
-    "name": "Gorilla Technology Group Inc. Ordinary shares",
+    "name": "Gorilla Technology Group Inc.",
     "country": "Taiwan",
     "exchange": "NASDAQ"
   },
@@ -20149,37 +18991,7 @@
   },
   {
     "symbol": "GS",
-    "name": "Goldman Sachs Group Inc. (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GS^A",
-    "name": "Goldman Sachs Group Inc. (The) Depositary Shares each representing 1/1000th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GS^C",
-    "name": "Goldman Sachs Group Inc. (The) Depositary Share repstg 1/1000th Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GS^D",
-    "name": "Goldman Sachs Group Inc. (The) Dep Shs repstg 1/1000 Pfd Ser D Fltg",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GS^J",
-    "name": "Goldman Sachs Group Inc Depositary Shs Repstg 1/1000th Pfd Ser J Fixed to Fltg Rate",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GS^K",
-    "name": "Goldman Sachs Group Inc. (The) Dep Shs Repstg 1/1000 Int Sh Fxd/Fltg Non Cum Pfd Stk Ser K",
+    "name": "Goldman Sachs Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -20227,7 +19039,7 @@
   },
   {
     "symbol": "GSK",
-    "name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+    "name": "GSK plc American Depositary Shares (Each representing two)",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -20238,14 +19050,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "GSL^B",
-    "name": "Global Ship Lease Inc. Depository Shares Representing 1/100th Perpetual Preferred ",
-    "country": "United Kingdom",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "GSM",
-    "name": "Ferroglobe PLC Ordinary Shares",
+    "name": "Ferroglobe PLC",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -20335,13 +19141,13 @@
   },
   {
     "symbol": "GTEC",
-    "name": "Greenland Technologies Holding Corporation Ordinary Shares",
+    "name": "Greenland Technologies Holding Corporation",
     "country": "China",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "GTES",
-    "name": "Gates Industrial Corporation plc Ordinary Shares",
+    "name": "Gates Industrial Corporation plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -20431,13 +19237,7 @@
   },
   {
     "symbol": "GUT",
-    "name": "Gabelli Utility Trust (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "GUT^C",
-    "name": "Gabelli Utility Trust (The) 5.375% ",
+    "name": "Gabelli Utility Trust",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -20581,7 +19381,7 @@
   },
   {
     "symbol": "HAIN",
-    "name": "Hain Celestial Group Inc. (The)",
+    "name": "Hain Celestial Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -20683,7 +19483,7 @@
   },
   {
     "symbol": "HBM",
-    "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
+    "name": "Hudbay Minerals Inc. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -20803,7 +19603,7 @@
   },
   {
     "symbol": "HCKT",
-    "name": "Hackett Group Inc (The).",
+    "name": "Hackett Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -20887,7 +19687,7 @@
   },
   {
     "symbol": "HD",
-    "name": "Home Depot Inc. (The)",
+    "name": "Home Depot Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -21018,12 +19818,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "HFRO^A",
-    "name": "Highland Income Fund 5.375% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "HFWA",
     "name": "Heritage Financial Corporation",
     "country": "United States",
@@ -21061,13 +19855,13 @@
   },
   {
     "symbol": "HHC",
-    "name": "Howard Hughes Corporation (The)",
+    "name": "Howard Hughes Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "HHGC",
-    "name": "HHG Capital Corporation Ordinary Shares",
+    "name": "HHG Capital Corporation",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -21127,13 +19921,7 @@
   },
   {
     "symbol": "HIG",
-    "name": "Hartford Financial Services Group Inc. (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "HIG^G",
-    "name": "Hartford Financial Services Group Inc. (The) Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock ",
+    "name": "Hartford Financial Services Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -21246,12 +20034,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "HL^B",
-    "name": "Hecla Mining Company Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "HLAH",
     "name": "Hamilton Lane Alliance Holdings I Inc.",
     "country": "United States",
@@ -21313,7 +20095,7 @@
   },
   {
     "symbol": "HLN",
-    "name": "Haleon plc American Depositary Shares (Each representing two Ordinary Shares)",
+    "name": "Haleon plc American Depositary Shares (Each representing two)",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -21355,7 +20137,7 @@
   },
   {
     "symbol": "HMAC",
-    "name": "Hainan Manaslu Acquisition Corp. Ordinary shares",
+    "name": "Hainan Manaslu Acquisition Corp.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -21393,12 +20175,6 @@
     "symbol": "HMCOW",
     "name": "HumanCo Acquisition Corp. Warrant",
     "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "HMLP^A",
-    "name": "Hoegh LNG Partners LP 8.75% ",
-    "country": "Bermuda",
     "exchange": "NASDAQ"
   },
   {
@@ -21517,7 +20293,7 @@
   },
   {
     "symbol": "HOLO",
-    "name": "MicroCloud Hologram Inc. Ordinary Shares",
+    "name": "MicroCloud Hologram Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -21660,12 +20436,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "HPP^C",
-    "name": "Hudson Pacific Properties Inc. 4.750% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "HPQ",
     "name": "HP Inc.",
     "country": "United States",
@@ -21775,7 +20545,7 @@
   },
   {
     "symbol": "HSAQ",
-    "name": "Health Sciences Acquisitions Corporation 2 Ordinary Shares",
+    "name": "Health Sciences Acquisitions Corporation 2",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -21860,24 +20630,6 @@
   {
     "symbol": "HT",
     "name": "Hersha Hospitality Trust",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "HT^C",
-    "name": "Hersha Hospitality Trust 6.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "HT^D",
-    "name": "Hersha Hospitality Trust 6.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "HT^E",
-    "name": "Hersha Hospitality Trust 6.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -22033,7 +20785,7 @@
   },
   {
     "symbol": "HUDI",
-    "name": "Huadi International Group Co. Ltd. Ordinary Shares",
+    "name": "Huadi International Group Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -22177,7 +20929,7 @@
   },
   {
     "symbol": "HYB",
-    "name": "New America High Income Fund Inc. (The)",
+    "name": "New America High Income Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -22267,7 +21019,7 @@
   },
   {
     "symbol": "HZNP",
-    "name": "Horizon Therapeutics Public Limited Company Ordinary Shares",
+    "name": "Horizon Therapeutics Public Limited Company",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -22315,7 +21067,7 @@
   },
   {
     "symbol": "IAG",
-    "name": "Iamgold Corporation Ordinary Shares",
+    "name": "Iamgold Corporation",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -22429,7 +21181,7 @@
   },
   {
     "symbol": "ICCM",
-    "name": "IceCure Medical Ltd. Ordinary Shares",
+    "name": "IceCure Medical Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -22453,13 +21205,13 @@
   },
   {
     "symbol": "ICHR",
-    "name": "Ichor Holdings Ordinary Shares",
+    "name": "Ichor Holdings",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "ICL",
-    "name": "ICL Group Ltd. Ordinary Shares",
+    "name": "ICL Group Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -22471,7 +21223,7 @@
   },
   {
     "symbol": "ICLR",
-    "name": "ICON plc Ordinary Shares",
+    "name": "ICON plc",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -22485,12 +21237,6 @@
     "symbol": "ICPT",
     "name": "Intercept Pharmaceuticals Inc.",
     "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "ICR^A",
-    "name": "InPoint Commercial Real Estate Income Inc. 6.75% ",
-    "country": "",
     "exchange": "NASDAQ"
   },
   {
@@ -22627,7 +21373,7 @@
   },
   {
     "symbol": "IFBD",
-    "name": "Infobird Co. Ltd Ordinary Shares",
+    "name": "Infobird Co. Ltd",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -22645,7 +21391,7 @@
   },
   {
     "symbol": "IFN",
-    "name": "India Fund Inc. (The)",
+    "name": "India Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -22735,7 +21481,7 @@
   },
   {
     "symbol": "IGT",
-    "name": "International Game Technology Ordinary Shares",
+    "name": "International Game Technology",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -22789,7 +21535,7 @@
   },
   {
     "symbol": "IHS",
-    "name": "IHS Holding Limited Ordinary Shares",
+    "name": "IHS Holding Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -22849,7 +21595,7 @@
   },
   {
     "symbol": "IINN",
-    "name": "Inspira Technologies Oxy B.H.N. Ltd. Ordinary Shares",
+    "name": "Inspira Technologies Oxy B.H.N. Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -22862,12 +21608,6 @@
   {
     "symbol": "IIPR",
     "name": "Innovative Industrial Properties Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "IIPR^A",
-    "name": "Innovative Industrial Properties Inc. 9.00% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -22891,7 +21631,7 @@
   },
   {
     "symbol": "ILAG",
-    "name": "Intelligent Living Application Group Inc. Ordinary Shares",
+    "name": "Intelligent Living Application Group Inc.",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -23083,13 +21823,13 @@
   },
   {
     "symbol": "IMTE",
-    "name": "Integrated Media Technology Limited Ordinary Shares",
+    "name": "Integrated Media Technology Limited",
     "country": "Australia",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "IMTX",
-    "name": "Immatics N.V. Ordinary Shares",
+    "name": "Immatics N.V.",
     "country": "Germany",
     "exchange": "NASDAQ"
   },
@@ -23149,7 +21889,7 @@
   },
   {
     "symbol": "INCR",
-    "name": "Intercure Ltd. Ordinary Shares",
+    "name": "Intercure Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -23179,7 +21919,7 @@
   },
   {
     "symbol": "INDO",
-    "name": "Indonesia Energy Corporation Limited Ordinary Shares",
+    "name": "Indonesia Energy Corporation Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -23275,25 +22015,13 @@
   },
   {
     "symbol": "INMD",
-    "name": "InMode Ltd. Ordinary Shares",
+    "name": "InMode Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "INN",
     "name": "Summit Hotel Properties Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "INN^E",
-    "name": "Summit Hotel Properties Inc. 6.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "INN^F",
-    "name": "Summit Hotel Properties Inc. 5.875% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -23401,7 +22129,7 @@
   },
   {
     "symbol": "INTG",
-    "name": "Intergroup Corporation (The)",
+    "name": "Intergroup Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -23461,7 +22189,7 @@
   },
   {
     "symbol": "INVZ",
-    "name": "Innoviz Technologies Ltd. Ordinary shares",
+    "name": "Innoviz Technologies Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -23581,7 +22309,7 @@
   },
   {
     "symbol": "IPG",
-    "name": "Interpublic Group of Companies Inc. (The)",
+    "name": "Interpublic Group of Companies Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -23731,7 +22459,7 @@
   },
   {
     "symbol": "IREN",
-    "name": "Iris Energy Limited Ordinary Shares",
+    "name": "Iris Energy Limited",
     "country": "Australia",
     "exchange": "NASDAQ"
   },
@@ -23743,7 +22471,7 @@
   },
   {
     "symbol": "IRL",
-    "name": "New Ireland Fund Inc (The)",
+    "name": "New Ireland Fund Inc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -23977,7 +22705,7 @@
   },
   {
     "symbol": "ITRN",
-    "name": "Ituran Location and Control Ltd. Ordinary Shares",
+    "name": "Ituran Location and Control Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -24080,18 +22808,6 @@
   {
     "symbol": "IVR",
     "name": "INVESCO MORTGAGE CAPITAL INC",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "IVR^B",
-    "name": "Invesco Mortgage Capital Inc. Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "IVR^C",
-    "name": "INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -24295,7 +23011,7 @@
   },
   {
     "symbol": "JCSE",
-    "name": "JE Cleantech Holdings Limited Ordinary Shares",
+    "name": "JE Cleantech Holdings Limited",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -24337,7 +23053,7 @@
   },
   {
     "symbol": "JFBR",
-    "name": "Jeffs' Brands Ltd Ordinary Shares",
+    "name": "Jeffs' Brands Ltd",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -24391,7 +23107,7 @@
   },
   {
     "symbol": "JHG",
-    "name": "Janus Henderson Group plc Ordinary Shares",
+    "name": "Janus Henderson Group plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -24469,7 +23185,7 @@
   },
   {
     "symbol": "JMIA",
-    "name": "Jumia Technologies AG American Depositary Shares each representing two Ordinary Shares",
+    "name": "Jumia Technologies AG American Depositary Shares each representing two",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -24523,7 +23239,7 @@
   },
   {
     "symbol": "JOE",
-    "name": "St. Joe Company (The)",
+    "name": "St. Joe Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -24572,42 +23288,6 @@
   {
     "symbol": "JPM",
     "name": "JP Morgan Chase & Co.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "JPM^C",
-    "name": "J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 6.00% Non-Cumulative  Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "JPM^D",
-    "name": "J P Morgan Chase & Co Depositary Shares each representing a 1/400th  interest in a share of 5.75% Non-Cumulative  Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "JPM^J",
-    "name": "J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "JPM^K",
-    "name": "J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 4.55% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "JPM^L",
-    "name": "J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 4.625% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "JPM^M",
-    "name": "J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 4.20% Non-Cumulative Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -24727,7 +23407,7 @@
   },
   {
     "symbol": "JWEL",
-    "name": "Jowell Global Ltd. Ordinary Shares",
+    "name": "Jowell Global Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -24769,7 +23449,7 @@
   },
   {
     "symbol": "JZXN",
-    "name": "Jiuzi Holdings Inc. Ordinary Shares",
+    "name": "Jiuzi Holdings Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -24781,7 +23461,7 @@
   },
   {
     "symbol": "KACL",
-    "name": "Kairous Acquisition Corp. Limited Ordinary Shares",
+    "name": "Kairous Acquisition Corp. Limited",
     "country": "Malaysia",
     "exchange": "NASDAQ"
   },
@@ -24829,7 +23509,7 @@
   },
   {
     "symbol": "KAL",
-    "name": "Kalera Public Limited Company Ordinary Shares",
+    "name": "Kalera Public Limited Company",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -24871,7 +23551,7 @@
   },
   {
     "symbol": "KARO",
-    "name": "Karooooo Ltd. Ordinary Shares",
+    "name": "Karooooo Ltd.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -24967,7 +23647,7 @@
   },
   {
     "symbol": "KEN",
-    "name": "Kenon Holdings Ltd. Ordinary Shares",
+    "name": "Kenon Holdings Ltd.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -25008,30 +23688,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "KEY^I",
-    "name": "KeyCorp Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "KEY^J",
-    "name": "KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "KEY^K",
-    "name": "KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "KEY^L",
-    "name": "KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "KEYS",
     "name": "Keysight Technologies Inc.",
     "country": "United States",
@@ -25039,7 +23695,7 @@
   },
   {
     "symbol": "KF",
-    "name": "Korea Fund Inc. (The) New",
+    "name": "Korea Fund Inc. New",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -25110,18 +23766,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "KIM^L",
-    "name": "Kimco Realty Corporation Class L Depositary Shares each of which represents a one-one thousandth fractional interest in a share of 5.125% Class L Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "KIM^M",
-    "name": "Kimco Realty Corporation Class M Depositary Shares each of which represents a one-one thousandth fractional interest in a share of 5.25% Class M Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "KIND",
     "name": "Nextdoor Holdings Inc.",
     "country": "United States",
@@ -25159,7 +23803,7 @@
   },
   {
     "symbol": "KIQ",
-    "name": "Kelso Technologies Inc Ordinary Shares",
+    "name": "Kelso Technologies Inc",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -25184,12 +23828,6 @@
   {
     "symbol": "KKR",
     "name": "KKR & Co. Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "KKR^C",
-    "name": "KKR & Co. Inc. 6.00% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -25237,7 +23875,7 @@
   },
   {
     "symbol": "KMDA",
-    "name": "Kamada Ltd. Ordinary Shares",
+    "name": "Kamada Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -25351,7 +23989,7 @@
   },
   {
     "symbol": "KO",
-    "name": "Coca-Cola Company (The)",
+    "name": "Coca-Cola Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -25429,7 +24067,7 @@
   },
   {
     "symbol": "KR",
-    "name": "Kroger Company (The)",
+    "name": "Kroger Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -25448,12 +24086,6 @@
   {
     "symbol": "KREF",
     "name": "KKR Real Estate Finance Trust Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "KREF^A",
-    "name": "KKR Real Estate Finance Trust Inc. 6.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -25489,7 +24121,7 @@
   },
   {
     "symbol": "KRNT",
-    "name": "Kornit Digital Ltd. Ordinary Shares",
+    "name": "Kornit Digital Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -25681,7 +24313,7 @@
   },
   {
     "symbol": "KXIN",
-    "name": "Kaixin Auto Holdings Ordinary Shares",
+    "name": "Kaixin Auto Holdings",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -25729,7 +24361,7 @@
   },
   {
     "symbol": "LAAA",
-    "name": "Lakeshore Acquisition I Corp. Ordinary Shares",
+    "name": "Lakeshore Acquisition I Corp.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -25843,7 +24475,7 @@
   },
   {
     "symbol": "LAX",
-    "name": "8i Acquisition 2 Corp. Ordinary Shares",
+    "name": "8i Acquisition 2 Corp.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -26232,12 +24864,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "LFT^A",
-    "name": "Lument Finance Trust Inc. 7.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "LFTR",
     "name": "Lefteris Acquisition Corp.",
     "country": "United States",
@@ -26263,7 +24889,7 @@
   },
   {
     "symbol": "LGAC",
-    "name": "Lazard Growth Acquisition Corp. I Ordinary Shares",
+    "name": "Lazard Growth Acquisition Corp. I",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -26305,7 +24931,7 @@
   },
   {
     "symbol": "LGL",
-    "name": "LGL Group Inc. (The)",
+    "name": "LGL Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -26551,7 +25177,7 @@
   },
   {
     "symbol": "LITB",
-    "name": "LightInTheBox Holding Co. Ltd. American Depositary Shares each representing 2 ordinary shares",
+    "name": "LightInTheBox Holding Co. Ltd. American Depositary Shares each representing 2",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -26605,7 +25231,7 @@
   },
   {
     "symbol": "LIVN",
-    "name": "LivaNova PLC Ordinary Shares",
+    "name": "LivaNova PLC",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -26635,7 +25261,7 @@
   },
   {
     "symbol": "LKCO",
-    "name": "Luokung Technology Corp Ordinary Shares",
+    "name": "Luokung Technology Corp",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -26869,7 +25495,7 @@
   },
   {
     "symbol": "LOGI",
-    "name": "Logitech International S.A. Ordinary Shares",
+    "name": "Logitech International S.A.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -27325,7 +25951,7 @@
   },
   {
     "symbol": "LVTX",
-    "name": "LAVA Therapeutics N.V. Ordinary Shares",
+    "name": "LAVA Therapeutics N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -27361,19 +25987,13 @@
   },
   {
     "symbol": "LXFR",
-    "name": "Luxfer Holdings PLC Ordinary Shares",
+    "name": "Luxfer Holdings PLC",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "LXP",
     "name": "LXP Industrial Trust Common Stock (Maryland REIT)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "LXP^C",
-    "name": "LXP Industrial Trust 6.5% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -27391,7 +26011,7 @@
   },
   {
     "symbol": "LYB",
-    "name": "LyondellBasell Industries NV Ordinary Shares",
+    "name": "LyondellBasell Industries NV",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -27415,7 +26035,7 @@
   },
   {
     "symbol": "LYL",
-    "name": "Dragon Victory International Limited Ordinary Shares",
+    "name": "Dragon Victory International Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -27480,12 +26100,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "MAA^I",
-    "name": "Mid-America Apartment Communities Inc. 8.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "MAAQ",
     "name": "Mana Capital Acquisition Corp.",
     "country": "United States",
@@ -27505,7 +26119,7 @@
   },
   {
     "symbol": "MAC",
-    "name": "Macerich Company (The)",
+    "name": "Macerich Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -27535,7 +26149,7 @@
   },
   {
     "symbol": "MAG",
-    "name": "MAG Silver Corporation Ordinary Shares",
+    "name": "MAG Silver Corporation",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -27673,7 +26287,7 @@
   },
   {
     "symbol": "MAXN",
-    "name": "Maxeon Solar Technologies Ltd. Ordinary Shares",
+    "name": "Maxeon Solar Technologies Ltd.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -27763,7 +26377,7 @@
   },
   {
     "symbol": "MBTC",
-    "name": "Nocturne Acquisition Corporation Ordinary Shares",
+    "name": "Nocturne Acquisition Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -27925,7 +26539,7 @@
   },
   {
     "symbol": "MCS",
-    "name": "Marcus Corporation (The)",
+    "name": "Marcus Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -28033,7 +26647,7 @@
   },
   {
     "symbol": "MDT",
-    "name": "Medtronic plc. Ordinary Shares",
+    "name": "Medtronic plc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -28050,12 +26664,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "MDV^A",
-    "name": "Modiv Inc. 7.375% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "MDVL",
     "name": "MedAvail Holdings Inc.",
     "country": "United States",
@@ -28063,7 +26671,7 @@
   },
   {
     "symbol": "MDWD",
-    "name": "MediWound Ltd. Ordinary Shares",
+    "name": "MediWound Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -28135,7 +26743,7 @@
   },
   {
     "symbol": "MEGL",
-    "name": "Magic Empire Global Limited Ordinary Shares",
+    "name": "Magic Empire Global Limited",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -28176,12 +26784,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "MER^K",
-    "name": "Bank of America Corporation Income Capital Obligation Notes initially due December 15 2066",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "MERC",
     "name": "Mercer International Inc.",
     "country": "Canada",
@@ -28206,24 +26808,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "MET^A",
-    "name": "MetLife Inc. Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MET^E",
-    "name": "MetLife Inc. Depositary shares each representing a 1/1000th interest in a share of the Issuera??s 5.625% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MET^F",
-    "name": "MetLife Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.75% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "META",
     "name": "Meta Platforms Inc.",
     "country": "United States",
@@ -28243,7 +26827,7 @@
   },
   {
     "symbol": "METX",
-    "name": "Meten Holding Group Ltd. Ordinary Shares",
+    "name": "Meten Holding Group Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -28262,18 +26846,6 @@
   {
     "symbol": "MFA",
     "name": "MFA Financial Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MFA^B",
-    "name": "MFA Financial Inc. Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MFA^C",
-    "name": "MFA Financial Inc. 6.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -28369,7 +26941,7 @@
   },
   {
     "symbol": "MGIC",
-    "name": "Magic Software Enterprises Ltd. Ordinary Shares",
+    "name": "Magic Software Enterprises Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -28435,7 +27007,7 @@
   },
   {
     "symbol": "MGTX",
-    "name": "MeiraGTx Holdings plc Ordinary Shares",
+    "name": "MeiraGTx Holdings plc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -28455,24 +27027,6 @@
     "symbol": "MGYR",
     "name": "Magyar Bancorp Inc.",
     "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MH^A",
-    "name": "Maiden Holdings Ltd. Pref Shs Ser A (Bermuda)",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MH^C",
-    "name": "Maiden Holdings North America Ltd. 7.125% Non-Cumulative Preference Shares ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MH^D",
-    "name": "Maiden Holdings Ltd. 6.700% Non-Cumulative Preference Shares ",
-    "country": "Bermuda",
     "exchange": "NASDAQ"
   },
   {
@@ -28537,7 +27091,7 @@
   },
   {
     "symbol": "MHUA",
-    "name": "Meihua International Medical Technologies Co. Ltd. Ordinary Shares",
+    "name": "Meihua International Medical Technologies Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -28555,7 +27109,7 @@
   },
   {
     "symbol": "MIDD",
-    "name": "Middleby Corporation (The)",
+    "name": "Middleby Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -28668,26 +27222,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "MITT^A",
-    "name": "AG Mortgage Investment Trust Inc. 8.25% Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MITT^B",
-    "name": "AG Mortgage Investment Trust Inc. Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MITT^C",
-    "name": "AG Mortgage Investment Trust Inc. 8.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "MIXT",
-    "name": "MiX Telematics Limited American Depositary Shares each representing 25 Ordinary Shares",
+    "name": "MiX Telematics Limited American Depositary Shares each representing 25",
     "country": "South Africa",
     "exchange": "NASDAQ"
   },
@@ -28915,7 +27451,7 @@
   },
   {
     "symbol": "MMYT",
-    "name": "MakeMyTrip Limited Ordinary Shares",
+    "name": "MakeMyTrip Limited",
     "country": "India",
     "exchange": "NASDAQ"
   },
@@ -28927,13 +27463,13 @@
   },
   {
     "symbol": "MNDO",
-    "name": "MIND C.T.I. Ltd. Ordinary Shares",
+    "name": "MIND C.T.I. Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "MNDY",
-    "name": "monday.com Ltd. Ordinary Shares",
+    "name": "monday.com Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -28993,7 +27529,7 @@
   },
   {
     "symbol": "MNSO",
-    "name": "MINISO Group Holding Limited American Depositary Shares each representing four Ordinary Shares",
+    "name": "MINISO Group Holding Limited American Depositary Shares each representing four",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -29179,7 +27715,7 @@
   },
   {
     "symbol": "MOS",
-    "name": "Mosaic Company (The)",
+    "name": "Mosaic Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -29203,7 +27739,7 @@
   },
   {
     "symbol": "MOXC",
-    "name": "Moxian (BVI) Inc Ordinary Shares",
+    "name": "Moxian (BVI) Inc",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -29460,54 +27996,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "MS^A",
-    "name": "Morgan Stanley Dep Shs repstg 1/1000 Pfd Ser A",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^E",
-    "name": "Morgan Stanley DEPOSITARY SHARES REP 1/1000TH SHARES FIXED/FLTG PREFERRED STOCK ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^F",
-    "name": "Morgan Stanley Dep Shs Rpstg 1/1000th Int Prd Ser F Fxd to Flag",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^I",
-    "name": "Morgan Stanley Depository Shares Representing 1/1000th Preferred Series 1 Fixed to Floating Non (Cum)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^K",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of Fixed-to-Floating Rate Non-Cumulative Preferred Stock  ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^L",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.875% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^O",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.250% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MS^P",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 6.500% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "MSA",
     "name": "MSA Safety Incorporated",
     "country": "United States",
@@ -29641,7 +28129,7 @@
   },
   {
     "symbol": "MSSA",
-    "name": "Metal Sky Star Acquisition Corporation Ordinary shares",
+    "name": "Metal Sky Star Acquisition Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -29690,12 +28178,6 @@
   {
     "symbol": "MTB",
     "name": "M&T Bank Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "MTB^H",
-    "name": "M&T Bank Corporation Perpetual Fixed-to-Floating Rate Non-Cumulative Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -29755,7 +28237,7 @@
   },
   {
     "symbol": "MTEK",
-    "name": "Maris-Tech Ltd. Ordinary Shares",
+    "name": "Maris-Tech Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -29875,7 +28357,7 @@
   },
   {
     "symbol": "MTW",
-    "name": "Manitowoc Company Inc. (The)",
+    "name": "Manitowoc Company Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -30037,13 +28519,13 @@
   },
   {
     "symbol": "MXE",
-    "name": "Mexico Equity and Income Fund Inc. (The)",
+    "name": "Mexico Equity and Income Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "MXF",
-    "name": "Mexico Fund Inc. (The)",
+    "name": "Mexico Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -30103,7 +28585,7 @@
   },
   {
     "symbol": "MYNZ",
-    "name": "Mainz Biomed B.V. Ordinary Shares",
+    "name": "Mainz Biomed B.V.",
     "country": "Germany",
     "exchange": "NASDAQ"
   },
@@ -30319,7 +28801,7 @@
   },
   {
     "symbol": "NBRV",
-    "name": "Nabriva Therapeutics plc Ordinary Shares Ireland",
+    "name": "Nabriva Therapeutics plc Ireland",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -30397,7 +28879,7 @@
   },
   {
     "symbol": "NCLH",
-    "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
+    "name": "Norwegian Cruise Line Holdings Ltd.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -30462,20 +28944,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "NCV^A",
-    "name": "Virtus Convertible & Income Fund 5.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "NCZ",
     "name": "Virtus Convertible & Income Fund II Common Shares of Beneficial Interest",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NCZ^A",
-    "name": "Virtus Convertible & Income Fund II 5.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -30535,7 +29005,7 @@
   },
   {
     "symbol": "NE",
-    "name": "Noble Corporation plc Ordinary Shares",
+    "name": "Noble Corporation plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -30554,24 +29024,6 @@
   {
     "symbol": "NEE",
     "name": "NextEra Energy Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NEE^N",
-    "name": "NextEra Energy Inc. ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NEE^P",
-    "name": "NextEra Energy Inc. 5.279% Corporate Units",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NEE^Q",
-    "name": "NextEra Energy Inc. 6.219% Corporate Units",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -30637,7 +29089,7 @@
   },
   {
     "symbol": "NEPT",
-    "name": "Neptune Wellness Solutions Inc. Ordinary Shares",
+    "name": "Neptune Wellness Solutions Inc.",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -30649,7 +29101,7 @@
   },
   {
     "symbol": "NESR",
-    "name": "National Energy Services Reunited Corp. Ordinary Shares",
+    "name": "National Energy Services Reunited Corp.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -30816,18 +29268,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "NGL^B",
-    "name": "NGL ENERGY PARTNERS LP 9.00%",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NGL^C",
-    "name": "NGL ENERGY PARTNERS LP 9.625%",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "NGM",
     "name": "NGM Biopharmaceuticals Inc.",
     "country": "United States",
@@ -30835,7 +29275,7 @@
   },
   {
     "symbol": "NGMS",
-    "name": "NeoGames S.A. Ordinary Shares",
+    "name": "NeoGames S.A.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -30912,12 +29352,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "NI^B",
-    "name": "NiSource Inc Depositary Shares representing 1/1000th ownership interest in a share of 6.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "NIC",
     "name": "Nicolet Bankshares Inc.",
     "country": "United States",
@@ -30950,12 +29384,6 @@
   {
     "symbol": "NILE",
     "name": "BitNile Holdings Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NILE^D",
-    "name": "BitNile Holdings Inc. 13.00% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -31087,13 +29515,13 @@
   },
   {
     "symbol": "NLSN",
-    "name": "Nielsen N.V. Ordinary Shares",
+    "name": "Nielsen N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "NLSP",
-    "name": "NLS Pharmaceutics Ltd. Ordinary Shares",
+    "name": "NLS Pharmaceutics Ltd.",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -31116,38 +29544,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "NLY^F",
-    "name": "Annaly Capital Management Inc 6.95% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NLY^G",
-    "name": "Annaly Capital Management Inc 6.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NLY^I",
-    "name": "Annaly Capital Management Inc 6.750% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "NM",
     "name": "Navios Maritime Holdings Inc.",
-    "country": "Monaco",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NM^G",
-    "name": "Navios Maritime Holdings Inc. Sponsored ADR Representing 1/100th Perpetual Preferred ",
-    "country": "Monaco",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NM^H",
-    "name": "Navios Maritime Holdings Inc. Sponsored ADR Representing 1/100th Perp. Preferred ",
     "country": "Monaco",
     "exchange": "NASDAQ"
   },
@@ -31184,12 +29582,6 @@
   {
     "symbol": "NMIH",
     "name": "NMI Holdings Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NMK^C",
-    "name": "Niagara Mohawk Holdings Inc. Preferred Stock",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -31303,7 +29695,7 @@
   },
   {
     "symbol": "NNOX",
-    "name": "NANO-X IMAGING LTD Ordinary Shares",
+    "name": "NANO-X IMAGING LTD",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -31393,7 +29785,7 @@
   },
   {
     "symbol": "NOMD",
-    "name": "Nomad Foods Limited Ordinary Shares",
+    "name": "Nomad Foods Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -31560,12 +29952,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "NREF^A",
-    "name": "NexPoint Real Estate Finance Inc. 8.50% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "NRG",
     "name": "NRG Energy Inc.",
     "country": "United States",
@@ -31615,7 +30001,7 @@
   },
   {
     "symbol": "NRSN",
-    "name": "NeuroSense Therapeutics Ltd. Ordinary Shares",
+    "name": "NeuroSense Therapeutics Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -31656,32 +30042,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "NS^A",
-    "name": "Nustar Energy L.P. 8.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NS^B",
-    "name": "Nustar Energy L.P. 7.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NS^C",
-    "name": "Nustar Energy L.P. 9.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "NSA",
     "name": "National Storage Affiliates Trust Common Shares of Beneficial Interest",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NSA^A",
-    "name": "National Storage Affiliates Trust 6.000% ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -31771,7 +30133,7 @@
   },
   {
     "symbol": "NTB",
-    "name": "Bank of N.T. Butterfield & Son Limited (The) Voting Ordinary Shares",
+    "name": "Bank of N.T. Butterfield & Son Limited Voting",
     "country": "Bermuda",
     "exchange": "NASDAQ"
   },
@@ -31999,7 +30361,7 @@
   },
   {
     "symbol": "NVCR",
-    "name": "NovoCure Limited Ordinary Shares",
+    "name": "NovoCure Limited",
     "country": "Jersey",
     "exchange": "NASDAQ"
   },
@@ -32047,7 +30409,7 @@
   },
   {
     "symbol": "NVGS",
-    "name": "Navigator Holdings Ltd. Ordinary Shares (Marshall Islands)",
+    "name": "Navigator Holdings Ltd. (Marshall Islands)",
     "country": "Isle of Man",
     "exchange": "NASDAQ"
   },
@@ -32059,7 +30421,7 @@
   },
   {
     "symbol": "NVMI",
-    "name": "Nova Ltd. Ordinary Shares",
+    "name": "Nova Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -32125,7 +30487,7 @@
   },
   {
     "symbol": "NVT",
-    "name": "nVent Electric plc Ordinary Shares",
+    "name": "nVent Electric plc",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -32179,7 +30541,7 @@
   },
   {
     "symbol": "NWG",
-    "name": "NatWest Group plc American Depositary Shares (each representing two (2) Ordinary Shares)",
+    "name": "NatWest Group plc American Depositary Shares (each representing two (2))",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -32234,12 +30596,6 @@
   {
     "symbol": "NXDT",
     "name": "NexPoint Diversified Real Estate Trust",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NXDT^A",
-    "name": "NexPoint Diversified Real Estate Trust 5.50% ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -32341,7 +30697,7 @@
   },
   {
     "symbol": "NYAX",
-    "name": "Nayax Ltd. Ordinary Shares",
+    "name": "Nayax Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -32354,18 +30710,6 @@
   {
     "symbol": "NYCB",
     "name": "New York Community Bancorp Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NYCB^A",
-    "name": "New York Community Bancorp Inc. Depositary shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "NYCB^U",
-    "name": "New York Community Bancorp Inc. New York Community Capital Tr V (BONUSES)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -32407,13 +30751,13 @@
   },
   {
     "symbol": "NYT",
-    "name": "New York Times Company (The)",
+    "name": "New York Times Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "NYXH",
-    "name": "Nyxoah SA Ordinary Shares",
+    "name": "Nyxoah SA",
     "country": "Belgium",
     "exchange": "NASDAQ"
   },
@@ -32426,18 +30770,6 @@
   {
     "symbol": "O",
     "name": "Realty Income Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "OAK^A",
-    "name": "Oaktree Capital Group LLC 6.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "OAK^B",
-    "name": "Oaktree Capital Group LLC 6.550% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -32467,7 +30799,7 @@
   },
   {
     "symbol": "OBSV",
-    "name": "ObsEva SA Ordinary Shares",
+    "name": "ObsEva SA",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -32515,13 +30847,13 @@
   },
   {
     "symbol": "OCFT",
-    "name": "OneConnect Financial Technology Co. Ltd. American Depositary Shares each representing three ordinary shares",
+    "name": "OneConnect Financial Technology Co. Ltd. American Depositary Shares each representing three",
     "country": "China",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "OCG",
-    "name": "Oriental Culture Holding LTD Ordinary Shares",
+    "name": "Oriental Culture Holding LTD",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -33150,18 +31482,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "OPP^A",
-    "name": "RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 4.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "OPP^B",
-    "name": "RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 4.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "OPRA",
     "name": "Opera Limited American Depositary Shares",
     "country": "Norway",
@@ -33379,7 +31699,7 @@
   },
   {
     "symbol": "OST",
-    "name": "Ostin Technology Group Co. Ltd. Ordinary Shares",
+    "name": "Ostin Technology Group Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -33463,7 +31783,7 @@
   },
   {
     "symbol": "OTMO",
-    "name": "Otonomo Technologies Ltd. Ordinary shares",
+    "name": "Otonomo Technologies Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -33553,7 +31873,7 @@
   },
   {
     "symbol": "OXBR",
-    "name": "Oxbridge Re Holdings Limited Ordinary Shares",
+    "name": "Oxbridge Re Holdings Limited",
     "country": "Cayman Islands",
     "exchange": "NASDAQ"
   },
@@ -33967,7 +32287,7 @@
   },
   {
     "symbol": "PBA",
-    "name": "Pembina Pipeline Corp. Ordinary Shares (Canada)",
+    "name": "Pembina Pipeline Corp. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -34032,12 +32352,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PBI^B",
-    "name": "Pitney Bowes Inc 6.70% Notes Due 2043",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PBLA",
     "name": "Panbela Therapeutics Inc.",
     "country": "United States",
@@ -34063,7 +32377,7 @@
   },
   {
     "symbol": "PBTS",
-    "name": "Powerbridge Technologies Co. Ltd. Ordinary Shares",
+    "name": "Powerbridge Technologies Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -34112,36 +32426,6 @@
   {
     "symbol": "PCG",
     "name": "Pacific Gas & Electric Co.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PCG^A",
-    "name": "Pacific Gas & Electric Co. 6% Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PCG^C",
-    "name": "Pacific Gas & Electric Co. 5% 1st Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PCG^D",
-    "name": "Pacific Gas & Electric Co. 5% 1st  Red. Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PCG^E",
-    "name": "Pacific Gas & Electric Co. 5% 1st A Preferred Stock",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PCG^G",
-    "name": "Pacific Gas & Electric Co. 4.80% 1st Preferred Stock",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -34374,30 +32658,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PEB^E",
-    "name": "Pebblebrook Hotel Trust 6.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PEB^F",
-    "name": "Pebblebrook Hotel Trust 6.3% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PEB^G",
-    "name": "Pebblebrook Hotel Trust 6.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PEB^H",
-    "name": "Pebblebrook Hotel Trust 5.700% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PEBK",
     "name": "Peoples Bancorp of North Carolina Inc.",
     "country": "United States",
@@ -34452,24 +32712,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PEI^B",
-    "name": "Pennsylvania Real Estate Investment Trust Cumulative Redeemable Perpetual Preferred Shares ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PEI^C",
-    "name": "Pennsylvania Real Estate Investment Trust 7.20% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PEI^D",
-    "name": "Pennsylvania Real Estate Investment Trust 6.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PEN",
     "name": "Penumbra Inc.",
     "country": "",
@@ -34513,7 +32755,7 @@
   },
   {
     "symbol": "PERI",
-    "name": "Perion Network Ltd. Ordinary Shares",
+    "name": "Perion Network Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -34717,7 +32959,7 @@
   },
   {
     "symbol": "PG",
-    "name": "Procter & Gamble Company (The)",
+    "name": "Procter & Gamble Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -34747,7 +32989,7 @@
   },
   {
     "symbol": "PGR",
-    "name": "Progressive Corporation (The)",
+    "name": "Progressive Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -34759,7 +33001,7 @@
   },
   {
     "symbol": "PGRU",
-    "name": "PropertyGuru Group Limited Ordinary Shares",
+    "name": "PropertyGuru Group Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -34813,7 +33055,7 @@
   },
   {
     "symbol": "PHAR",
-    "name": "Pharming Group N.V. ADS each representing 10 ordinary shares",
+    "name": "Pharming Group N.V. ADS each representing 10",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -34831,7 +33073,7 @@
   },
   {
     "symbol": "PHCF",
-    "name": "Puhui Wealth Investment Management Co. Ltd. Ordinary Shares",
+    "name": "Puhui Wealth Investment Management Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -34909,7 +33151,7 @@
   },
   {
     "symbol": "PHVS",
-    "name": "Pharvaris N.V. Ordinary Shares",
+    "name": "Pharvaris N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -35125,7 +33367,7 @@
   },
   {
     "symbol": "PLCE",
-    "name": "Children's Place Inc. (The)",
+    "name": "Children's Place Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -35137,7 +33379,7 @@
   },
   {
     "symbol": "PLG",
-    "name": "Platinum Group Metals Ltd. Ordinary Shares (Canada)",
+    "name": "Platinum Group Metals Ltd. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -35149,7 +33391,7 @@
   },
   {
     "symbol": "PLM",
-    "name": "Polymet Mining Corporation Ordinary Shares (Canada)",
+    "name": "Polymet Mining Corporation (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -35251,19 +33493,13 @@
   },
   {
     "symbol": "PLYA",
-    "name": "Playa Hotels & Resorts N.V. Ordinary Shares",
+    "name": "Playa Hotels & Resorts N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "PLYM",
     "name": "Plymouth Industrial REIT Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PLYM^A",
-    "name": "Plymouth Industrial REIT Inc. 7.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -35346,24 +33582,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PMT^A",
-    "name": "PennyMac Mortgage Investment Trust 8.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PMT^B",
-    "name": "PennyMac Mortgage Investment Trust 8.00% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PMT^C",
-    "name": "PennyMac Mortgage Investment Trust 6.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PMTS",
     "name": "CPI Card Group Inc.",
     "country": "United States",
@@ -35401,13 +33619,7 @@
   },
   {
     "symbol": "PNC",
-    "name": "PNC Financial Services Group Inc. (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PNC^P",
-    "name": "PNC Financial Services Group Inc. (The) Depositary Shares Representing 1/4000th Perpetual Preferred ",
+    "name": "PNC Financial Services Group Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -35736,12 +33948,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PRE^J",
-    "name": "PartnerRe Ltd. 4.875% Fixed Rate Non-Cumulative Redeemable Preferred Shares ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PRENW",
     "name": "Prenetics Global Limited Warrant",
     "country": "Hong Kong",
@@ -35755,7 +33961,7 @@
   },
   {
     "symbol": "PRFX",
-    "name": "PainReform Ltd. Ordinary Shares",
+    "name": "PainReform Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -35767,7 +33973,7 @@
   },
   {
     "symbol": "PRGO",
-    "name": "Perrigo Company plc Ordinary Shares",
+    "name": "Perrigo Company plc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -35787,54 +33993,6 @@
     "symbol": "PRI",
     "name": "Primerica Inc.",
     "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^D",
-    "name": "Priority Income Fund Inc. 7.00% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^F",
-    "name": "Priority Income Fund Inc. 6.625% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^G",
-    "name": "Priority Income Fund Inc. 6.25% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^H",
-    "name": "Priority Income Fund Inc. 6.00% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^I",
-    "name": "Priority Income Fund Inc. 6.125% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^J",
-    "name": "Priority Income Fund Inc. 6.000% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^K",
-    "name": "Priority Income Fund Inc. 7.000% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PRIF^L",
-    "name": "Priority Income Fund Inc. 6.375% ",
-    "country": "",
     "exchange": "NASDAQ"
   },
   {
@@ -35875,7 +34033,7 @@
   },
   {
     "symbol": "PRM",
-    "name": "Perimeter Solutions SA Ordinary Shares",
+    "name": "Perimeter Solutions SA",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -35893,7 +34051,7 @@
   },
   {
     "symbol": "PROC",
-    "name": "Procaps Group S.A. Ordinary Shares",
+    "name": "Procaps Group S.A.",
     "country": "Luxembourg",
     "exchange": "NASDAQ"
   },
@@ -35947,7 +34105,7 @@
   },
   {
     "symbol": "PRQR",
-    "name": "ProQR Therapeutics N.V. Ordinary Shares",
+    "name": "ProQR Therapeutics N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -36001,7 +34159,7 @@
   },
   {
     "symbol": "PRTA",
-    "name": "Prothena Corporation plc Ordinary Shares",
+    "name": "Prothena Corporation plc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -36066,90 +34224,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PSA^F",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 5.15% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^G",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 5.05% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^H",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^I",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.875% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^J",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.700% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^K",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.75% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^L",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.625% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^M",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.125% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^N",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 3.875% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^O",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 3.900% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^P",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.000% Cumulative Preferred Share of Bene cial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^Q",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 3.950% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^R",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.00% Cumulative Preferred Share of Bene cial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSA^S",
-    "name": "Public Storage Depositary Shares Each Representing 1/1000 of a 4.100% Cumulative Preferred Share of Beneficial Interest ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PSAG",
     "name": "Property Solutions Acquisition Corporation II",
     "country": "United States",
@@ -36168,32 +34242,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PSB^X",
-    "name": "PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 5.25% Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSB^Y",
-    "name": "PS Business Parks Inc. 5.20% Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSB^Z",
-    "name": "PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 4.875% Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PSEC",
     "name": "Prospect Capital Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "PSEC^A",
-    "name": "Prospect Capital Corporation 5.35% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -36516,12 +34566,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "PW^A",
-    "name": "Power REIT 7.75% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "PWFL",
     "name": "PowerFleet Inc.",
     "country": "United States",
@@ -36625,7 +34669,7 @@
   },
   {
     "symbol": "PYPD",
-    "name": "PolyPid Ltd. Ordinary Shares",
+    "name": "PolyPid Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -36751,7 +34795,7 @@
   },
   {
     "symbol": "QLI",
-    "name": "Qilian International Holding Group Ltd. Ordinary Shares",
+    "name": "Qilian International Holding Group Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -36865,7 +34909,7 @@
   },
   {
     "symbol": "QTNT",
-    "name": "Quotient Limited Ordinary Shares",
+    "name": "Quotient Limited",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -36919,7 +34963,7 @@
   },
   {
     "symbol": "QURE",
-    "name": "uniQure N.V. Ordinary Shares",
+    "name": "uniQure N.V.",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -36979,7 +35023,7 @@
   },
   {
     "symbol": "RADA",
-    "name": "RADA Electronic Industries Ltd. Ordinary Shares",
+    "name": "RADA Electronic Industries Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -37112,18 +35156,6 @@
   {
     "symbol": "RC",
     "name": "Ready Capital Corproation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RC^C",
-    "name": "Ready Capital Corporation 6.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RC^E",
-    "name": "Ready Capital Corporation 6.50% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -37285,7 +35317,7 @@
   },
   {
     "symbol": "RDCM",
-    "name": "Radcom Ltd. Ordinary Shares",
+    "name": "Radcom Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -37339,7 +35371,7 @@
   },
   {
     "symbol": "RDWR",
-    "name": "Radware Ltd. Ordinary Shares",
+    "name": "Radware Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -37596,18 +35628,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "REXR^B",
-    "name": "Rexford Industrial Realty Inc. 5.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "REXR^C",
-    "name": "Rexford Industrial Realty Inc. 5.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "REYN",
     "name": "Reynolds Consumer Products Inc.",
     "country": "United States",
@@ -37622,24 +35642,6 @@
   {
     "symbol": "RF",
     "name": "Regions Financial Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RF^B",
-    "name": "Regions Financial Corporation Depositary Shares Representing 1/40th Perpetual Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RF^C",
-    "name": "Regions Financial Corporation Depositary Shares each Representing a 1/40th Interest in a  Share of 5.700% Fixed-to-Floating Rate Non-Cumulative  Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RF^E",
-    "name": "Regions Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.45% Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -37693,7 +35695,7 @@
   },
   {
     "symbol": "RGC",
-    "name": "Regencell Bioscience Holdings Limited Ordinary Shares",
+    "name": "Regencell Bioscience Holdings Limited",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -37902,38 +35904,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "RITM^A",
-    "name": "Rithm Capital Corp. 7.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RITM^B",
-    "name": "Rithm Capital Corp. 7.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RITM^C",
-    "name": "Rithm Capital Corp. 6.375% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RITM^D",
-    "name": "Rithm Capital Corp. 7.00% Fixed-Rate Reset ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "RIV",
     "name": "RiverNorth Opportunities Fund Inc.",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RIV^A",
-    "name": "RiverNorth Opportunities Fund Inc. 6.00% ",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -37956,18 +35928,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "RJF^A",
-    "name": "Raymond James Financial Inc. Depositary Shares each representing a 1/40th interest in a share of 6.75% Fixed-to-Floating Rate ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RJF^B",
-    "name": "Raymond James Financial Inc. Depositary Shares each representing a 1/40th interest in a share of 6.375% Fixed-to-Floating Rate ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "RKDA",
     "name": "Arcadia Biosciences Inc.",
     "country": "United States",
@@ -37981,7 +35941,7 @@
   },
   {
     "symbol": "RKLY",
-    "name": "Rockley Photonics Holdings Limited Ordinary Shares",
+    "name": "Rockley Photonics Holdings Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -38024,12 +35984,6 @@
   {
     "symbol": "RLJ",
     "name": "RLJ Lodging Trust Common Shares of Beneficial Interest $0.01 par value",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RLJ^A",
-    "name": "RLJ Lodging Trust $1.95 ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -38234,18 +36188,6 @@
   {
     "symbol": "RNR",
     "name": "RenaissanceRe Holdings Ltd.",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RNR^F",
-    "name": "RenaissanceRe Holdings Ltd. Depositary Shares each Representing a 1/1000th Interest in a 5.750% ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "RNR^G",
-    "name": "RenaissanceRe Holdings Ltd. Depositary Shares each representing a 1/1000th interest in a share of 4.20% ",
     "country": "Bermuda",
     "exchange": "NASDAQ"
   },
@@ -38466,12 +36408,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "RPT^D",
-    "name": "RPT Realty 7.25%",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "RPTX",
     "name": "Repare Therapeutics Inc.",
     "country": "Canada",
@@ -38641,7 +36577,7 @@
   },
   {
     "symbol": "RVLP",
-    "name": "RVL Pharmaceuticals plc Ordinary Shares",
+    "name": "RVL Pharmaceuticals plc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -38719,7 +36655,7 @@
   },
   {
     "symbol": "RWLK",
-    "name": "ReWalk Robotics Ltd. Ordinary Shares",
+    "name": "ReWalk Robotics Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -38790,12 +36726,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "RY^T",
-    "name": "Royal Bank Of Canada 6.750% Fixed Rate/Floating Rate Noncumulative First Preferred Shares ",
-    "country": "Canada",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "RYAAY",
     "name": "Ryanair Holdings plc American Depositary Shares",
     "country": "Ireland",
@@ -38857,7 +36787,7 @@
   },
   {
     "symbol": "SA",
-    "name": "Seabridge Gold Inc. Ordinary Shares (Canada)",
+    "name": "Seabridge Gold Inc. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -38894,12 +36824,6 @@
   {
     "symbol": "SACH",
     "name": "Sachem Capital Corp.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SACH^A",
-    "name": "Sachem Capital Corp. 7.75% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -38983,7 +36907,7 @@
   },
   {
     "symbol": "SAM",
-    "name": "Boston Beer Company Inc. (The)",
+    "name": "Boston Beer Company Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -39037,7 +36961,7 @@
   },
   {
     "symbol": "SAND",
-    "name": "Sandstorm Gold Ltd. Ordinary Shares (Canada)",
+    "name": "Sandstorm Gold Ltd. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -39126,18 +37050,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SB^C",
-    "name": "Safe Bulkers Inc Cumulative Redeemable Perpetual Preferred ",
-    "country": "Monaco",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SB^D",
-    "name": "Safe Bulkers Inc Perpetual Preferred ",
-    "country": "Monaco",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SBAC",
     "name": "SBA Communications Corporation",
     "country": "United States",
@@ -39157,7 +37069,7 @@
   },
   {
     "symbol": "SBET",
-    "name": "SharpLink Gaming Ltd. Ordinary Shares",
+    "name": "SharpLink Gaming Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -39342,36 +37254,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SCE^G",
-    "name": "SCE Trust II Trust Preferred Securities",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SCE^H",
-    "name": "SCE Trust III Fixed/Floating Rate Trust Preference Securities",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SCE^J",
-    "name": "Southern California Edison Company 5.375% Fixed-to-Floating Rate Trust Preference Securities",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SCE^K",
-    "name": "Southern California Edison Company 5.45% Fixed-to-Floating Rate Trust Preference Securities",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SCE^L",
-    "name": "SCE TRUST VI",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SCHL",
     "name": "Scholastic Corporation",
     "country": "United States",
@@ -39385,19 +37267,7 @@
   },
   {
     "symbol": "SCHW",
-    "name": "Charles Schwab Corporation (The)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SCHW^D",
-    "name": "The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SCHW^J",
-    "name": "The Charles Schwab Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.450% Non-Cumulative Perpetual Preferred Stock ",
+    "name": "Charles Schwab Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -39571,7 +37441,7 @@
   },
   {
     "symbol": "SCX",
-    "name": "L.S. Starrett Company (The)",
+    "name": "L.S. Starrett Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -39639,18 +37509,6 @@
     "symbol": "SEAC",
     "name": "SeaChange International Inc.",
     "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SEAL^A",
-    "name": "Seapeak LLC 9.00% ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SEAL^B",
-    "name": "Seapeak LLC 8.50% ",
-    "country": "Bermuda",
     "exchange": "NASDAQ"
   },
   {
@@ -39804,24 +37662,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SF^B",
-    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SF^C",
-    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 6.125% Non Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SF^D",
-    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 4.50% Non-Cumulative Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SFB",
     "name": "Stifel Financial Corporation 5.20% Senior Notes due 2047",
     "country": "United States",
@@ -39925,13 +37765,13 @@
   },
   {
     "symbol": "SGH",
-    "name": "SMART Global Holdings Inc. Ordinary Shares",
+    "name": "SMART Global Holdings Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "SGHC",
-    "name": "Super Group (SGHC) Limited Ordinary Shares",
+    "name": "Super Group (SGHC) Limited",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -40087,7 +37927,7 @@
   },
   {
     "symbol": "SHEL",
-    "name": "Royal Dutch Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares)",
+    "name": "Royal Dutch Shell PLC American Depositary Shares (each representing two (2))",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -40124,18 +37964,6 @@
   {
     "symbol": "SHO",
     "name": "Sunstone Hotel Investors Inc. Sunstone Hotel Investors Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SHO^H",
-    "name": "Sunstone Hotel Investors Inc. 6.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SHO^I",
-    "name": "Sunstone Hotel Investors Inc. 5.70% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -40183,7 +38011,7 @@
   },
   {
     "symbol": "SHW",
-    "name": "Sherwin-Williams Company (The)",
+    "name": "Sherwin-Williams Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -40196,12 +38024,6 @@
   {
     "symbol": "SI",
     "name": "Silvergate Capital Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SI^A",
-    "name": "Silvergate Capital Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 5.375% Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -40291,7 +38113,7 @@
   },
   {
     "symbol": "SILC",
-    "name": "Silicom Ltd Ordinary Shares",
+    "name": "Silicom Ltd",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -40356,12 +38178,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SITC^A",
-    "name": "SITE Centers Corp. 6.375%",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SITE",
     "name": "SiteOne Landscape Supply Inc.",
     "country": "United States",
@@ -40417,7 +38233,7 @@
   },
   {
     "symbol": "SJM",
-    "name": "J.M. Smucker Company (The) New",
+    "name": "J.M. Smucker Company New",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -40620,12 +38436,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SLG^I",
-    "name": "SL Green Realty Corporation Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SLGC",
     "name": "SomaLogic Inc.",
     "country": "United States",
@@ -40645,7 +38455,7 @@
   },
   {
     "symbol": "SLGL",
-    "name": "Sol-Gel Technologies Ltd. Ordinary Shares",
+    "name": "Sol-Gel Technologies Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -40813,7 +38623,7 @@
   },
   {
     "symbol": "SMG",
-    "name": "Scotts Miracle-Gro Company (The)",
+    "name": "Scotts Miracle-Gro Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -40915,7 +38725,7 @@
   },
   {
     "symbol": "SMWB",
-    "name": "Similarweb Ltd. Ordinary Shares",
+    "name": "Similarweb Ltd.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -41083,13 +38893,13 @@
   },
   {
     "symbol": "SNT",
-    "name": "Senstar Technologies Ltd. Ordinary Shares",
+    "name": "Senstar Technologies Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "SNTG",
-    "name": "Sentage Holdings Inc. Ordinary Shares",
+    "name": "Sentage Holdings Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -41102,18 +38912,6 @@
   {
     "symbol": "SNV",
     "name": "Synovus Financial Corp.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SNV^D",
-    "name": "Synovus Financial Corp. Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SNV^E",
-    "name": "Synovus Financial Corp. 5.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41131,7 +38929,7 @@
   },
   {
     "symbol": "SO",
-    "name": "Southern Company (The)",
+    "name": "Southern Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41191,19 +38989,19 @@
   },
   {
     "symbol": "SOJC",
-    "name": "Southern Company (The) Series 2017B 5.25% Junior Subordinated Notes due December 1 2077",
+    "name": "Southern Company Series 2017B 5.25% Junior Subordinated Notes due December 1 2077",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "SOJD",
-    "name": "Southern Company (The) Series 2020A 4.95% Junior Subordinated Notes due January 30 2080",
+    "name": "Southern Company Series 2020A 4.95% Junior Subordinated Notes due January 30 2080",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "SOJE",
-    "name": "Southern Company (The) Series 2020C 4.20% Junior Subordinated Notes due October 15 2060",
+    "name": "Southern Company Series 2020C 4.20% Junior Subordinated Notes due October 15 2060",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41281,7 +39079,7 @@
   },
   {
     "symbol": "SOPH",
-    "name": "SOPHiA GENETICS SA Ordinary Shares",
+    "name": "SOPHiA GENETICS SA",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -41335,7 +39133,7 @@
   },
   {
     "symbol": "SPCB",
-    "name": "SuperCom Ltd. Ordinary Shares (Israel)",
+    "name": "SuperCom Ltd. (Israel)",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -41364,12 +39162,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SPE^C",
-    "name": "Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SPFI",
     "name": "South Plains Financial Inc.",
     "country": "United States",
@@ -41378,12 +39170,6 @@
   {
     "symbol": "SPG",
     "name": "Simon Property Group Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SPG^J",
-    "name": "Simon Property Group Inc. Simon Property Group 8 3/8% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41407,7 +39193,7 @@
   },
   {
     "symbol": "SPI",
-    "name": "SPI Energy Co. Ltd. Ordinary Shares",
+    "name": "SPI Energy Co. Ltd.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -41454,12 +39240,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SPLP^A",
-    "name": "Steel Partners Holdings LP 6.0% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SPNE",
     "name": "SeaSpine Holdings Corporation",
     "country": "United States",
@@ -41478,12 +39258,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SPNT^B",
-    "name": "SiriusPoint Ltd. 8.00% Resettable Fixed Rate Preference Shares ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SPOK",
     "name": "Spok Holdings Inc.",
     "country": "United States",
@@ -41491,7 +39265,7 @@
   },
   {
     "symbol": "SPOT",
-    "name": "Spotify Technology S.A. Ordinary Shares",
+    "name": "Spotify Technology S.A.",
     "country": "Luxembourg",
     "exchange": "NASDAQ"
   },
@@ -41515,7 +39289,7 @@
   },
   {
     "symbol": "SPRC",
-    "name": "SciSparc Ltd. Ordinary Shares",
+    "name": "SciSparc Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -41646,12 +39420,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "SR^A",
-    "name": "Spire Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.90% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "SRAD",
     "name": "Sportradar Group AG",
     "country": "Switzerland",
@@ -41666,12 +39434,6 @@
   {
     "symbol": "SRC",
     "name": "Spirit Realty Capital Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SRC^A",
-    "name": "Spirit Realty Capital Inc. 6.000% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41708,12 +39470,6 @@
   {
     "symbol": "SRG",
     "name": "Seritage Growth Properties",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SRG^A",
-    "name": "Seritage Growth Properties 7.00% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41869,7 +39625,7 @@
   },
   {
     "symbol": "SSP",
-    "name": "E.W. Scripps Company (The)",
+    "name": "E.W. Scripps Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -41923,13 +39679,13 @@
   },
   {
     "symbol": "SSYS",
-    "name": "Stratasys Ltd. Ordinary Shares (Israel)",
+    "name": "Stratasys Ltd. (Israel)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "ST",
-    "name": "Sensata Technologies Holding plc Ordinary Shares",
+    "name": "Sensata Technologies Holding plc",
     "country": "Netherlands",
     "exchange": "NASDAQ"
   },
@@ -41964,24 +39720,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "STAR^D",
-    "name": "iStar Inc. ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "STAR^G",
-    "name": "iStar Inc. ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "STAR^I",
-    "name": "iStar Inc. ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "STBA",
     "name": "S&T Bancorp Inc.",
     "country": "United States",
@@ -41989,7 +39727,7 @@
   },
   {
     "symbol": "STBX",
-    "name": "Starbox Group Holdings Ltd. Ordinary Shares",
+    "name": "Starbox Group Holdings Ltd.",
     "country": "Malaysia",
     "exchange": "NASDAQ"
   },
@@ -42007,7 +39745,7 @@
   },
   {
     "symbol": "STE",
-    "name": "STERIS plc (Ireland) Ordinary Shares",
+    "name": "STERIS plc (Ireland)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -42264,18 +40002,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "STT^D",
-    "name": "State Street Corporation Depositary Shares representing 1/4000th Perpetual Preferred ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "STT^G",
-    "name": "State Street Corporation Depositary shares each representing a 1/4000th ownership interest in a share of Fixed-to-Floating Rate Non-Cumulative",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "STTK",
     "name": "Shattuck Labs Inc.",
     "country": "United States",
@@ -42283,7 +40009,7 @@
   },
   {
     "symbol": "STVN",
-    "name": "Stevanato Group S.p.A. Ordinary Shares",
+    "name": "Stevanato Group S.p.A.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -42295,7 +40021,7 @@
   },
   {
     "symbol": "STX",
-    "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+    "name": "Seagate Technology Holdings PLC (Ireland)",
     "country": "Ireland",
     "exchange": "NASDAQ"
   },
@@ -42607,7 +40333,7 @@
   },
   {
     "symbol": "SWZ",
-    "name": "Swiss Helvetia Fund Inc. (The)",
+    "name": "Swiss Helvetia Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -42631,7 +40357,7 @@
   },
   {
     "symbol": "SXTC",
-    "name": "China SXT Pharmaceuticals Inc. Ordinary Shares",
+    "name": "China SXT Pharmaceuticals Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -42656,12 +40382,6 @@
   {
     "symbol": "SYF",
     "name": "Synchrony Financial",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "SYF^A",
-    "name": "Synchrony Financial Depositary Shares each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -42750,18 +40470,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "T^A",
-    "name": "AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.000% Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "T^C",
-    "name": "AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.750% Perpetual Preferred Stock ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "TA",
     "name": "TravelCenters of America Inc.",
     "country": "United States",
@@ -42769,7 +40477,7 @@
   },
   {
     "symbol": "TAC",
-    "name": "TransAlta Corporation Ordinary Shares",
+    "name": "TransAlta Corporation",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -42847,7 +40555,7 @@
   },
   {
     "symbol": "TAOP",
-    "name": "Taoping Inc. Ordinary Shares",
+    "name": "Taoping Inc.",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -42865,7 +40573,7 @@
   },
   {
     "symbol": "TARO",
-    "name": "Taro Pharmaceutical Industries Ltd. Ordinary Shares",
+    "name": "Taro Pharmaceutical Industries Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -42889,7 +40597,7 @@
   },
   {
     "symbol": "TATT",
-    "name": "TAT Technologies Ltd. Ordinary Shares",
+    "name": "TAT Technologies Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -42955,7 +40663,7 @@
   },
   {
     "symbol": "TBLA",
-    "name": "Taboola.com Ltd. Ordinary Shares",
+    "name": "Taboola.com Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -42991,7 +40699,7 @@
   },
   {
     "symbol": "TBPH",
-    "name": "Theravance Biopharma Inc. Ordinary Shares",
+    "name": "Theravance Biopharma Inc.",
     "country": "Cayman Islands",
     "exchange": "NASDAQ"
   },
@@ -43129,7 +40837,7 @@
   },
   {
     "symbol": "TCS",
-    "name": "Container Store (The)",
+    "name": "Container Store",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -43147,7 +40855,7 @@
   },
   {
     "symbol": "TD",
-    "name": "Toronto Dominion Bank (The)",
+    "name": "Toronto Dominion Bank",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -43184,18 +40892,6 @@
   {
     "symbol": "TDS",
     "name": "Telephone and Data Systems Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TDS^U",
-    "name": "Telephone and Data Systems Inc. Depositary Shares Each Representing a 1/1000th Interest in a 6.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TDS^V",
-    "name": "Telephone and Data Systems Inc. Depositary Shares Each Representing a 1/1000th Interest in a 6.000% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -43237,7 +40933,7 @@
   },
   {
     "symbol": "TECK",
-    "name": "Teck Resources Ltd Ordinary Shares",
+    "name": "Teck Resources Ltd",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -43392,24 +41088,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "TFC^I",
-    "name": "Truist Financial Corporation Depositary Shares",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TFC^O",
-    "name": "Truist Financial Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TFC^R",
-    "name": "Truist Financial Corporation Depositary Shares each representing 1/1000th interest in a share of ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "TFFP",
     "name": "TFF Pharmaceuticals Inc.",
     "country": "United States",
@@ -43453,7 +41131,7 @@
   },
   {
     "symbol": "TGA",
-    "name": "TransGlobe Energy Corporation Ordinary Shares (Canada)",
+    "name": "TransGlobe Energy Corporation (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -43488,18 +41166,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "TGH^A",
-    "name": "Textainer Group Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 7.000% ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TGH^B",
-    "name": "Textainer Group Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 6.250% ",
-    "country": "Bermuda",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "TGI",
     "name": "Triumph Group Inc.",
     "country": "United States",
@@ -43513,7 +41179,7 @@
   },
   {
     "symbol": "TGLS",
-    "name": "Tecnoglass Inc. Ordinary Shares",
+    "name": "Tecnoglass Inc.",
     "country": "Colombia",
     "exchange": "NASDAQ"
   },
@@ -43639,7 +41305,7 @@
   },
   {
     "symbol": "THM",
-    "name": "International Tower Hill Mines Ltd. Ordinary Shares (Canada)",
+    "name": "International Tower Hill Mines Ltd. (Canada)",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -43807,7 +41473,7 @@
   },
   {
     "symbol": "TJX",
-    "name": "TJX Companies Inc. (The)",
+    "name": "TJX Companies Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -43843,7 +41509,7 @@
   },
   {
     "symbol": "TKR",
-    "name": "Timken Company (The)",
+    "name": "Timken Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -43939,7 +41605,7 @@
   },
   {
     "symbol": "TMDI",
-    "name": "Titan Medical Inc. Ordinary Shares",
+    "name": "Titan Medical Inc.",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -44076,24 +41742,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "TNP^D",
-    "name": "Tsakos Energy Navigation Ltd 8.75% ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TNP^E",
-    "name": "Tsakos Energy Navigation Ltd ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TNP^F",
-    "name": "Tsakos Energy Navigation Ltd ",
-    "country": "Greece",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "TNXP",
     "name": "Tonix Pharmaceuticals Holding Corp.",
     "country": "United States",
@@ -44143,7 +41791,7 @@
   },
   {
     "symbol": "TOP",
-    "name": "TOP Financial Group Limited Ordinary Shares",
+    "name": "TOP Financial Group Limited",
     "country": "Hong Kong",
     "exchange": "NASDAQ"
   },
@@ -44329,7 +41977,7 @@
   },
   {
     "symbol": "TRI",
-    "name": "Thomson Reuters Corp Ordinary Shares",
+    "name": "Thomson Reuters Corp",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -44431,7 +42079,7 @@
   },
   {
     "symbol": "TROO",
-    "name": "TROOPS Inc. Ordinary Shares",
+    "name": "TROOPS Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -44443,7 +42091,7 @@
   },
   {
     "symbol": "TROX",
-    "name": "Tronox Holdings plc Ordinary Shares (UK)",
+    "name": "Tronox Holdings plc (UK)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -44455,7 +42103,7 @@
   },
   {
     "symbol": "TRQ",
-    "name": "Turquoise Hill Resources Ltd. Ordinary Shares",
+    "name": "Turquoise Hill Resources Ltd.",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -44484,44 +42132,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "TRTN^A",
-    "name": "Triton International Limited 8.50% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TRTN^B",
-    "name": "Triton International Limited 8.00% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TRTN^C",
-    "name": "Triton International Limited 7.375% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TRTN^D",
-    "name": "Triton International Limited 6.875% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TRTN^E",
-    "name": "Triton International Limited 5.75% ",
-    "country": "",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "TRTX",
     "name": "TPG RE Finance Trust Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TRTX^C",
-    "name": "TPG RE Finance Trust Inc. 6.25% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -44599,13 +42211,13 @@
   },
   {
     "symbol": "TSE",
-    "name": "Trinseo PLC Ordinary Shares",
+    "name": "Trinseo PLC",
     "country": "",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "TSEM",
-    "name": "Tower Semiconductor Ltd. Ordinary Shares",
+    "name": "Tower Semiconductor Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -44701,7 +42313,7 @@
   },
   {
     "symbol": "TTC",
-    "name": "Toro Company (The)",
+    "name": "Toro Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -44791,7 +42403,7 @@
   },
   {
     "symbol": "TU",
-    "name": "Telus Corporation Ordinary Shares",
+    "name": "Telus Corporation",
     "country": "Canada",
     "exchange": "NASDAQ"
   },
@@ -44905,7 +42517,7 @@
   },
   {
     "symbol": "TWN",
-    "name": "Taiwan Fund Inc. (The)",
+    "name": "Taiwan Fund Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -44930,24 +42542,6 @@
   {
     "symbol": "TWO",
     "name": "Two Harbors Investment Corp",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TWO^A",
-    "name": "Two Harbors Investments Corp 8.125% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TWO^B",
-    "name": "Two Harbors Investments Corp 7.625% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "TWO^C",
-    "name": "Two Harbors Investments Corp 7.25% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -45144,20 +42738,8 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "UBP^H",
-    "name": "Urstadt Biddle Properties Inc. 6.250% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "UBP^K",
-    "name": "Urstadt Biddle Properties Inc. 5.875% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "UBS",
-    "name": "UBS Group AG Registered Ordinary Shares",
+    "name": "UBS Group AG Registered",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -45325,7 +42907,7 @@
   },
   {
     "symbol": "UK",
-    "name": "Ucommune International Ltd Ordinary Shares",
+    "name": "Ucommune International Ltd",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -45380,12 +42962,6 @@
   {
     "symbol": "UMH",
     "name": "UMH Properties Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "UMH^D",
-    "name": "UMH Properties Inc. 6.375% ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -45487,7 +43063,7 @@
   },
   {
     "symbol": "UPC",
-    "name": "Universe Pharmaceuticals Inc. Ordinary Shares",
+    "name": "Universe Pharmaceuticals Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -45559,7 +43135,7 @@
   },
   {
     "symbol": "URGN",
-    "name": "UroGen Pharma Ltd. Ordinary Shares",
+    "name": "UroGen Pharma Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -45608,42 +43184,6 @@
   {
     "symbol": "USB",
     "name": "U.S. Bancorp",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "USB^A",
-    "name": "U.S. Bancorp Depositary Shares Each representing a 1/100th interest in a share of ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "USB^H",
-    "name": "U.S. Bancorp Depositary Shares repstg 1/1000th Pfd Ser B",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "USB^P",
-    "name": "U.S. Bancorp Depositary Shares each representing a 1/1000th interest in a share of ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "USB^Q",
-    "name": "U.S. Bancorp Depositary Shares Each Representing a 1/1000th Interest in a Share of ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "USB^R",
-    "name": "U.S. Bancorp Depositary Shares Each Representing a 1/1000th Interest in a Share of ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "USB^S",
-    "name": "U.S. Bancorp Depositary Shares each representing a 1/1000th interest in a share of ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -45799,7 +43339,7 @@
   },
   {
     "symbol": "UTME",
-    "name": "UTime Limited Ordinary Shares",
+    "name": "UTime Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -45811,7 +43351,7 @@
   },
   {
     "symbol": "UTSI",
-    "name": "UTStarcom Holdings Corp. Ordinary Shares",
+    "name": "UTStarcom Holdings Corp.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -45829,7 +43369,7 @@
   },
   {
     "symbol": "UUUU",
-    "name": "Energy Fuels Inc Ordinary Shares (Canada)",
+    "name": "Energy Fuels Inc (Canada)",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -45979,7 +43519,7 @@
   },
   {
     "symbol": "VBLT",
-    "name": "Vascular Biogenics Ltd. Ordinary Shares",
+    "name": "Vascular Biogenics Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -46027,7 +43567,7 @@
   },
   {
     "symbol": "VCKA",
-    "name": "Vickers Vantage Corp. I Ordinary Shares",
+    "name": "Vickers Vantage Corp. I",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -46087,7 +43627,7 @@
   },
   {
     "symbol": "VECT",
-    "name": "VectivBio Holding AG Ordinary Shares",
+    "name": "VectivBio Holding AG",
     "country": "Switzerland",
     "exchange": "NASDAQ"
   },
@@ -46129,7 +43669,7 @@
   },
   {
     "symbol": "VENA",
-    "name": "Venus Acquisition Corporation Ordinary Shares",
+    "name": "Venus Acquisition Corporation",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -46393,7 +43933,7 @@
   },
   {
     "symbol": "VIPS",
-    "name": "Vipshop Holdings Limited American Depositary Shares each representing two ordinary shares",
+    "name": "Vipshop Holdings Limited American Depositary Shares each representing two",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -46543,7 +44083,7 @@
   },
   {
     "symbol": "VLN",
-    "name": "Valens Semiconductor Ltd. Ordinary Shares",
+    "name": "Valens Semiconductor Ltd.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -46692,30 +44232,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "VNO^L",
-    "name": "Vornado Realty Trust Pfd Ser L %",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "VNO^M",
-    "name": "Vornado Realty Trust 5.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "VNO^N",
-    "name": "Vornado Realty Trust 5.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "VNO^O",
-    "name": "Vornado Realty Trust 4.45% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "VNOM",
     "name": "Viper Energy Partners LP Common Unit",
     "country": "United States",
@@ -46735,7 +44251,7 @@
   },
   {
     "symbol": "VNTR",
-    "name": "Venator Materials PLC Ordinary Shares",
+    "name": "Venator Materials PLC",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -46778,12 +44294,6 @@
   {
     "symbol": "VOYA",
     "name": "Voya Financial Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "VOYA^B",
-    "name": "Voya Financial Inc. Depositary Shares each representing a 1/40th interest in a share of 5.35% Fixed-Rate Reset Non-Cumulative Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -46831,7 +44341,7 @@
   },
   {
     "symbol": "VRAX",
-    "name": "Virax Biolabs Group Limited Ordinary Shares",
+    "name": "Virax Biolabs Group Limited",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -47119,7 +44629,7 @@
   },
   {
     "symbol": "VVPR",
-    "name": "VivoPower International PLC Ordinary Shares",
+    "name": "VivoPower International PLC",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
@@ -47233,19 +44743,13 @@
   },
   {
     "symbol": "WAFU",
-    "name": "Wah Fu Education Group Limited Ordinary Shares",
+    "name": "Wah Fu Education Group Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "WAL",
     "name": "Western Alliance Bancorporation Common Stock (DE)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WAL^A",
-    "name": "Western Alliance Bancorporation Depositary Shares Each Representing a 1/400th Interest in a Share of 4.250% Fixed-Rate Non-Cumulative Perpetual Preferred Stock ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -47346,18 +44850,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "WBS^F",
-    "name": "Webster Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 5.25% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WBS^G",
-    "name": "Webster Financial Corporation Depositary Shares each representing a 1/40th interest in a share of 6.50% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "WBX",
     "name": "Wallbox N.V.",
     "country": "",
@@ -47366,12 +44858,6 @@
   {
     "symbol": "WCC",
     "name": "WESCO International Inc.",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WCC^A",
-    "name": "WESCO International Inc. Depositary Shares each representing 1/1000th interest in a share of ",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -47473,7 +44959,7 @@
   },
   {
     "symbol": "WEN",
-    "name": "Wendy's Company (The)",
+    "name": "Wendy's Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -47509,7 +44995,7 @@
   },
   {
     "symbol": "WETG",
-    "name": "WeTrade Group Inc. Ordinary Shares",
+    "name": "WeTrade Group Inc.",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -47538,54 +45024,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "WFC^A",
-    "name": "Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^C",
-    "name": "Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^D",
-    "name": "Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in  a share of Non-Cumulative Perpetual",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^L",
-    "name": "Wells Fargo & Company Wells Fargo & Company 7.50% Non-Cumulative Perpetual Convertible",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^Q",
-    "name": "Wells Fargo & Company Depositary Shares Representing 1/1000th Interest Perpetual Preferred",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^R",
-    "name": "Wells Fargo & Company Dep Shs Repstg 1/1000th Int Perp Pfd Cl A (Ser R Fixed To Flltg)",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^Y",
-    "name": "Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WFC^Z",
-    "name": "Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "WFCF",
     "name": "Where Food Comes From Inc.",
     "country": "United States",
@@ -47599,7 +45037,7 @@
   },
   {
     "symbol": "WFRD",
-    "name": "Weatherford International plc Ordinary Shares",
+    "name": "Weatherford International plc",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -47677,7 +45115,7 @@
   },
   {
     "symbol": "WILC",
-    "name": "G. Willi-Food International  Ltd. Ordinary Shares",
+    "name": "G. Willi-Food International  Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -47743,7 +45181,7 @@
   },
   {
     "symbol": "WIX",
-    "name": "Wix.com Ltd. Ordinary Shares",
+    "name": "Wix.com Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -47767,7 +45205,7 @@
   },
   {
     "symbol": "WKME",
-    "name": "WalkMe Ltd. Ordinary Shares",
+    "name": "WalkMe Ltd.",
     "country": "Israel",
     "exchange": "NASDAQ"
   },
@@ -47845,7 +45283,7 @@
   },
   {
     "symbol": "WMB",
-    "name": "Williams Companies Inc. (The)",
+    "name": "Williams Companies Inc.",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -47911,7 +45349,7 @@
   },
   {
     "symbol": "WNW",
-    "name": "Meiwu Technology Company Limited Ordinary Shares",
+    "name": "Meiwu Technology Company Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -48002,30 +45440,6 @@
   {
     "symbol": "WRB",
     "name": "W.R. Berkley Corporation",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WRB^E",
-    "name": "W.R. Berkley Corporation 5.70% Subordinated Debentures due 2058",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WRB^F",
-    "name": "W.R. Berkley Corporation 5.10% Subordinated Debentures due 2059",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WRB^G",
-    "name": "W.R. Berkley Corporation 4.25% Subordinated Debentures due 2060",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "WRB^H",
-    "name": "W.R. Berkley Corporation 4.125% Subordinated Debentures due 2061",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -48211,13 +45625,13 @@
   },
   {
     "symbol": "WTW",
-    "name": "Willis Towers Watson Public Limited Company Ordinary Shares",
+    "name": "Willis Towers Watson Public Limited Company",
     "country": "United Kingdom",
     "exchange": "NASDAQ"
   },
   {
     "symbol": "WU",
-    "name": "Western Union Company (The)",
+    "name": "Western Union Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -48229,7 +45643,7 @@
   },
   {
     "symbol": "WVE",
-    "name": "Wave Life Sciences Ltd. Ordinary Shares",
+    "name": "Wave Life Sciences Ltd.",
     "country": "Singapore",
     "exchange": "NASDAQ"
   },
@@ -48398,12 +45812,6 @@
   {
     "symbol": "XFLT",
     "name": "XAI Octagon Floating Rate & Alternative Income Term Trust Common Shares of Beneficial Interest",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
-    "symbol": "XFLT^A",
-    "name": "XAI Octagon Floating Rate & Alternative Income Term Trust 6.50% Series 2026 Term Preferred Shares (Liquidation Preference $25.00)",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -48660,12 +46068,6 @@
     "exchange": "NASDAQ"
   },
   {
-    "symbol": "YCBD^A",
-    "name": "cbdMD Inc. 8.0% ",
-    "country": "United States",
-    "exchange": "NASDAQ"
-  },
-  {
     "symbol": "YELL",
     "name": "Yellow Corporation",
     "country": "United States",
@@ -48691,7 +46093,7 @@
   },
   {
     "symbol": "YGMZ",
-    "name": "MingZhu Logistics Holdings Limited Ordinary Shares",
+    "name": "MingZhu Logistics Holdings Limited",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -48727,7 +46129,7 @@
   },
   {
     "symbol": "YORW",
-    "name": "York Water Company (The)",
+    "name": "York Water Company",
     "country": "United States",
     "exchange": "NASDAQ"
   },
@@ -48775,7 +46177,7 @@
   },
   {
     "symbol": "YRD",
-    "name": "Yiren Digital Ltd. American Depositary Shares each representing two ordinary shares",
+    "name": "Yiren Digital Ltd. American Depositary Shares each representing two",
     "country": "China",
     "exchange": "NASDAQ"
   },
@@ -48799,7 +46201,7 @@
   },
   {
     "symbol": "YTRA",
-    "name": "Yatra Online Inc. Ordinary Shares",
+    "name": "Yatra Online Inc.",
     "country": "India",
     "exchange": "NASDAQ"
   },
@@ -48931,7 +46333,7 @@
   },
   {
     "symbol": "ZGN",
-    "name": "Ermenegildo Zegna N.V. Ordinary Shares",
+    "name": "Ermenegildo Zegna N.V.",
     "country": "",
     "exchange": "NASDAQ"
   },
@@ -48949,7 +46351,7 @@
   },
   {
     "symbol": "ZIM",
-    "name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
+    "name": "ZIM Integrated Shipping Services Ltd.",
     "country": "",
     "exchange": "NASDAQ"
   },
