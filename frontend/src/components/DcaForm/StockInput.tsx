@@ -1,8 +1,7 @@
-import { FC, Fragment } from "react";
-import { UseFormRegister } from "react-hook-form";
+import { FC, Fragment, useEffect, useState } from "react";
+import { UseFormRegister, UseFormWatch } from "react-hook-form";
 import {
   Autocomplete,
-  createFilterOptions,
   Divider,
   ListItem,
   ListItemText,
@@ -10,33 +9,34 @@ import {
 } from "@mui/material";
 import { FormData } from "../../types/FormData";
 import { StockInfo } from "../../types/StockInfo";
-import stockInfoJson from "../../stock_info/nasdaq.json";
-
-const stockInfo = stockInfoJson as StockInfo[];
+import { StockApi } from "../../api/StockApi";
 
 interface PropTypes {
   register: UseFormRegister<FormData>;
   errors: any;
+  watch: UseFormWatch<FormData>;
 }
 
-const filterOptions = createFilterOptions({
-  matchFrom: "any",
-  ignoreAccents: true,
-  ignoreCase: true,
-  limit: 20,
-  stringify: (option: StockInfo) => `${option.symbol} ${option.name}`,
-});
+const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
+  const watchTicker = watch("ticker");
+  const [searchRes, setSearchRes] = useState<StockInfo[]>([]);
 
-const StockInput: FC<PropTypes> = ({ register, errors }) => {
+  useEffect(() => {
+    (async () => {
+      const res = await StockApi.searchStocks(watchTicker, 10);
+      setSearchRes(res.data);
+    })();
+  }, [watchTicker]);
+
   return (
     <Autocomplete
       freeSolo
       id="ticker"
-      options={stockInfo}
+      options={searchRes}
       getOptionLabel={(option: StockInfo | string) =>
         typeof option === "string" ? option : option.symbol
       }
-      filterOptions={filterOptions}
+      filterOptions={(x) => x}
       value="msft"
       renderInput={(params) => (
         <TextField

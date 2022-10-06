@@ -1,14 +1,27 @@
 from datetime import datetime, timedelta
 from pandas.core.frame import DataFrame
-import json
-import os
 from flask import Flask, request
 from flask_cors import CORS
-import yfinance as yf
 from pandas._libs.tslibs.timestamps import Timestamp
+from flask_pymongo import PyMongo
+
+import re
+import yfinance as yf
+import os
 import logging
 
+
+DB_NAME = os.environ["MONGO_INITDB_DATABASE"]
+DB_USER = os.environ["DB_USERNAME"]
+DB_PASS = os.environ["DB_PASSWORD"]
+DB_HOST = os.environ["DB_HOST"]
+DB_PORT = os.environ["DB_PORT"]
 app = Flask(__name__)
+
+app.config["MONGO_URI"] = f"mongodb://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+
+mongo = PyMongo(app)
+
 cors = CORS(app, resources={r"/*": {"origins": os.environ["FRONTEND_URL"]}})
 
 # Logger setup
@@ -152,6 +165,26 @@ def dca_result():
     }
 
     return res, 200, {"Content-Type": "application/json"}
+
+
+@app.get("/stocks")
+def get_stocks():
+    query = request.args["query"]
+    limit = int(request.args["limit"])
+
+    query_regex = re.compile(query, re.IGNORECASE)
+
+    stocks = mongo.db.stocks.find(
+        {
+            "$or": [
+                {"symbol": {"$regex": query_regex}},
+                {"name": {"$regex": query_regex}},
+            ]
+        },
+        {"_id": 0},
+    ).limit(limit)
+
+    return list(stocks)
 
 
 @app.get("/ping")

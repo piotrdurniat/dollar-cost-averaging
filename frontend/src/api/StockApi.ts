@@ -1,6 +1,7 @@
 import Api from "./Api";
 import { AxiosResponse } from "axios";
 import { DcaResults, MarketData } from "../types/dcaResults";
+import { StockInfo } from "../types/StockInfo";
 
 export class StockApi {
   static getPriceHistory(
@@ -20,6 +21,15 @@ export class StockApi {
   ): Promise<AxiosResponse<DcaResults>> {
     return Api.get("dca-results", {
       params: { ticker, amount, startDate, endDate, interval },
+    });
+  }
+
+  static searchStocks(
+    query: string,
+    limit: number
+  ): Promise<AxiosResponse<StockInfo[]>> {
+    return Api.get("stocks", {
+      params: { query, limit },
     });
   }
 }

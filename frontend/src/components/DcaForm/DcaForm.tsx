@@ -47,7 +47,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     >
       <Grid container spacing={2} mb={2} sx={{ maxWidth: 1400 }}>
         <Grid item xs={12} sm={6} lg={3}>
-          <StockInput register={register} errors={errors} />
+          <StockInput register={register} errors={errors} watch={watch} />
         </Grid>
 
         <Grid item xs={12} sm={6} lg={3}>

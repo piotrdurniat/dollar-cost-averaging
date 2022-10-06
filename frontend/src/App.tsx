@@ -1,6 +1,5 @@
 import { FC, useMemo } from "react";
 import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
-import { green } from "@mui/material/colors";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { useRecoilValue } from "recoil";
 import NavBar from "./components/NavBar";
