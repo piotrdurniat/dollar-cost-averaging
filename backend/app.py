@@ -7,22 +7,15 @@ from flask_pymongo import PyMongo
 
 import re
 import yfinance as yf
-import os
 import logging
 
 
-DB_NAME = os.environ["MONGO_INITDB_DATABASE"]
-DB_USER = os.environ["DB_USERNAME"]
-DB_PASS = os.environ["DB_PASSWORD"]
-DB_HOST = os.environ["DB_HOST"]
-DB_PORT = os.environ["DB_PORT"]
 app = Flask(__name__)
-
-app.config["MONGO_URI"] = f"mongodb://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+app.config.from_pyfile("config.py")
 
 mongo = PyMongo(app)
 
-cors = CORS(app, resources={r"/*": {"origins": os.environ["FRONTEND_URL"]}})
+cors = CORS(app, resources={r"/*": {"origins": app.config["FRONTEND_URL"]}})
 
 # Logger setup
 logger = logging.getLogger("werkzeug")
