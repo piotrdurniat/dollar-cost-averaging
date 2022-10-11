@@ -1,0 +1,194 @@
+openapi: 3.0.0
+info:
+  title: DCA app
+  description: |
+    This API allows simulating the Dollar Cost Averaging (DCA) Strategy,
+    returns its result with price history data and list of completed transations,
+    and provides option to search for stocks by name and ticker symbol.
+  version: 1.0.0
+paths:
+  /dca-results:
+    get:
+      summary: Get the DCA strategy result.
+      description: Calculates and returns the result of using DCA strategy using the provided parameters.
+      parameters:
+        - in: query
+          name: ticker
+          description: Ticker symbol of the stock.
+          required: true
+          schema:
+            type: string
+            example: MSFT
+
+        - in: query
+          name: amount
+          description: Amount (in USD) to invest every interval.
+          required: true
+          schema:
+            type: number
+            format: float
+            example: 100.55
+
+        - in: query
+          name: startDate
+          description: Starting date in ISO 8061 format.
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2021-01-30T08:30:00.000Z"
+
+        - in: query
+          name: endDate
+          required: true
+          description: Ending date in ISO 8061 format.
+          schema:
+            type: string
+            format: date-time
+            example: "2021-01-30T08:30:00.000Z"
+
+        - in: query
+          name: interval
+          required: true
+          description: Interval between investments (in ms).
+          schema:
+            type: integer
+            example: 111222333
+
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DCAResults"
+
+components:
+  schemas:
+    DCAResults:
+      type: object
+      properties:
+        financialResults:
+          $ref: "#/components/schemas/FinancialResults"
+
+        priceHistory:
+          type: array
+          items:
+            $ref: "#/components/schemas/MarketData"
+
+        transactions:
+          type: array
+          items:
+            $ref: "#/components/schemas/Transaction"
+
+    FinancialResults:
+      type: object
+      properties:
+        totalInvestmentValue:
+          type: number
+          format: float
+          example: -50400.00
+
+        finalInvestmentValue:
+          type: number
+          format: float
+          example: 46397.71
+
+        numberOfInvestments:
+          type: integer
+          example: 12
+
+        numberOfShares:
+          type: number
+          format: float
+          example: 1.12
+
+        priceChange:
+          type: number
+          format: float
+          example: -4002.28
+
+        dividends:
+          type: number
+          format: float
+          example: 232.43
+
+        return:
+          type: object
+          properties:
+            absolute:
+              type: number
+              format: float
+              example: -3769.84
+
+            relative:
+              type: number
+              format: float
+              example: -0.07479858039211829
+
+        annualizedReturn:
+          type: object
+          properties:
+            absolute:
+              type: number
+              format: float
+              example: -3769.84
+
+            relative:
+              type: number
+              format: float
+              example: -0.07479858039211829
+
+    MarketData:
+      type: object
+      properties:
+        time:
+          type: string
+          format: date-time
+          example: "2021-09-13T00:00:00.000Z"
+
+        open:
+          type: number
+          format: float
+          example: 295.07
+
+        close:
+          type: number
+          format: float
+          example: 294.52
+
+        low:
+          type: number
+          format: float
+          example: 291.63
+
+        high:
+          type: number
+          format: float
+          example: 296.06
+
+        volume:
+          type: integer
+          example: 23652900
+
+        dividends:
+          type: number
+          format: float
+          example: 0.0
+
+        stockSplits:
+          type: integer
+          example: 0
+
+    Transaction:
+      type: object
+      properties:
+        time:
+          type: string
+          format: date-time
+          example: "2021-09-13T00:00:00.000Z"
+
+        numberOfShares:
+          type: number
+          format: float
+          example: 1.11

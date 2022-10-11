@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from pandas.core.frame import DataFrame
-from flask import Flask, request
+from flask import Flask, request, render_template, send_from_directory
 from flask_cors import CORS
 from pandas._libs.tslibs.timestamps import Timestamp
 from flask_pymongo import PyMongo
@@ -133,6 +133,16 @@ def price_history():
 
 @app.get("/dca-results")
 def dca_result():
+    """
+    Calculates and returns the result of using DCA strategy.
+
+    Request arguments:
+      - ticker (string)
+      - amount (float)
+      - startDate (iso 8601 string)
+      - endDate (iso 8601 string)
+      - interval (integer)
+    """
     ticker = request.args["ticker"]
     amount = float(request.args["amount"])
     start_date = parse_iso(request.args["startDate"])
@@ -162,6 +172,13 @@ def dca_result():
 
 @app.get("/stocks")
 def get_stocks():
+    """
+    Returns stocks which name or symbol matches the provided query.
+
+    Request arguments:
+      - query (string) - text to match stock symbol or name (case insensitive)
+      - limit (integer) - limits number of results to this value (inclusive)
+    """
     query = request.args["query"]
     limit = int(request.args["limit"])
 
@@ -183,3 +200,13 @@ def get_stocks():
 @app.get("/ping")
 def ping():
     return "Pong."
+
+
+@app.route("/docs")
+def swagger_ui():
+    return render_template("swagger_ui.html")
+
+
+@app.route("/spec")
+def get_spec():
+    return send_from_directory(app.root_path, "openapi_spec.yaml")
