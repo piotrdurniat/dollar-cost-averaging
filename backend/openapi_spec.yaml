@@ -9,7 +9,7 @@ info:
 paths:
   /dca-results:
     get:
-      summary: Get the DCA strategy result.
+      summary: Get the DCA strategy results.
       description: Calculates and returns the result of using DCA strategy using the provided parameters.
       parameters:
         - in: query
@@ -45,7 +45,7 @@ paths:
           schema:
             type: string
             format: date-time
-            example: "2021-01-30T08:30:00.000Z"
+            example: "2022-01-30T08:30:00.000Z"
 
         - in: query
           name: interval
@@ -63,6 +63,75 @@ paths:
               schema:
                 $ref: "#/components/schemas/DCAResults"
 
+  /price-history:
+    get:
+      summary: Get history price.
+      description: Returns history of the price of provided stock, from startDate to endDate.
+      parameters:
+        - in: query
+          name: ticker
+          description: Ticker symbol of the stock.
+          required: true
+          schema:
+            type: string
+            example: MSFT
+
+        - in: query
+          name: startDate
+          description: Starting date in ISO 8061 format.
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2021-01-30T08:30:00.000Z"
+
+        - in: query
+          name: endDate
+          required: true
+          description: Ending date in ISO 8061 format.
+          schema:
+            type: string
+            format: date-time
+            example: "2022-01-30T08:30:00.000Z"
+
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/MarketData"
+
+  /stocks:
+    get:
+      summary: Get matching stocks.
+      description: Returns stocks which name or ticker symbol matches the provided query.
+      parameters:
+        - in: query
+          name: query
+          required: true
+          description: Search query
+          schema:
+            type: string
+            example: tes
+        - in: query
+          name: limit
+          required: true
+          description: Maximum number of results
+          schema:
+            type: integer
+            example: 10
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/StockInfo"
 components:
   schemas:
     DCAResults:
@@ -192,3 +261,22 @@ components:
           type: number
           format: float
           example: 1.11
+
+    StockInfo:
+      type: object
+      properties:
+        symbol:
+          type: string
+          example: "TSLA"
+
+        name:
+          type: string
+          example: "Tesla Inc."
+
+        country:
+          type: string
+          example: "United States"
+
+        exchange:
+          type: string
+          example: "NASDAQ"

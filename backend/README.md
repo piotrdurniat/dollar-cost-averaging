@@ -1,3 +1,8 @@
+# API documentation
+
+Hosted on: 
+- http://127.0.0.1:8000/docs
+
 # Development
 
 ## Create a virtual environment
