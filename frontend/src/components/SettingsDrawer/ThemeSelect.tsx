@@ -1,12 +1,7 @@
 import { DarkMode, LightMode, SettingsBrightness } from "@mui/icons-material";
-import {
-  ToggleButtonGroup,
-  Typography,
-  ToggleButton,
-  Stack,
-} from "@mui/material";
+import { ToggleButtonGroup, Typography, ToggleButton } from "@mui/material";
 import { useRecoilState } from "recoil";
-import { themeState } from "../state/theme";
+import { themeState } from "../../state/theme";
 
 const ThemeButtonGroup = () => {
   const [theme, setTheme] = useRecoilState(themeState);

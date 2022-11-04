@@ -2,7 +2,8 @@ import { Close } from "@mui/icons-material";
 import { Drawer, Typography, Box, IconButton, Divider } from "@mui/material";
 import { Stack } from "@mui/system";
 import { FC } from "react";
-import ThemeButtonGroup from "./ThemeButtonGroup";
+import LanguageSelect from "./LanguageSelect";
+import ThemeButtonGroup from "./ThemeSelect";
 
 interface PropTypes {
   open: boolean;
@@ -51,6 +52,18 @@ const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
               mode
             </Typography>
             <ThemeButtonGroup />
+            <Typography
+              variant="body1"
+              pb={2}
+              pt={2}
+              color="text.secondary"
+              fontSize="0.6875rem"
+              textTransform="uppercase"
+            >
+              Language
+            </Typography>
+
+            <LanguageSelect />
           </Box>
         </Box>
       </Drawer>
