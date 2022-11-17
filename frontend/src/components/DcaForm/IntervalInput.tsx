@@ -6,6 +6,7 @@ import {
   UseFormRegister,
   UseFormWatch,
 } from "react-hook-form";
+import { useTranslation } from "react-i18next";
 import { FormData } from "../../types/FormData";
 
 const intervals = [
@@ -36,6 +37,7 @@ interface PropTypes {
 
 const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
   const watchIntervalValue = watch("intervalCount");
+  const { t } = useTranslation();
 
   const intervalIsPlural = useMemo(
     () => watchIntervalValue > 1,
@@ -49,7 +51,7 @@ const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
         {...register("intervalCount")}
         error={Boolean(errors.intervalCount)}
         helperText={errors.intervalCount ? errors.intervalCount.message : " "}
-        label="Repeat investment every"
+        label={t("repeatInvestmentEvery")}
         type="text"
         inputProps={{ inputMode: "numeric", pattern: "[0-9]*" }}
         InputLabelProps={{

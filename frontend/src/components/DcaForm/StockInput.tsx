@@ -10,6 +10,7 @@ import {
 import { FormData } from "../../types/FormData";
 import { StockInfo } from "../../types/StockInfo";
 import { StockApi } from "../../api/StockApi";
+import { useTranslation } from "react-i18next";
 
 interface PropTypes {
   register: UseFormRegister<FormData>;
@@ -20,6 +21,7 @@ interface PropTypes {
 const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
   const watchTicker = watch("ticker");
   const [searchRes, setSearchRes] = useState<StockInfo[]>([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     (async () => {
@@ -47,7 +49,7 @@ const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
           name="ticker"
           variant="outlined"
           type="text"
-          label="Ticker symbol"
+          label={t("tickerSymbol")}
           inputProps={{
             ...params.inputProps,
             autoComplete: "off",

@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import { FinancialResults } from "../types/dcaResults";
 import { formatPercent, formatPrice } from "../util/formatter";
+import { useTranslation } from "react-i18next";
 
 interface PropTypes {
   result?: FinancialResults;
@@ -43,64 +44,65 @@ interface TableRow {
 
 const DcaResultTable: FC<PropTypes> = ({ result }) => {
   const data = result ?? emptyDcaResult;
+  const { t } = useTranslation();
 
   const resultTable: TableRow[] = [
     {
-      label: "Total invested amount",
+      label: t("totalInvestedValue"),
       value: data.totalInvestmentValue,
       format: formatPrice,
       color: false,
     },
     {
-      label: "Final investment value",
+      label: t("finalInvestmentValue"),
       value: data.finalInvestmentValue,
       format: formatPrice,
       color: false,
     },
     {
-      label: "Number of investments",
+      label: t("numberOfInvestments"),
       value: data.numberOfInvestments,
       format: (x: number) => String(x),
       color: false,
     },
     {
-      label: "Number of shares bought",
+      label: t("numberOfShares"),
       value: data.numberOfShares,
       format: (x: number) => x.toFixed(4),
       color: false,
     },
     {
-      label: "Price change",
+      label: t("priceChange"),
       value: data.priceChange,
       format: formatPrice,
       color: true,
     },
     {
-      label: "Dividends",
+      label: t("dividends"),
       value: data.dividends,
       format: formatPrice,
       color: true,
     },
     {
-      label: "Investment return",
+      label: t("investmentReturnAbsolute"),
       value: data.return.absolute,
       format: formatPrice,
       color: true,
     },
     {
-      label: "Relative investment return",
+      label: t("investmentReturnRelative"),
       value: data.return.relative,
       format: formatPercent,
       color: true,
     },
     {
-      label: "Annualized return",
+      label: t("annualizedReturnAbsolute"),
       value: data.annualizedReturn.absolute,
       format: formatPrice,
       color: true,
     },
     {
-      label: "Relative annualized return",
+      label: t("annualizedReturnRelative"),
       value: data.annualizedReturn.relative,
       format: formatPercent,
       color: true,

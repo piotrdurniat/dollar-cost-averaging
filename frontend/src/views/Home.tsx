@@ -8,6 +8,7 @@ import PriceChart from "../components/PriceChart";
 import DcaResultTable from "../components/DcaResultTable";
 import { FormData, IntervalFrequency } from "../types/FormData";
 import { INTERVAL_MS } from "../constants/intervalMs";
+import { useTranslation } from "react-i18next";
 
 const initialFormData = {
   ticker: "msft",
@@ -26,6 +27,7 @@ const getIntervalMs = (
 
 const HomePage: FC = () => {
   const [formData, setFormData] = useState<FormData>(initialFormData);
+  const { t } = useTranslation();
 
   const dcaResult = useQuery(["dcaResult", formData], async () => {
     const startDateIso = formData.startDate.toISOString();
@@ -52,7 +54,7 @@ const HomePage: FC = () => {
       sx={{ margin: 2, padding: 2, height: "100%" }}
     >
       <Typography variant="h4" mb={3}>
-        Dollar Cost Averaging Calculator
+        {t("header")}
       </Typography>
 
       <Box mb={2}>
@@ -60,7 +62,7 @@ const HomePage: FC = () => {
       </Box>
 
       <Typography mt={2} variant="h6">
-        Results:
+        {t("results")}
       </Typography>
       <Divider />
 

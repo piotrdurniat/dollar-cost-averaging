@@ -18,6 +18,7 @@ import IntervalInput from "./IntervalInput";
 import schema from "./dcaFormSchema";
 import { FormData } from "../../types/FormData";
 import StockInput from "./StockInput";
+import { useTranslation } from "react-i18next";
 
 interface PropTypes {
   formData: FormData;
@@ -36,6 +37,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     resolver: yupResolver(schema),
     defaultValues: formData,
   });
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -56,10 +58,12 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
             fullWidth
             error={Boolean(errors.amount)}
           >
-            <InputLabel htmlFor="amount">Single investment value</InputLabel>
+            <InputLabel htmlFor="amount">
+              {t("singleInvestmentValue")}
+            </InputLabel>
             <OutlinedInput
               id="amount"
-              label="Single investment value"
+              label={t("singleInvestmentValue")}
               {...register("amount")}
               startAdornment={
                 <InputAdornment position="start">$</InputAdornment>
@@ -81,7 +85,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
                 fieldState: { error },
               }) => (
                 <DatePicker
-                  label="Start date"
+                  label={t("startDate")}
                   value={value}
                   onChange={(value) => onChange(value)}
                   renderInput={(params) => (
@@ -109,7 +113,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         </Grid>
       </Grid>
       <Button type="submit" variant="outlined" size="large" disabled={!isValid}>
-        Calculate
+        {t("calculate")}
       </Button>
     </Box>
   );
