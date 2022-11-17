@@ -36,13 +36,8 @@ interface PropTypes {
 }
 
 const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
-  const watchIntervalValue = watch("intervalCount");
+  const intervalCount = watch("intervalCount");
   const { t } = useTranslation();
-
-  const intervalIsPlural = useMemo(
-    () => watchIntervalValue > 1,
-    [watchIntervalValue]
-  );
 
   return (
     <Stack direction="row" alignItems="flex-start">
@@ -85,8 +80,7 @@ const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
           >
             {intervals.map(({ key, label }) => (
               <MenuItem key={key} value={key}>
-                {label}
-                {intervalIsPlural && "s"}
+                {t(label, { count: Number(intervalCount) })}
               </MenuItem>
             ))}
           </Select>

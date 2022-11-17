@@ -20,6 +20,26 @@ const en: typeof pl = {
   investmentReturnRelative: "Relative investment return",
   annualizedReturnAbsolute: "Annualized return",
   annualizedReturnRelative: "Relative annualized return",
+
+  day: "day",
+  day_few: "days",
+  day_many: "days",
+  day_other: "days",
+
+  week: "week",
+  week_few: "weeks",
+  week_many: "weeks",
+  week_other: "weeks",
+
+  month: "month",
+  month_few: "months",
+  month_many: "months",
+  month_other: "months",
+
+  year: "year",
+  year_few: "years",
+  year_many: "years",
+  year_other: "years",
 };
 
 export default en;
