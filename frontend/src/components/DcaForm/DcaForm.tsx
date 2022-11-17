@@ -10,6 +10,8 @@ import {
   Button,
   FormHelperText,
 } from "@mui/material";
+import "dayjs/locale/en";
+import "dayjs/locale/pl";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { Controller, useForm } from "react-hook-form";
@@ -37,7 +39,10 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     resolver: yupResolver(schema),
     defaultValues: formData,
   });
-  const { t } = useTranslation();
+  const {
+    t,
+    i18n: { language },
+  } = useTranslation();
 
   return (
     <Box
@@ -76,7 +81,10 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} lg={3}>
-          <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <LocalizationProvider
+            dateAdapter={AdapterDayjs}
+            adapterLocale={language}
+          >
             <Controller
               name="startDate"
               control={control}

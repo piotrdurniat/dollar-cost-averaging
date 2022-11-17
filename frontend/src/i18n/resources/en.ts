@@ -40,6 +40,8 @@ const en: typeof pl = {
   year_few: "years",
   year_many: "years",
   year_other: "years",
+
+  buy: "Buy",
 };
 
 export default en;

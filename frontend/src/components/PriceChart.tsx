@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useMemo } from "react";
 import {
   Box,
   CircularProgress,
@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 import Chart from "@qognicafinance/react-lightweight-charts";
 import { MarketData, Transaction } from "../types/dcaResults";
+import { useTranslation } from "react-i18next";
 
 interface PropTypes {
   data: MarketData[];
@@ -22,44 +23,65 @@ const PriceChart: FC<PropTypes> = ({
   isError,
   transactions,
 }) => {
+  const {
+    t,
+    i18n: { language },
+  } = useTranslation();
   const theme = useTheme();
 
-  const chartOptions = {
-    rightPriceScale: {
-      borderVisible: false,
-    },
-    alignLabels: true,
-    timeScale: {
-      rightOffset: 0,
-      // barSpacing: 30,
-      fixLeftEdge: true,
-      lockVisibleTimeRangeOnResize: true,
-      visible: true,
-      timeVisible: true,
-      secondsVisible: false,
-      borderVisible: false,
-    },
-    layout: {
-      backgroundColor: "transparent",
-      textColor: theme.palette.text.primary,
-      lineColor: theme.palette.divider,
-    },
-    grid: {
-      vertLines: {
-        color: theme.palette.divider,
+  const locale = useMemo(() => {
+    switch (language) {
+      case "pl":
+        return "pl-PL";
+      case "en":
+        return "en-US";
+      default:
+        return "en-US";
+    }
+  }, [language]);
+
+  const chartOptions = useMemo(
+    () => ({
+      localization: {
+        locale,
       },
-      horzLines: {
-        color: theme.palette.divider,
+      rightPriceScale: {
+        borderVisible: false,
       },
-    },
-  };
+      alignLabels: true,
+      timeScale: {
+        rightOffset: 0,
+        // barSpacing: 30,
+        fixLeftEdge: true,
+        lockVisibleTimeRangeOnResize: true,
+        visible: true,
+        timeVisible: true,
+        secondsVisible: false,
+        borderVisible: false,
+      },
+      layout: {
+        backgroundColor: "transparent",
+        textColor: theme.palette.text.primary,
+        lineColor: theme.palette.divider,
+      },
+      grid: {
+        vertLines: {
+          color: theme.palette.divider,
+        },
+        horzLines: {
+          color: theme.palette.divider,
+        },
+      },
+    }),
+    [locale, theme]
+  );
 
   const markers = transactions.map(({ time, numberOfShares }) => ({
     time,
     position: "belowBar",
     color: "#2196F3",
     shape: "arrowUp",
-    text: `Buy ${numberOfShares.toFixed(2)}`,
+    text: `${t("buy")} ${numberOfShares.toFixed(2)}`,
   }));
 
   return (

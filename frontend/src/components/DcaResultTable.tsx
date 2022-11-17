@@ -11,7 +11,11 @@ import {
   Typography,
 } from "@mui/material";
 import { FinancialResults } from "../types/dcaResults";
-import { formatPercent, formatPrice } from "../util/formatter";
+import {
+  formatFixedFractionDigits,
+  formatPercent,
+  formatPrice,
+} from "../util/formatter";
 import { useTranslation } from "react-i18next";
 
 interface PropTypes {
@@ -68,7 +72,7 @@ const DcaResultTable: FC<PropTypes> = ({ result }) => {
     {
       label: t("numberOfShares"),
       value: data.numberOfShares,
-      format: (x: number) => x.toFixed(4),
+      format: (x: number) => formatFixedFractionDigits(x, 4),
       color: false,
     },
     {

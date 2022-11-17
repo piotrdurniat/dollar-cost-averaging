@@ -38,4 +38,6 @@ export default {
   year_few: "lata",
   year_many: "lat",
   year_other: "lat",
+
+  buy: "Kup",
 };
