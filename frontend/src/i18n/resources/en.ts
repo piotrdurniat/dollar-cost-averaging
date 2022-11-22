@@ -41,7 +41,18 @@ const en: typeof pl = {
   year_many: "years",
   year_other: "years",
 
+  // Price chart
+
   buy: "Buy",
+
+  // Settings drawer
+
+  settings: "Settings",
+  colorTheme: "Color theme",
+  light: "Light",
+  system: "System",
+  dark: "Dark",
+  language: "Language",
 };
 
 export default en;

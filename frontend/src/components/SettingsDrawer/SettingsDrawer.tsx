@@ -2,6 +2,7 @@ import { Close } from "@mui/icons-material";
 import { Drawer, Typography, Box, IconButton, Divider } from "@mui/material";
 import { Stack } from "@mui/system";
 import { FC } from "react";
+import { useTranslation } from "react-i18next";
 import LanguageSelect from "./LanguageSelect";
 import ThemeButtonGroup from "./ThemeSelect";
 
@@ -11,12 +12,14 @@ interface PropTypes {
 }
 
 const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Drawer
         PaperProps={{
           sx: {
-            width: 360,
+            minWidth: 360,
             borderRadius: "10px 0px 0px 10px",
           },
         }}
@@ -31,7 +34,7 @@ const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
             alignItems="center"
             justifyContent="space-between"
           >
-            <Typography variant="body1">Settings</Typography>
+            <Typography variant="body1">{t("settings")}</Typography>
             <IconButton
               size="medium"
               color="primary"
@@ -49,7 +52,7 @@ const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
               fontSize="0.6875rem"
               textTransform="uppercase"
             >
-              mode
+              {t("colorTheme")}
             </Typography>
             <ThemeButtonGroup />
             <Typography
@@ -60,7 +63,7 @@ const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
               fontSize="0.6875rem"
               textTransform="uppercase"
             >
-              Language
+              {t("language")}
             </Typography>
 
             <LanguageSelect />

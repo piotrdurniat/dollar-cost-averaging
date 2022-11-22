@@ -39,5 +39,16 @@ export default {
   year_many: "lat",
   year_other: "lat",
 
+  // Price chart
+
   buy: "Kup",
+
+  // Settings drawer
+
+  settings: "Ustawienia",
+  colorTheme: "Motyw kolorystyczny",
+  light: "Jasny",
+  system: "Systemowy",
+  dark: "Ciemny",
+  language: "Język",
 };
