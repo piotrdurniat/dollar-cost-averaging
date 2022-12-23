@@ -15,7 +15,8 @@ app.config.from_pyfile("config.py")
 
 mongo = PyMongo(app)
 
-cors = CORS(app, resources={r"/*": {"origins": app.config["FRONTEND_URL"]}})
+CORS(app, resources={r"/*": {"origins": "*"}})
+
 
 # Logger setup
 logger = logging.getLogger("werkzeug")
