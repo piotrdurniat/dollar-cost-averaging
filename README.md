@@ -1,22 +1,38 @@
-## Run tests
+# Dollar Cost Averaging App
 
-### Frontennd
+## Requirements:
 
-Run interactive shell in frontend container:
+- [Docker Desktop](https://docs.docker.com/get-docker/)
+
+## Build the app
+
+```bash
+docker compose build
+```
+
+## Run the app
+
+```bash
+docker compose up
+```
+
+## Run Frontend Tests
+
+Firstly open interactive shell in the frontend container:
 
 ```bash
 docker exec -it dca_frontend /bin/sh
 ```
 
-#### Unit tests
+### Unit tests
 
-Run unit tests:
+Run unit tests in the container shell:
 
 ```bash
 npm run test
 ```
 
-Get unit test coverage:
+To get the test coverage:
 
 ```bash
 npm run coverage
