@@ -37,3 +37,9 @@ To get the test coverage:
 ```bash
 npm run coverage
 ```
+
+### End-to-end tests
+
+```bash
+npx cypress open
+```
