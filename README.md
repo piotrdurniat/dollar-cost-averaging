@@ -18,21 +18,21 @@ docker compose up
 
 ## Run Frontend Tests
 
-Firstly open interactive shell in the frontend container:
+Go to `frontend/` dir:
 
 ```bash
-docker exec -it dca_frontend /bin/sh
+cd frontend/
 ```
 
 ### Unit tests
 
-Run unit tests in the container shell:
+Run unit tests:
 
 ```bash
 npm run test
 ```
 
-To get the test coverage:
+Get the test coverage:
 
 ```bash
 npm run coverage
@@ -41,5 +41,5 @@ npm run coverage
 ### End-to-end tests
 
 ```bash
-npx cypress open
+npm run cypress:open
 ```
