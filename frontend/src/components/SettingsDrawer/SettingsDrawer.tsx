@@ -37,6 +37,7 @@ const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
             <Typography variant="body1">{t("settings")}</Typography>
             <IconButton
               size="medium"
+              id="close-settings"
               color="primary"
               onClick={() => setOpen(false)}
             >

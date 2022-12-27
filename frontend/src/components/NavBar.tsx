@@ -14,6 +14,7 @@ const NavBar: FC = () => {
           </Typography>
           <IconButton
             size="large"
+            id="open-settings"
             aria-label="settings drawer"
             onClick={() => setSettingsDrawerOpen(true)}
             color="inherit"
