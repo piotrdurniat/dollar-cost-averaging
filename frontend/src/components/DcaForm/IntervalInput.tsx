@@ -68,6 +68,7 @@ const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
         control={control}
         render={({ field: { onChange, value }, fieldState: { error } }) => (
           <Select
+            id="interval-frequency"
             value={value}
             onChange={(value) => onChange(value)}
             aria-label="Frequency"

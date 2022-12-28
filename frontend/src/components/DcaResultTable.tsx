@@ -142,7 +142,7 @@ const TablePart: FC<{ tableData: TableRow[] }> = ({ tableData }) => {
         />
       )}
     >
-      <Table size="small">
+      <Table size="small" id="results-table">
         <TableBody>
           {tableData.map((row, index) => (
             <TableRow key={index}>

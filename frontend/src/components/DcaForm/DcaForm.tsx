@@ -74,7 +74,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
                 <InputAdornment position="start">$</InputAdornment>
               }
             />
-            <FormHelperText>
+            <FormHelperText id="amount-helper-text">
               {errors.amount ? errors.amount.message : " "}
             </FormHelperText>
           </FormControl>
@@ -98,7 +98,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
                   onChange={(value) => onChange(value)}
                   renderInput={(params) => (
                     <TextField
-                      id="startDate"
+                      id="start-date"
                       helperText={error ? error.message : " "}
                       fullWidth
                       {...params}
@@ -120,7 +120,13 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
           />
         </Grid>
       </Grid>
-      <Button type="submit" variant="outlined" size="large" disabled={!isValid}>
+      <Button
+        id="calculate"
+        type="submit"
+        variant="outlined"
+        size="large"
+        disabled={!isValid}
+      >
         {t("calculate")}
       </Button>
     </Box>

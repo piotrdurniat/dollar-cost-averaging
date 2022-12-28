@@ -89,7 +89,7 @@ const PriceChart: FC<PropTypes> = ({
       variant="outlined"
       sx={{ backgroundColor: "transparent", marginTop: 2, padding: 1 }}
     >
-      <Box sx={{ width: "100%", position: "relative" }}>
+      <Box sx={{ width: "100%", position: "relative" }} id="results-chart">
         <Chart
           options={chartOptions}
           candlestickSeries={[{ data, markers }]}
