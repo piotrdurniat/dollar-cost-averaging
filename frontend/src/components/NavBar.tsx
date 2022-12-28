@@ -6,8 +6,8 @@ import SettingsDrawer from "./SettingsDrawer";
 const NavBar: FC = () => {
   const [settingsDrawerOpen, setSettingsDrawerOpen] = useState(false);
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color="inherit">
+    <Box sx={{ flexGrow: 1 }} id="navbar">
+      <AppBar position="static" color="inherit" role="banner">
         <Toolbar>
           <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
             DCA App

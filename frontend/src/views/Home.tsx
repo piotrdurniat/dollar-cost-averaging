@@ -52,6 +52,7 @@ const HomePage: FC = () => {
   return (
     <Paper
       // variant="outlined"
+      role="main"
       sx={{ margin: 2, padding: 2, height: "100%" }}
     >
       <Typography variant="h4" mb={3}>
