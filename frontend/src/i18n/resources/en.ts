@@ -5,6 +5,7 @@ const en: typeof pl = {
   tickerSymbol: "Ticker symbol",
   singleInvestmentValue: "Single investment value",
   startDate: "Start date",
+  endDate: "End date",
   repeatInvestmentEvery: "Repeat investment every",
   calculate: "Calculate",
   results: "Results",

@@ -14,6 +14,7 @@ const initialFormData = {
   ticker: "msft",
   amount: 100,
   startDate: dayjs().subtract(1, "year"),
+  endDate: dayjs(),
   intervalCount: 1,
   intervalFrequency: "MONTHLY",
 } as const;
@@ -31,7 +32,7 @@ const HomePage: FC = () => {
 
   const dcaResult = useQuery(["dcaResult", formData], async () => {
     const startDateIso = formData.startDate.toISOString();
-    const endDateIso = dayjs().toISOString();
+    const endDateIso = formData.endDate.toISOString();
 
     const intervalMs = getIntervalMs(
       formData.intervalCount,

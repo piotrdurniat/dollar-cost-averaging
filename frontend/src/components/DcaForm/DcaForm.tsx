@@ -34,8 +34,10 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     handleSubmit,
     formState: { errors, isValid },
     watch,
+    trigger,
   } = useForm({
     mode: "onChange",
+    reValidateMode: "onChange",
     resolver: yupResolver(schema),
     defaultValues: formData,
   });
@@ -52,12 +54,12 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         setFormData(data);
       })}
     >
-      <Grid container spacing={2} mb={2} sx={{ maxWidth: 1400 }}>
-        <Grid item xs={12} sm={6} lg={3}>
+      <Grid container spacing={2} mb={2} sx={{ maxWidth: 2000 }}>
+        <Grid item xs={12} sm={6} md={4} lg={2.3}>
           <StockInput register={register} errors={errors} watch={watch} />
         </Grid>
 
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={2.3}>
           <FormControl
             variant="outlined"
             fullWidth
@@ -80,7 +82,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
           </FormControl>
         </Grid>
 
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={2.3}>
           <LocalizationProvider
             dateAdapter={AdapterDayjs}
             adapterLocale={language}
@@ -95,7 +97,10 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
                 <DatePicker
                   label={t("startDate")}
                   value={value}
-                  onChange={(value) => onChange(value)}
+                  onChange={(value) => {
+                    onChange(value);
+                    trigger();
+                  }}
                   renderInput={(params) => (
                     <TextField
                       id="start-date"
@@ -111,7 +116,41 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
           </LocalizationProvider>
         </Grid>
 
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={2.3}>
+          <LocalizationProvider
+            dateAdapter={AdapterDayjs}
+            adapterLocale={language}
+          >
+            <Controller
+              name="endDate"
+              control={control}
+              render={({
+                field: { onChange, value },
+                fieldState: { error },
+              }) => (
+                <DatePicker
+                  label={t("endDate")}
+                  value={value}
+                  onChange={(value) => {
+                    onChange(value);
+                    trigger();
+                  }}
+                  renderInput={(params) => (
+                    <TextField
+                      id="end-date"
+                      helperText={error ? error.message : " "}
+                      fullWidth
+                      {...params}
+                      error={Boolean(error)}
+                    />
+                  )}
+                />
+              )}
+            />
+          </LocalizationProvider>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4} lg={2.8}>
           <IntervalInput
             register={register}
             errors={errors}

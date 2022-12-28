@@ -3,6 +3,7 @@ export default {
   tickerSymbol: "Symbol giełdowy",
   singleInvestmentValue: "Wartość pojedynczej inwestycji",
   startDate: "Data rozpoczęcia",
+  endDate: "Data zakończenia",
   repeatInvestmentEvery: "Powtarzaj inwestycję co",
   calculate: "Oblicz",
   results: "Wyniki",
