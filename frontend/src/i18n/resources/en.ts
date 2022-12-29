@@ -54,6 +54,9 @@ const en: typeof pl = {
   system: "System",
   dark: "Dark",
   language: "Language",
+
+  pl: "Polish",
+  en: "English",
 };
 
 export default en;

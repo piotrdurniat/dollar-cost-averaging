@@ -52,4 +52,7 @@ export default {
   system: "Systemowy",
   dark: "Ciemny",
   language: "Język",
+
+  pl: "Polski",
+  en: "Angielski",
 };

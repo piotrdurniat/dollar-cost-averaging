@@ -8,7 +8,10 @@ const LanguageSelect: FC = () => {
   const { t } = useTranslation();
 
   return (
-    <ToggleButtonGroup value={i18n.language}>
+    <ToggleButtonGroup
+      data-testid="language-button-group"
+      value={i18n.language}
+    >
       {supportedLanguages.map((language, index) => (
         <ToggleButton
           value={language}

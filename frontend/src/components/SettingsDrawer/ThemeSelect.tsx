@@ -10,6 +10,7 @@ const ThemeButtonGroup = () => {
 
   return (
     <ToggleButtonGroup
+      data-testid="theme-button-group"
       exclusive
       aria-label="Theme"
       value={theme}
