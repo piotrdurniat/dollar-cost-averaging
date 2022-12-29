@@ -2,7 +2,7 @@ import { Dayjs } from "dayjs";
 
 export type IntervalFrequency = "DAILY" | "WEEKLY" | "MONTHLY" | "YEARLY";
 
-export interface FormData {
+export interface DcaFormData {
   ticker: string;
   amount: number;
   startDate: Dayjs;

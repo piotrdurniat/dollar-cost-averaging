@@ -7,7 +7,7 @@ import {
   UseFormWatch,
 } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { FormData } from "../../types/FormData";
+import { DcaFormData } from "../../types/DcaFormData";
 
 const intervals = [
   {
@@ -29,10 +29,10 @@ const intervals = [
 ] as const;
 
 interface PropTypes {
-  register: UseFormRegister<FormData>;
+  register: UseFormRegister<DcaFormData>;
   errors: any;
-  control: Control<FormData, any>;
-  watch: UseFormWatch<FormData>;
+  control: Control<DcaFormData, any>;
+  watch: UseFormWatch<DcaFormData>;
 }
 
 const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
@@ -43,6 +43,7 @@ const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
     <Stack direction="row" alignItems="flex-start">
       <TextField
         id="interval-count"
+        data-testid="interval-count"
         {...register("intervalCount")}
         error={Boolean(errors.intervalCount)}
         helperText={errors.intervalCount ? errors.intervalCount.message : " "}
@@ -69,6 +70,7 @@ const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
         render={({ field: { onChange, value }, fieldState: { error } }) => (
           <Select
             id="interval-frequency"
+            data-testid="interval-frequency"
             value={value}
             onChange={(value) => onChange(value)}
             aria-label="Frequency"

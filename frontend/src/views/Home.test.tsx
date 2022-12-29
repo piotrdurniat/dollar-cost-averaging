@@ -1,11 +1,11 @@
 import { describe, it } from "vitest";
-import Home from "./Home";
 import { RecoilRoot } from "recoil";
-import { render, screen } from "../util/test-utils";
-import "../i18n/i18n";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ThemeProvider } from "@emotion/react";
 import { createTheme, CssBaseline, ThemeOptions } from "@mui/material";
+import { render, screen } from "../util/test-utils";
+import "../i18n/i18n";
+import Home from "./Home";
 
 const mockQueryClient = new QueryClient();
 

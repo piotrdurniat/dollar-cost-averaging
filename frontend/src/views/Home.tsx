@@ -6,7 +6,7 @@ import { StockApi } from "../api/StockApi";
 import DCAForm from "../components/DcaForm";
 import PriceChart from "../components/PriceChart";
 import DcaResultTable from "../components/DcaResultTable";
-import { FormData, IntervalFrequency } from "../types/FormData";
+import { DcaFormData, IntervalFrequency } from "../types/DcaFormData";
 import { INTERVAL_MS } from "../constants/intervalMs";
 import { useTranslation } from "react-i18next";
 
@@ -27,7 +27,7 @@ const getIntervalMs = (
 };
 
 const HomePage: FC = () => {
-  const [formData, setFormData] = useState<FormData>(initialFormData);
+  const [formData, setFormData] = useState<DcaFormData>(initialFormData);
   const { t } = useTranslation();
 
   const dcaResult = useQuery(["dcaResult", formData], async () => {

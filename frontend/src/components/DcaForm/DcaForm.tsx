@@ -18,13 +18,13 @@ import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import IntervalInput from "./IntervalInput";
 import schema from "./dcaFormSchema";
-import { FormData } from "../../types/FormData";
+import { DcaFormData } from "../../types/DcaFormData";
 import StockInput from "./StockInput";
 import { useTranslation } from "react-i18next";
 
 interface PropTypes {
-  formData: FormData;
-  setFormData: (data: FormData) => void;
+  formData: DcaFormData;
+  setFormData: (data: DcaFormData) => void;
 }
 
 const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
@@ -70,6 +70,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
             </InputLabel>
             <OutlinedInput
               id="amount"
+              data-testid="amount"
               label={t("singleInvestmentValue")}
               {...register("amount")}
               startAdornment={
@@ -104,6 +105,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
                   renderInput={(params) => (
                     <TextField
                       id="start-date"
+                      data-testid="start-date"
                       helperText={error ? error.message : " "}
                       fullWidth
                       {...params}
@@ -138,6 +140,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
                   renderInput={(params) => (
                     <TextField
                       id="end-date"
+                      data-testid="end-date"
                       helperText={error ? error.message : " "}
                       fullWidth
                       {...params}
@@ -161,6 +164,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
       </Grid>
       <Button
         id="calculate"
+        data-testid="calculate"
         type="submit"
         variant="outlined"
         size="large"

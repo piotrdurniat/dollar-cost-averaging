@@ -7,15 +7,15 @@ import {
   ListItemText,
   TextField,
 } from "@mui/material";
-import { FormData } from "../../types/FormData";
+import { DcaFormData } from "../../types/DcaFormData";
 import { StockInfo } from "../../types/StockInfo";
 import { StockApi } from "../../api/StockApi";
 import { useTranslation } from "react-i18next";
 
 interface PropTypes {
-  register: UseFormRegister<FormData>;
+  register: UseFormRegister<DcaFormData>;
   errors: any;
-  watch: UseFormWatch<FormData>;
+  watch: UseFormWatch<DcaFormData>;
 }
 
 const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
@@ -34,6 +34,7 @@ const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
     <Autocomplete
       freeSolo
       id="ticker"
+      data-testid="ticker"
       options={searchRes}
       getOptionLabel={(option: StockInfo | string) =>
         typeof option === "string" ? option : option.symbol

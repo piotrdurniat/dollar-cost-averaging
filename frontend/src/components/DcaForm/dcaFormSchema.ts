@@ -1,6 +1,6 @@
 import * as yup from "yup";
-import { IntervalFrequency } from "../../types/FormData";
-import { FormData } from "../../types/FormData";
+import { IntervalFrequency } from "../../types/DcaFormData";
+import { DcaFormData } from "../../types/DcaFormData";
 
 export type ConditionalSchema<T> = T extends string
   ? yup.StringSchema
@@ -18,7 +18,7 @@ export type Shape<Fields> = {
   [Key in keyof Fields]: ConditionalSchema<Fields[Key]>;
 };
 
-const schema = yup.object<Shape<FormData>>().shape({
+const schema = yup.object<Shape<DcaFormData>>().shape({
   ticker: yup.string().required("Ticker symbol is required."),
   amount: yup
     .number()
