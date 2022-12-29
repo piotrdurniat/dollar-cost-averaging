@@ -9,6 +9,7 @@ import {
 import Chart from "@qognicafinance/react-lightweight-charts";
 import { MarketData, Transaction } from "../types/dcaResults";
 import { useTranslation } from "react-i18next";
+import { formatFixedFractionDigits } from "../util/formatter";
 
 interface PropTypes {
   data: MarketData[];
@@ -81,7 +82,7 @@ const PriceChart: FC<PropTypes> = ({
     position: "belowBar",
     color: "#2196F3",
     shape: "arrowUp",
-    text: `${t("buy")} ${numberOfShares.toFixed(2)}`,
+    text: `${t("buy")} ${formatFixedFractionDigits(numberOfShares, 2)}`,
   }));
 
   return (

@@ -40,7 +40,7 @@ def format_hist_data(hist_data: DataFrame):
         inplace=True,
     )
     hist_data["time"] = hist_data["time"].map(
-        lambda x: x.isoformat(timespec="milliseconds") + "Z"
+        lambda x: x.strftime('%Y-%m-%dT%H:%M:%S.%f%z')
     )
     hist_data_dict = hist_data.to_dict(orient="records")
 
