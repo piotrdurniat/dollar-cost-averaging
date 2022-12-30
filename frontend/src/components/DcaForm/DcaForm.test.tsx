@@ -17,33 +17,22 @@ const mockThemeDark = {
   },
 } as const;
 
-const mockFormData = {
-  ticker: "msft",
-  amount: 100,
-  startDate: dayjs().subtract(1, "year"),
-  endDate: dayjs(),
-  intervalCount: 1,
-  intervalFrequency: "MONTHLY",
-} as const;
-
 const mockSetFormData = (_: DcaFormData) => {
   return;
 };
 
 describe("DcaForm", () => {
   it("render DCA Form and test all of it's fields", () => {
-    const theme = createTheme(mockThemeDark);
+    const mockFormData = {
+      ticker: "msft",
+      amount: 100,
+      startDate: dayjs().subtract(1, "year"),
+      endDate: dayjs(),
+      intervalCount: 1,
+      intervalFrequency: "MONTHLY",
+    } as const;
 
-    render(
-      <RecoilRoot>
-        <QueryClientProvider client={mockQueryClient}>
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <DcaForm formData={mockFormData} setFormData={mockSetFormData} />
-          </ThemeProvider>
-        </QueryClientProvider>
-      </RecoilRoot>
-    );
+    renderDcaForm(mockFormData);
 
     expect(getFirstInputInsideDiv("ticker")).toHaveValue(
       String(mockFormData.ticker)
@@ -64,6 +53,34 @@ describe("DcaForm", () => {
       String(mockFormData.intervalFrequency)
     );
   });
+
+  it("render DCA Form with invalid fields and check errors", () => {
+    const mockFormData = {
+      ticker: "",
+      amount: 0,
+      startDate: dayjs("invalid date string"),
+      endDate: dayjs("invalid date string"),
+      intervalCount: 0,
+      intervalFrequency: "MONTHLY",
+    } as const;
+
+    renderDcaForm(mockFormData);
+  });
+
+  const renderDcaForm = (formData: DcaFormData) => {
+    const theme = createTheme(mockThemeDark);
+
+    render(
+      <RecoilRoot>
+        <QueryClientProvider client={mockQueryClient}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <DcaForm formData={formData} setFormData={mockSetFormData} />
+          </ThemeProvider>
+        </QueryClientProvider>
+      </RecoilRoot>
+    );
+  };
 
   const getFirstInputInsideDiv = (divId: string) => {
     return screen.getByTestId(divId).getElementsByTagName("input")[0];
