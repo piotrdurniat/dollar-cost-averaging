@@ -1,8 +1,8 @@
+import { RecoilRoot } from "recoil";
 import { describe, it } from "vitest";
 import App from "./App";
-import { RecoilRoot } from "recoil";
-import { render, screen } from "./util/test-utils";
 import "./i18n/i18n";
+import { render, screen } from "./util/test-utils";
 
 describe("App", () => {
   it("renders App component in dark mode", () => {
@@ -19,7 +19,7 @@ describe("App", () => {
     render(
       <RecoilRoot>
         <App />
-      </RecoilRoot>
+      </RecoilRoot>,
     );
 
     // check if app bar is rendered

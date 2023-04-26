@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Box,
   Grid,
@@ -11,12 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import { FinancialResults } from "../types/dcaResults";
-import {
-  formatFixedFractionDigits,
-  formatPercent,
-  formatPrice,
-} from "../util/formatter";
-import { useTranslation } from "react-i18next";
+import { formatFixedFractionDigits, formatPercent, formatPrice } from "../util/formatter";
 
 interface PropTypes {
   result?: FinancialResults;
@@ -39,7 +35,7 @@ const emptyDcaResult = {
   },
 } as const;
 
-interface TableRow {
+interface TableRowProps {
   label: string;
   value: number;
   format: (x: number) => string;
@@ -50,7 +46,7 @@ const DcaResultTable: FC<PropTypes> = ({ result }) => {
   const data = result ?? emptyDcaResult;
   const { t } = useTranslation();
 
-  const resultTable: TableRow[] = [
+  const resultTable: TableRowProps[] = [
     {
       label: t("totalInvestedValue"),
       value: data.totalInvestmentValue,
@@ -127,10 +123,10 @@ const DcaResultTable: FC<PropTypes> = ({ result }) => {
   );
 };
 
-const TablePart: FC<{ tableData: TableRow[] }> = ({ tableData }) => {
+const TablePart: FC<{ tableData: TableRowProps[] }> = ({ tableData }) => {
   return (
     <TableContainer
-      component={(props) => (
+      component={props => (
         <Paper
           variant="outlined"
           sx={{

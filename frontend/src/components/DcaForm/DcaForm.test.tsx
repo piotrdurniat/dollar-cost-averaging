@@ -1,13 +1,13 @@
-import { describe, it } from "vitest";
-import { RecoilRoot } from "recoil";
 import { QueryClient, QueryClientProvider } from "react-query";
-import { ThemeProvider } from "@emotion/react";
 import { createTheme, CssBaseline } from "@mui/material";
+import { ThemeProvider } from "@emotion/react";
 import dayjs from "dayjs";
-import DcaForm from "./DcaForm";
-import { render, screen } from "../../util/test-utils";
+import { RecoilRoot } from "recoil";
+import { describe, it } from "vitest";
 import "../../i18n/i18n";
 import { DcaFormData } from "../../types/DcaFormData";
+import { render, screen } from "../../util/test-utils";
+import DcaForm from "./DcaForm";
 
 const mockQueryClient = new QueryClient();
 
@@ -17,7 +17,7 @@ const mockThemeDark = {
   },
 } as const;
 
-const mockSetFormData = (_: DcaFormData) => {
+const mockSetFormData = () => {
   return;
 };
 
@@ -34,23 +34,19 @@ describe("DcaForm", () => {
 
     renderDcaForm(mockFormData);
 
-    expect(getFirstInputInsideDiv("ticker")).toHaveValue(
-      String(mockFormData.ticker)
-    );
-    expect(getFirstInputInsideDiv("amount")).toHaveValue(
-      String(mockFormData.amount)
-    );
+    expect(getFirstInputInsideDiv("ticker")).toHaveValue(String(mockFormData.ticker));
+    expect(getFirstInputInsideDiv("amount")).toHaveValue(String(mockFormData.amount));
     expect(getFirstInputInsideDiv("start-date")).toHaveValue(
-      mockFormData.startDate.format("MM/DD/YYYY")
+      mockFormData.startDate.format("MM/DD/YYYY"),
     );
     expect(getFirstInputInsideDiv("end-date")).toHaveValue(
-      mockFormData.endDate.format("MM/DD/YYYY")
+      mockFormData.endDate.format("MM/DD/YYYY"),
     );
     expect(getFirstInputInsideDiv("interval-count")).toHaveValue(
-      String(mockFormData.intervalCount)
+      String(mockFormData.intervalCount),
     );
     expect(getFirstInputInsideDiv("interval-frequency")).toHaveValue(
-      String(mockFormData.intervalFrequency)
+      String(mockFormData.intervalFrequency),
     );
   });
 
@@ -78,7 +74,7 @@ describe("DcaForm", () => {
             <DcaForm formData={formData} setFormData={mockSetFormData} />
           </ThemeProvider>
         </QueryClientProvider>
-      </RecoilRoot>
+      </RecoilRoot>,
     );
   };
 

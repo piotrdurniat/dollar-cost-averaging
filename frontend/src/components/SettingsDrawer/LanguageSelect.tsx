@@ -1,6 +1,6 @@
-import { Typography, ToggleButtonGroup, ToggleButton } from "@mui/material";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
+import { Typography, ToggleButtonGroup, ToggleButton } from "@mui/material";
 import { supportedLanguages } from "../../constants/languages";
 
 const LanguageSelect: FC = () => {
@@ -8,10 +8,7 @@ const LanguageSelect: FC = () => {
   const { t } = useTranslation();
 
   return (
-    <ToggleButtonGroup
-      data-testid="language-button-group"
-      value={i18n.language}
-    >
+    <ToggleButtonGroup data-testid="language-button-group" value={i18n.language}>
       {supportedLanguages.map((language, index) => (
         <ToggleButton
           value={language}

@@ -1,12 +1,12 @@
-import { describe, it } from "vitest";
-import { RecoilRoot } from "recoil";
 import { QueryClient, QueryClientProvider } from "react-query";
-import { ThemeProvider } from "@emotion/react";
 import { createTheme, CssBaseline } from "@mui/material";
-import DcaResultTable from "./DcaResultTable";
-import { render, screen } from "../util/test-utils";
+import { ThemeProvider } from "@emotion/react";
+import { RecoilRoot } from "recoil";
+import { describe, it } from "vitest";
 import "../i18n/i18n";
 import { FinancialResults } from "../types/dcaResults";
+import { render } from "../util/test-utils";
+import DcaResultTable from "./DcaResultTable";
 
 const mockQueryClient = new QueryClient();
 
@@ -45,7 +45,7 @@ describe("DcaResultTable", () => {
             <DcaResultTable result={mockResult} />
           </ThemeProvider>
         </QueryClientProvider>
-      </RecoilRoot>
+      </RecoilRoot>,
     );
   });
 });

@@ -1,10 +1,10 @@
 import { FC, useMemo } from "react";
-import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import { useRecoilValue } from "recoil";
 import NavBar from "./components/NavBar";
-import HomePage from "./views/Home";
 import { paletteModeState } from "./state/theme";
+import HomePage from "./views/Home";
 
 const queryClient = new QueryClient();
 
@@ -32,7 +32,7 @@ const App: FC = () => {
           },
         },
       }),
-    [paletteMode]
+    [paletteMode],
   );
 
   return (

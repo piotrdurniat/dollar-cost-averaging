@@ -1,6 +1,6 @@
+import { useTranslation } from "react-i18next";
 import { DarkMode, LightMode, SettingsBrightness } from "@mui/icons-material";
 import { ToggleButtonGroup, Typography, ToggleButton } from "@mui/material";
-import { useTranslation } from "react-i18next";
 import { useRecoilState } from "recoil";
 import { themeState } from "../../state/theme";
 

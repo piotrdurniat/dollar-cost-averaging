@@ -1,12 +1,7 @@
-import { MenuItem, Select, Stack, TextField } from "@mui/material";
-import { FC, useMemo } from "react";
-import {
-  Control,
-  Controller,
-  UseFormRegister,
-  UseFormWatch,
-} from "react-hook-form";
+import { FC } from "react";
+import { Control, Controller, UseFormRegister, UseFormWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";
+import { MenuItem, Select, Stack, TextField } from "@mui/material";
 import { DcaFormData } from "../../types/DcaFormData";
 
 const intervals = [
@@ -67,12 +62,12 @@ const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
       <Controller
         name="intervalFrequency"
         control={control}
-        render={({ field: { onChange, value }, fieldState: { error } }) => (
+        render={({ field: { onChange, value } }) => (
           <Select
             id="interval-frequency"
             data-testid="interval-frequency"
             value={value}
-            onChange={(value) => onChange(value)}
+            onChange={value => onChange(value)}
             aria-label="Frequency"
             sx={{
               "& > fieldset": {

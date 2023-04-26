@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
-import { AppBar, Toolbar, Typography, Box, IconButton } from "@mui/material";
 import { Settings } from "@mui/icons-material";
+import { AppBar, Toolbar, Typography, Box, IconButton } from "@mui/material";
 import SettingsDrawer from "./SettingsDrawer";
 
 const NavBar: FC = () => {
@@ -23,10 +23,7 @@ const NavBar: FC = () => {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <SettingsDrawer
-        open={settingsDrawerOpen}
-        setOpen={setSettingsDrawerOpen}
-      />
+      <SettingsDrawer open={settingsDrawerOpen} setOpen={setSettingsDrawerOpen} />
     </Box>
   );
 };

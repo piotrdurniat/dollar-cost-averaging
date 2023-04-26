@@ -1,14 +1,14 @@
 import { FC, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
 import { Box, Divider, Paper, Typography } from "@mui/material";
 import dayjs from "dayjs";
 import { StockApi } from "../api/StockApi";
 import DCAForm from "../components/DcaForm";
-import PriceChart from "../components/PriceChart";
 import DcaResultTable from "../components/DcaResultTable";
-import { DcaFormData, IntervalFrequency } from "../types/DcaFormData";
+import PriceChart from "../components/PriceChart";
 import { INTERVAL_MS } from "../constants/intervalMs";
-import { useTranslation } from "react-i18next";
+import { DcaFormData, IntervalFrequency } from "../types/DcaFormData";
 
 const initialFormData = {
   ticker: "msft",
@@ -19,10 +19,7 @@ const initialFormData = {
   intervalFrequency: "MONTHLY",
 } as const;
 
-const getIntervalMs = (
-  intervalCount: number,
-  intervalFrequency: IntervalFrequency
-) => {
+const getIntervalMs = (intervalCount: number, intervalFrequency: IntervalFrequency) => {
   return INTERVAL_MS[intervalFrequency] * intervalCount;
 };
 
@@ -34,17 +31,14 @@ const HomePage: FC = () => {
     const startDateIso = formData.startDate.toISOString();
     const endDateIso = formData.endDate.toISOString();
 
-    const intervalMs = getIntervalMs(
-      formData.intervalCount,
-      formData.intervalFrequency
-    );
+    const intervalMs = getIntervalMs(formData.intervalCount, formData.intervalFrequency);
 
     const { data } = await StockApi.getDcaResults(
       formData.ticker,
       formData.amount,
       startDateIso,
       endDateIso,
-      intervalMs
+      intervalMs,
     );
     return data;
   });

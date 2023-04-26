@@ -1,10 +1,10 @@
-import { describe, it } from "vitest";
-import { RecoilRoot } from "recoil";
 import { QueryClient, QueryClientProvider } from "react-query";
-import { ThemeProvider } from "@emotion/react";
 import { createTheme, CssBaseline, ThemeOptions } from "@mui/material";
-import { render, screen } from "../util/test-utils";
+import { ThemeProvider } from "@emotion/react";
+import { RecoilRoot } from "recoil";
+import { describe, it } from "vitest";
 import "../i18n/i18n";
+import { render, screen } from "../util/test-utils";
 import Home from "./Home";
 
 const mockQueryClient = new QueryClient();
@@ -41,7 +41,7 @@ describe("Home", () => {
             <Home />
           </ThemeProvider>
         </QueryClientProvider>
-      </RecoilRoot>
+      </RecoilRoot>,
     );
 
     // Expect h4 to be rendered

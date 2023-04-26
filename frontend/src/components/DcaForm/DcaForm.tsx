@@ -1,4 +1,6 @@
 import { FC } from "react";
+import { Controller, useForm } from "react-hook-form";
+import { useTranslation } from "react-i18next";
 import {
   Box,
   FormControl,
@@ -10,17 +12,15 @@ import {
   Button,
   FormHelperText,
 } from "@mui/material";
+import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { yupResolver } from "@hookform/resolvers/yup";
 import "dayjs/locale/en";
 import "dayjs/locale/pl";
-import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
-import { Controller, useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import IntervalInput from "./IntervalInput";
-import schema from "./dcaFormSchema";
 import { DcaFormData } from "../../types/DcaFormData";
+import IntervalInput from "./IntervalInput";
 import StockInput from "./StockInput";
-import { useTranslation } from "react-i18next";
+import schema from "./dcaFormSchema";
 
 interface PropTypes {
   formData: DcaFormData;
@@ -41,6 +41,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     resolver: yupResolver(schema),
     defaultValues: formData,
   });
+
   const {
     t,
     i18n: { language },
@@ -50,7 +51,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
     <Box
       component="form"
       noValidate
-      onSubmit={handleSubmit((data) => {
+      onSubmit={handleSubmit(data => {
         setFormData(data);
       })}
     >
@@ -60,22 +61,14 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4} lg={2.3}>
-          <FormControl
-            variant="outlined"
-            fullWidth
-            error={Boolean(errors.amount)}
-          >
-            <InputLabel htmlFor="amount">
-              {t("singleInvestmentValue")}
-            </InputLabel>
+          <FormControl variant="outlined" fullWidth error={Boolean(errors.amount)}>
+            <InputLabel htmlFor="amount">{t("singleInvestmentValue")}</InputLabel>
             <OutlinedInput
               id="amount"
               data-testid="amount"
               label={t("singleInvestmentValue")}
               {...register("amount")}
-              startAdornment={
-                <InputAdornment position="start">$</InputAdornment>
-              }
+              startAdornment={<InputAdornment position="start">$</InputAdornment>}
             />
             <FormHelperText id="amount-helper-text">
               {errors.amount ? errors.amount.message : " "}
@@ -84,25 +77,19 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4} lg={2.3}>
-          <LocalizationProvider
-            dateAdapter={AdapterDayjs}
-            adapterLocale={language}
-          >
+          <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={language}>
             <Controller
               name="startDate"
               control={control}
-              render={({
-                field: { onChange, value },
-                fieldState: { error },
-              }) => (
+              render={({ field: { onChange, value }, fieldState: { error } }) => (
                 <DatePicker
                   label={t("startDate")}
                   value={value}
-                  onChange={(value) => {
+                  onChange={value => {
                     onChange(value);
                     trigger();
                   }}
-                  renderInput={(params) => (
+                  renderInput={params => (
                     <TextField
                       id="start-date"
                       data-testid="start-date"
@@ -119,25 +106,19 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4} lg={2.3}>
-          <LocalizationProvider
-            dateAdapter={AdapterDayjs}
-            adapterLocale={language}
-          >
+          <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={language}>
             <Controller
               name="endDate"
               control={control}
-              render={({
-                field: { onChange, value },
-                fieldState: { error },
-              }) => (
+              render={({ field: { onChange, value }, fieldState: { error } }) => (
                 <DatePicker
                   label={t("endDate")}
                   value={value}
-                  onChange={(value) => {
+                  onChange={value => {
                     onChange(value);
                     trigger();
                   }}
-                  renderInput={(params) => (
+                  renderInput={params => (
                     <TextField
                       id="end-date"
                       data-testid="end-date"
@@ -154,12 +135,7 @@ const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4} lg={2.8}>
-          <IntervalInput
-            register={register}
-            errors={errors}
-            control={control}
-            watch={watch}
-          />
+          <IntervalInput register={register} errors={errors} control={control} watch={watch} />
         </Grid>
       </Grid>
       <Button

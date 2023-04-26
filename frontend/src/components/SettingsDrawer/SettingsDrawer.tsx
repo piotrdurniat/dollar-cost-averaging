@@ -1,8 +1,8 @@
+import { FC } from "react";
+import { useTranslation } from "react-i18next";
 import { Close } from "@mui/icons-material";
 import { Drawer, Typography, Box, IconButton, Divider } from "@mui/material";
 import { Stack } from "@mui/system";
-import { FC } from "react";
-import { useTranslation } from "react-i18next";
 import LanguageSelect from "./LanguageSelect";
 import ThemeButtonGroup from "./ThemeSelect";
 
@@ -28,12 +28,7 @@ const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
         onClose={() => setOpen(false)}
       >
         <Box>
-          <Stack
-            p={2}
-            direction="row"
-            alignItems="center"
-            justifyContent="space-between"
-          >
+          <Stack p={2} direction="row" alignItems="center" justifyContent="space-between">
             <Typography variant="body1">{t("settings")}</Typography>
             <IconButton
               size="medium"

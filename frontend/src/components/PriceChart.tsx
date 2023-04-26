@@ -1,14 +1,8 @@
 import { FC, useMemo } from "react";
-import {
-  Box,
-  CircularProgress,
-  Paper,
-  Typography,
-  useTheme,
-} from "@mui/material";
+import { useTranslation } from "react-i18next";
+import { Box, CircularProgress, Paper, Typography, useTheme } from "@mui/material";
 import Chart from "@qognicafinance/react-lightweight-charts";
 import { MarketData, Transaction } from "../types/dcaResults";
-import { useTranslation } from "react-i18next";
 import { formatFixedFractionDigits } from "../util/formatter";
 
 interface PropTypes {
@@ -18,12 +12,7 @@ interface PropTypes {
   transactions: Transaction[];
 }
 
-const PriceChart: FC<PropTypes> = ({
-  data,
-  isFetching,
-  isError,
-  transactions,
-}) => {
+const PriceChart: FC<PropTypes> = ({ data, isFetching, isError, transactions }) => {
   const {
     t,
     i18n: { language },
@@ -74,7 +63,7 @@ const PriceChart: FC<PropTypes> = ({
         },
       },
     }),
-    [locale, theme]
+    [locale, theme],
   );
 
   const markers = transactions.map(({ time, numberOfShares }) => ({
@@ -86,10 +75,7 @@ const PriceChart: FC<PropTypes> = ({
   }));
 
   return (
-    <Paper
-      variant="outlined"
-      sx={{ backgroundColor: "transparent", marginTop: 2, padding: 1 }}
-    >
+    <Paper variant="outlined" sx={{ backgroundColor: "transparent", marginTop: 2, padding: 1 }}>
       <Box sx={{ width: "100%", position: "relative" }} id="results-chart">
         <Chart
           options={chartOptions}
@@ -117,9 +103,7 @@ const PriceChart: FC<PropTypes> = ({
           ) : isError ? (
             <Typography variant="body1">Eror fetching stock data.</Typography>
           ) : (
-            data.length === 0 && (
-              <Typography variant="body1">No data.</Typography>
-            )
+            data.length === 0 && <Typography variant="body1">No data.</Typography>
           )}
         </Box>
       </Box>

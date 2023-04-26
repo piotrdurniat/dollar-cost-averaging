@@ -1,6 +1,5 @@
 import * as yup from "yup";
-import { IntervalFrequency } from "../../types/DcaFormData";
-import { DcaFormData } from "../../types/DcaFormData";
+import { IntervalFrequency, DcaFormData } from "../../types/DcaFormData";
 
 export type ConditionalSchema<T> = T extends string
   ? yup.StringSchema
@@ -25,10 +24,7 @@ const schema = yup.object<Shape<DcaFormData>>().shape({
     .required("Investment value is required.")
     .typeError("Investment value must be a number.")
     .positive("Investment value must be greater than 0."),
-  startDate: yup
-    .date()
-    .required("Start date is required.")
-    .typeError("Invalid date value."),
+  startDate: yup.date().required("Start date is required.").typeError("Invalid date value."),
   endDate: yup
     .date()
     .required("End date is required.")
@@ -48,9 +44,7 @@ const schema = yup.object<Shape<DcaFormData>>().shape({
     .integer("Interval count value must be an integer.")
     .required("Interval count is required.")
     .typeError("Interval count value must be a number."),
-  intervalFrequency: yup
-    .mixed<IntervalFrequency>()
-    .required("Interval frequency is required."),
+  intervalFrequency: yup.mixed<IntervalFrequency>().required("Interval frequency is required."),
 });
 
 export default schema;

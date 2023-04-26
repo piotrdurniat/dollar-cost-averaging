@@ -1,16 +1,10 @@
 import { FC, Fragment, useEffect, useState } from "react";
 import { UseFormRegister, UseFormWatch } from "react-hook-form";
-import {
-  Autocomplete,
-  Divider,
-  ListItem,
-  ListItemText,
-  TextField,
-} from "@mui/material";
+import { useTranslation } from "react-i18next";
+import { Autocomplete, Divider, ListItem, ListItemText, TextField } from "@mui/material";
+import { StockApi } from "../../api/StockApi";
 import { DcaFormData } from "../../types/DcaFormData";
 import { StockInfo } from "../../types/StockInfo";
-import { StockApi } from "../../api/StockApi";
-import { useTranslation } from "react-i18next";
 
 interface PropTypes {
   register: UseFormRegister<DcaFormData>;
@@ -39,9 +33,9 @@ const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
       getOptionLabel={(option: StockInfo | string) =>
         typeof option === "string" ? option : option.symbol
       }
-      filterOptions={(x) => x}
+      filterOptions={x => x}
       value="msft"
-      renderInput={(params) => (
+      renderInput={params => (
         <TextField
           {...register("ticker")}
           error={Boolean(errors.ticker)}
@@ -60,10 +54,7 @@ const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
       renderOption={(props, { name, symbol, exchange }) => (
         <Fragment key={symbol}>
           <ListItem {...props}>
-            <ListItemText
-              primary={name}
-              secondary={`${symbol} : ${exchange}`}
-            />
+            <ListItemText primary={name} secondary={`${symbol} : ${exchange}`} />
           </ListItem>
           <Divider />
         </Fragment>
