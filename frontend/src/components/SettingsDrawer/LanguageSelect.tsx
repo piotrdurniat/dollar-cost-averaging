@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import { Typography, ToggleButtonGroup, ToggleButton } from "@mui/material";
-import { supportedLanguages } from "../../constants/languages";
+import { supportedLanguages } from "@constants/languages";
 
 const LanguageSelect: FC = () => {
   const { i18n } = useTranslation();

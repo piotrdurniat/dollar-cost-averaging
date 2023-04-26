@@ -1,11 +1,11 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import { createTheme, CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
+import "@i18n/i18n";
 import { RecoilRoot } from "recoil";
 import { describe, it } from "vitest";
-import "../i18n/i18n";
-import { FinancialResults } from "../types/dcaResults";
-import { render } from "../util/test-utils";
+import { FinancialResults } from "@typeDefs/dcaResults";
+import { render } from "@utils/test-utils";
 import DcaResultTable from "./DcaResultTable";
 
 const mockQueryClient = new QueryClient();

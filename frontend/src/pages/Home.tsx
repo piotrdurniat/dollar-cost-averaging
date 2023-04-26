@@ -3,12 +3,12 @@ import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
 import { Box, Divider, Paper, Typography } from "@mui/material";
 import dayjs from "dayjs";
-import { StockApi } from "../api/StockApi";
-import DCAForm from "../components/DcaForm";
-import DcaResultTable from "../components/DcaResultTable";
-import PriceChart from "../components/PriceChart";
-import { INTERVAL_MS } from "../constants/intervalMs";
-import { DcaFormData, IntervalFrequency } from "../types/DcaFormData";
+import { DcaFormData, IntervalFrequency } from "@typeDefs/DcaFormData";
+import { INTERVAL_MS } from "@constants/intervalMs";
+import { StockApi } from "@api/StockApi";
+import DCAForm from "@components/DcaForm";
+import DcaResultTable from "@components/DcaResultTable";
+import PriceChart from "@components/PriceChart";
 
 const initialFormData = {
   ticker: "msft",

@@ -1,12 +1,12 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import { createTheme, CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
+import "@i18n/i18n";
 import dayjs from "dayjs";
 import { RecoilRoot } from "recoil";
 import { describe, it } from "vitest";
-import "../../i18n/i18n";
-import { DcaFormData } from "../../types/DcaFormData";
-import { render, screen } from "../../util/test-utils";
+import { DcaFormData } from "@typeDefs/DcaFormData";
+import { render, screen } from "@utils/test-utils";
 import DcaForm from "./DcaForm";
 
 const mockQueryClient = new QueryClient();

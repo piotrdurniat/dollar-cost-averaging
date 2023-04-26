@@ -1,6 +1,6 @@
 import { AxiosResponse } from "axios";
-import { StockInfo } from "../types/StockInfo";
-import { DcaResults, MarketData } from "../types/dcaResults";
+import { StockInfo } from "@typeDefs/StockInfo";
+import { DcaResults, MarketData } from "@typeDefs/dcaResults";
 import Api from "./Api";
 
 export class StockApi {

@@ -1,5 +1,5 @@
 import * as yup from "yup";
-import { IntervalFrequency, DcaFormData } from "../../types/DcaFormData";
+import { IntervalFrequency, DcaFormData } from "@typeDefs/DcaFormData";
 
 export type ConditionalSchema<T> = T extends string
   ? yup.StringSchema

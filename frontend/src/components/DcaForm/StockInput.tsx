@@ -2,7 +2,7 @@ import { FC, Fragment, useEffect, useState } from "react";
 import { UseFormRegister, UseFormWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { Autocomplete, Divider, ListItem, ListItemText, TextField } from "@mui/material";
-import { StockApi } from "../../api/StockApi";
+import { StockApi } from "@api/StockApi";
 import { DcaFormData } from "../../types/DcaFormData";
 import { StockInfo } from "../../types/StockInfo";
 

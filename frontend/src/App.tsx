@@ -2,9 +2,9 @@ import { FC, useMemo } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import { useRecoilValue } from "recoil";
-import NavBar from "./components/NavBar";
-import { paletteModeState } from "./state/theme";
-import HomePage from "./views/Home";
+import { paletteModeState } from "@state/theme";
+import HomePage from "@pages/Home";
+import NavBar from "@components/NavBar";
 
 const queryClient = new QueryClient();
 

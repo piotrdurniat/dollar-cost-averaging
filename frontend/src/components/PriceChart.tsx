@@ -2,8 +2,8 @@ import { FC, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Box, CircularProgress, Paper, Typography, useTheme } from "@mui/material";
 import Chart from "@qognicafinance/react-lightweight-charts";
-import { MarketData, Transaction } from "../types/dcaResults";
-import { formatFixedFractionDigits } from "../util/formatter";
+import { MarketData, Transaction } from "@typeDefs/dcaResults";
+import { formatFixedFractionDigits } from "@utils/formatter";
 
 interface PropTypes {
   data: MarketData[];

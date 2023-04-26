@@ -12,7 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import { FinancialResults } from "../types/dcaResults";
-import { formatFixedFractionDigits, formatPercent, formatPrice } from "../util/formatter";
+import { formatFixedFractionDigits, formatPercent, formatPrice } from "../utils/formatter";
 
 interface PropTypes {
   result?: FinancialResults;

@@ -17,7 +17,7 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { yupResolver } from "@hookform/resolvers/yup";
 import "dayjs/locale/en";
 import "dayjs/locale/pl";
-import { DcaFormData } from "../../types/DcaFormData";
+import { DcaFormData } from "@typeDefs/DcaFormData";
 import IntervalInput from "./IntervalInput";
 import StockInput from "./StockInput";
 import schema from "./dcaFormSchema";

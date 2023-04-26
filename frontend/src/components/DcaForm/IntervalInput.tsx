@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Control, Controller, UseFormRegister, UseFormWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { MenuItem, Select, Stack, TextField } from "@mui/material";
-import { DcaFormData } from "../../types/DcaFormData";
+import { DcaFormData } from "@typeDefs/DcaFormData";
 
 const intervals = [
   {
