@@ -6,13 +6,13 @@ import { StockApi } from "@api/StockApi";
 import { DcaFormData } from "../../types/DcaFormData";
 import { StockInfo } from "../../types/StockInfo";
 
-interface PropTypes {
+interface Props {
   register: UseFormRegister<DcaFormData>;
   errors: any;
   watch: UseFormWatch<DcaFormData>;
 }
 
-const StockInput: FC<PropTypes> = ({ register, errors, watch }) => {
+const StockInput: FC<Props> = ({ register, errors, watch }) => {
   const watchTicker = watch("ticker");
   const [searchRes, setSearchRes] = useState<StockInfo[]>([]);
   const { t } = useTranslation();

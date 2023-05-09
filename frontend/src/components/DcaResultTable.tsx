@@ -14,7 +14,7 @@ import {
 import { FinancialResults } from "../types/dcaResults";
 import { formatFixedFractionDigits, formatPercent, formatPrice } from "../utils/formatter";
 
-interface PropTypes {
+interface Props {
   result?: FinancialResults;
 }
 
@@ -42,7 +42,7 @@ interface TableRowProps {
   color: boolean;
 }
 
-const DcaResultTable: FC<PropTypes> = ({ result }) => {
+const DcaResultTable: FC<Props> = ({ result }) => {
   const data = result ?? emptyDcaResult;
   const { t } = useTranslation();
 

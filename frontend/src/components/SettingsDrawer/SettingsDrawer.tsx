@@ -6,12 +6,12 @@ import { Stack } from "@mui/system";
 import LanguageSelect from "./LanguageSelect";
 import ThemeButtonGroup from "./ThemeSelect";
 
-interface PropTypes {
+interface Props {
   open: boolean;
   setOpen: (open: boolean) => void;
 }
 
-const SettingsDrawer: FC<PropTypes> = ({ open, setOpen }) => {
+const SettingsDrawer: FC<Props> = ({ open, setOpen }) => {
   const { t } = useTranslation();
 
   return (

@@ -6,14 +6,14 @@ import { MarketData, Transaction } from "@typeDefs/dcaResults";
 import { formatFixedFractionDigits } from "@utils/formatter";
 import CandlestickChart from "./CandleStickChart";
 
-interface PropTypes {
+interface Props {
   data: MarketData[];
   isFetching: boolean;
   isError: boolean;
   transactions: Transaction[];
 }
 
-const PriceChart: FC<PropTypes> = ({ data, isFetching, isError, transactions }) => {
+const PriceChart: FC<Props> = ({ data, isFetching, isError, transactions }) => {
   const {
     t,
     i18n: { language },

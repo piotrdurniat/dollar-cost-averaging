@@ -22,12 +22,12 @@ import IntervalInput from "./IntervalInput";
 import StockInput from "./StockInput";
 import schema from "./dcaFormSchema";
 
-interface PropTypes {
+interface Props {
   formData: DcaFormData;
   setFormData: (data: DcaFormData) => void;
 }
 
-const DCAForm: FC<PropTypes> = ({ formData, setFormData }) => {
+const DCAForm: FC<Props> = ({ formData, setFormData }) => {
   const {
     control,
     register,

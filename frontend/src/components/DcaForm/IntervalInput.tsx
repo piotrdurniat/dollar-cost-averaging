@@ -23,14 +23,14 @@ const intervals = [
   },
 ] as const;
 
-interface PropTypes {
+interface Props {
   register: UseFormRegister<DcaFormData>;
   errors: any;
   control: Control<DcaFormData, any>;
   watch: UseFormWatch<DcaFormData>;
 }
 
-const IntervalInput: FC<PropTypes> = ({ register, errors, control, watch }) => {
+const IntervalInput: FC<Props> = ({ register, errors, control, watch }) => {
   const intervalCount = watch("intervalCount");
   const { t } = useTranslation();
 
