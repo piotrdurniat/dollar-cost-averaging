@@ -39,7 +39,7 @@ const StockInput: FC<Props> = ({ register, errors, watch }) => {
         <TextField
           {...register("ticker")}
           error={Boolean(errors.ticker)}
-          helperText={errors.ticker ? errors.ticker.message : " "}
+          helperText={errors.ticker?.message ?? " "}
           {...params}
           name="ticker"
           variant="outlined"

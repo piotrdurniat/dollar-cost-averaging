@@ -70,9 +70,7 @@ const DCAForm: FC<Props> = ({ formData, setFormData }) => {
               {...register("amount")}
               startAdornment={<InputAdornment position="start">$</InputAdornment>}
             />
-            <FormHelperText id="amount-helper-text">
-              {errors.amount ? errors.amount.message : " "}
-            </FormHelperText>
+            <FormHelperText id="amount-helper-text">{errors.amount?.message ?? " "}</FormHelperText>
           </FormControl>
         </Grid>
 
@@ -93,7 +91,7 @@ const DCAForm: FC<Props> = ({ formData, setFormData }) => {
                     <TextField
                       id="start-date"
                       data-testid="start-date"
-                      helperText={error ? error.message : " "}
+                      helperText={error?.message ?? " "}
                       fullWidth
                       {...params}
                       error={Boolean(error)}
@@ -122,7 +120,7 @@ const DCAForm: FC<Props> = ({ formData, setFormData }) => {
                     <TextField
                       id="end-date"
                       data-testid="end-date"
-                      helperText={error ? error.message : " "}
+                      helperText={error?.message ?? " "}
                       fullWidth
                       {...params}
                       error={Boolean(error)}

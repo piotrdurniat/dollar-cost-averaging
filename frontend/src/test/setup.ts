@@ -14,7 +14,3 @@ Object.defineProperty(window, "matchMedia", {
     dispatchEvent: vi.fn(),
   })),
 });
-
-vi.mock("@qognicafinance/react-lightweight-charts", () => ({
-  default: () => "Mocked Chart",
-}));
