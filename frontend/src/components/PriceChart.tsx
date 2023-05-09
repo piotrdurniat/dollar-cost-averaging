@@ -1,9 +1,10 @@
 import { FC, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Box, CircularProgress, Paper, Typography, useTheme } from "@mui/material";
-import Chart from "@qognicafinance/react-lightweight-charts";
+import { ChartOptions, DeepPartial, SeriesMarker, Time } from "lightweight-charts";
 import { MarketData, Transaction } from "@typeDefs/dcaResults";
 import { formatFixedFractionDigits } from "@utils/formatter";
+import CandlestickChart from "./CandleStickChart";
 
 interface PropTypes {
   data: MarketData[];
@@ -30,7 +31,7 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError, transactions }) 
     }
   }, [language]);
 
-  const chartOptions = useMemo(
+  const chartOptions = useMemo<DeepPartial<ChartOptions>>(
     () => ({
       localization: {
         locale,
@@ -50,7 +51,7 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError, transactions }) 
         borderVisible: false,
       },
       layout: {
-        backgroundColor: "transparent",
+        background: { color: "transparent" },
         textColor: theme.palette.text.primary,
         lineColor: theme.palette.divider,
       },
@@ -66,21 +67,24 @@ const PriceChart: FC<PropTypes> = ({ data, isFetching, isError, transactions }) 
     [locale, theme],
   );
 
-  const markers = transactions.map(({ time, numberOfShares }) => ({
-    time,
-    position: "belowBar",
-    color: "#2196F3",
-    shape: "arrowUp",
-    text: `${t("buy")} ${formatFixedFractionDigits(numberOfShares, 2)}`,
-  }));
+  const markers = transactions.map(({ time, numberOfShares }) => {
+    const marker: SeriesMarker<Time> = {
+      time,
+      position: "belowBar",
+      color: "#2196F3",
+      shape: "arrowUp",
+      text: `${t("buy")} ${formatFixedFractionDigits(numberOfShares, 2)}`,
+    };
+    return marker;
+  });
 
   return (
     <Paper variant="outlined" sx={{ backgroundColor: "transparent", marginTop: 2, padding: 1 }}>
       <Box sx={{ width: "100%", position: "relative" }} id="results-chart">
-        <Chart
-          options={chartOptions}
-          candlestickSeries={[{ data, markers }]}
-          autoWidth
+        <CandlestickChart
+          dataSeries={data}
+          markers={markers}
+          chartOptions={chartOptions}
           height={320}
         />
 
