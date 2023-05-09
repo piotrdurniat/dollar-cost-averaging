@@ -43,3 +43,25 @@ npm run coverage
 ```bash
 npm run cypress:open
 ```
+
+# Production
+
+### Build
+
+To build frontend app run from `frontend/` dir:
+
+```bash
+docker compose -f docker-compose.yml run --rm frontend npm run build
+```
+
+Build docker contaners:
+
+```bash
+docker compose -f docker-compose.prod.yml build
+```
+
+### Run the app
+
+```bash
+docker compose -f docker-compose.prod.yml up
+```

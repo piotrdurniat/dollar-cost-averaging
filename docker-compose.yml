@@ -29,6 +29,7 @@ services:
     build: frontend
     volumes:
       - "./frontend/src:/frontend/src"
+      - "./frontend/dist:/frontend/dist"
     ports:
       - "${FRONTEND_PORT}:5173"
       - "5173:5173"
