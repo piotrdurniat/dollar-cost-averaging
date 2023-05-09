@@ -1,32 +1,32 @@
-import { AxiosResponse } from "axios";
 import { StockInfo } from "@typeDefs/StockInfo";
 import { DcaResults, MarketData } from "@typeDefs/dcaResults";
 import Api from "./Api";
 
 export class StockApi {
-  static getPriceHistory(
-    ticker: string,
-    startDate: string,
-    endDate: string,
-  ): Promise<AxiosResponse<MarketData[]>> {
-    return Api.get("price-history", { params: { ticker, startDate, endDate } });
+  static async getPriceHistory(ticker: string, startDate: string, endDate: string) {
+    const { data } = await Api.get<MarketData[]>("price-history", {
+      params: { ticker, startDate, endDate },
+    });
+    return data;
   }
 
-  static getDcaResults(
+  static async getDcaResults(
     ticker: string,
     amount: number,
     startDate: string,
     endDate: string,
     interval: number,
-  ): Promise<AxiosResponse<DcaResults>> {
-    return Api.get("dca-results", {
+  ) {
+    const { data } = await Api.get<DcaResults>("dca-results", {
       params: { ticker, amount, startDate, endDate, interval },
     });
+    return data;
   }
 
-  static searchStocks(query: string, limit: number): Promise<AxiosResponse<StockInfo[]>> {
-    return Api.get("stocks", {
+  static async searchStocks(query: string, limit: number) {
+    const { data } = await Api.get<StockInfo[]>("stocks", {
       params: { query, limit },
     });
+    return data;
   }
 }

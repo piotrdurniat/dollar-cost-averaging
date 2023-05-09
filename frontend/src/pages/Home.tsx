@@ -33,14 +33,13 @@ const HomePage: FC = () => {
 
     const intervalMs = getIntervalMs(formData.intervalCount, formData.intervalFrequency);
 
-    const { data } = await StockApi.getDcaResults(
+    return await StockApi.getDcaResults(
       formData.ticker,
       formData.amount,
       startDateIso,
       endDateIso,
       intervalMs,
     );
-    return data;
   });
 
   return (

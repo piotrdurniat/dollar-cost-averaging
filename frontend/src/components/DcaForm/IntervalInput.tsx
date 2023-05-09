@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Control, Controller, UseFormRegister, UseFormWatch } from "react-hook-form";
+import { Control, Controller, FieldErrors, UseFormRegister, UseFormWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { MenuItem, Select, Stack, TextField } from "@mui/material";
 import { DcaFormData } from "@typeDefs/DcaFormData";
@@ -25,7 +25,7 @@ const intervals = [
 
 interface Props {
   register: UseFormRegister<DcaFormData>;
-  errors: any;
+  errors: FieldErrors<DcaFormData>;
   control: Control<DcaFormData, any>;
   watch: UseFormWatch<DcaFormData>;
 }

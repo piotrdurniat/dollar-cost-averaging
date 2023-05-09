@@ -1,5 +1,5 @@
 import { FC, Fragment, useEffect, useState } from "react";
-import { UseFormRegister, UseFormWatch } from "react-hook-form";
+import { FieldErrors, UseFormRegister, UseFormWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { Autocomplete, Divider, ListItem, ListItemText, TextField } from "@mui/material";
 import { DcaFormData } from "@typeDefs/DcaFormData";
@@ -8,7 +8,7 @@ import { StockApi } from "@api/StockApi";
 
 interface Props {
   register: UseFormRegister<DcaFormData>;
-  errors: any;
+  errors: FieldErrors<DcaFormData>;
   watch: UseFormWatch<DcaFormData>;
 }
 
@@ -19,8 +19,8 @@ const StockInput: FC<Props> = ({ register, errors, watch }) => {
 
   useEffect(() => {
     (async () => {
-      const res = await StockApi.searchStocks(watchTicker, 10);
-      setSearchRes(res.data);
+      const searchRes = await StockApi.searchStocks(watchTicker, 10);
+      setSearchRes(searchRes);
     })();
   }, [watchTicker]);
 
