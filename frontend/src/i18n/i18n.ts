@@ -1,7 +1,7 @@
 import { initReactI18next } from "react-i18next";
 import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { fallbackLanguage, supportedLanguages } from "../constants/languages";
+import { fallbackLanguage, supportedLanguages } from "@constants/languages";
 import en from "./resources/en";
 import pl from "./resources/pl";
 

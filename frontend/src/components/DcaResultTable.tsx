@@ -11,8 +11,8 @@ import {
   TableRow,
   Typography,
 } from "@mui/material";
-import { FinancialResults } from "../types/dcaResults";
-import { formatFixedFractionDigits, formatPercent, formatPrice } from "../utils/formatter";
+import { FinancialResults } from "@typeDefs/dcaResults";
+import { formatFixedFractionDigits, formatPercent, formatPrice } from "@utils/formatter";
 
 interface Props {
   result?: FinancialResults;
