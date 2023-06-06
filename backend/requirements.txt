@@ -10,6 +10,7 @@ Flask==2.2.2
 Flask-Cors==3.0.10
 Flask-PyMongo==2.3.0
 frozendict==2.3.4
+gunicorn==20.1.0
 html5lib==1.1
 idna==3.0
 itsdangerous==2.1.2

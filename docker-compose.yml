@@ -13,7 +13,7 @@ services:
     hostname: "${DB_HOST}"
 
   backend:
-    container_name: dca_backend
+    container_name: dca_backend_dev
     build: backend
     volumes:
       - ./backend:/app
@@ -25,7 +25,7 @@ services:
       - mongodb
 
   frontend:
-    container_name: dca_frontend
+    container_name: dca_frontend_dev
     build: frontend
     volumes:
       - "./frontend/src:/frontend/src"
