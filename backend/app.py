@@ -1,22 +1,22 @@
-from datetime import datetime, timedelta
-from pandas.core.frame import DataFrame
-from flask import Flask, request, render_template, send_from_directory
-from flask_cors import CORS
-from pandas._libs.tslibs.timestamps import Timestamp
-from flask_pymongo import PyMongo
-
-import re
-import yfinance as yf
 import logging
+import re
+from datetime import datetime, timedelta
+from os import environ
 
+import yfinance as yf
+from flask import Flask, render_template, request, send_from_directory
+from flask_cors import CORS
+from flask_pymongo import PyMongo
+from pandas._libs.tslibs.timestamps import Timestamp
+from pandas.core.frame import DataFrame
 
 app = Flask(__name__)
 app.config.from_pyfile("config.py")
 
 mongo = PyMongo(app)
 
-CORS(app, resources={r"/*": {"origins": "*"}})
-
+allowed_origins = str(environ.get("CORS_ORIGINS")).split(",")
+CORS(app, resources={r"/*": {"origins": allowed_origins}})
 
 # Logger setup
 logger = logging.getLogger("werkzeug")
@@ -40,7 +40,7 @@ def format_hist_data(hist_data: DataFrame):
         inplace=True,
     )
     hist_data["time"] = hist_data["time"].map(
-        lambda x: x.strftime('%Y-%m-%dT%H:%M:%S.%f%z')
+        lambda x: x.strftime("%Y-%m-%dT%H:%M:%S.%f%z")
     )
     hist_data_dict = hist_data.to_dict(orient="records")
 
@@ -67,7 +67,7 @@ def get_financial_results(
     dividends: float = 0
     transactions = []
 
-    for (index, row) in price_hist.iterrows():
+    for index, row in price_hist.iterrows():
         date: Timestamp = index  # type: ignore
         open_price: float = row["Open"].item()
         dividend: float = row["Dividends"].item()
