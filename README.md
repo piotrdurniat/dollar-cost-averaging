@@ -1,5 +1,11 @@
 # Dollar Cost Averaging App
 
+![](./images/dark_pc_en.png)
+
+## Demo ([dcaapp.net](https://dcaapp.net))
+
+Demo available on the [dcaapp.net](https://dcaapp.net) website
+
 ## Requirements:
 
 - [Docker Desktop](https://docs.docker.com/get-docker/)
@@ -64,4 +70,12 @@ docker compose -f docker-compose.prod.yml build
 
 ```bash
 docker compose -f docker-compose.prod.yml up
+```
+
+## Load data to the database
+
+Connect to db container:
+
+```bash
+docker exec -it dca_db mongosh -u <user_name> -p <password>
 ```
