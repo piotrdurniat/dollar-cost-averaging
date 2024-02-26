@@ -1,11 +1,8 @@
 FROM python:3.10
 
-RUN pip install pipenv
-
-WORKDIR /usr/src/app
+WORKDIR /app
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 COPY . .
-RUN pipenv install
 
-ENV FLASK_APP app.py
-
-CMD [ "pipenv", "run", "gunicorn",  "-b", ":80", "app:app" ]
+CMD gunicorn --certfile ./certs/localhost/fullchain.pem --keyfile ./certs/localhost/privkey.pem -b :80 app:app

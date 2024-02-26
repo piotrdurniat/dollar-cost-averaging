@@ -14,11 +14,12 @@ services:
 
   backend:
     container_name: dca_backend
-    build: 
+    build:
       context: ./backend/
       dockerfile: Dockerfile.prod
     volumes:
       - ./backend:/app
+      - ./certbot/conf/live/:/app/certs/:ro
     ports:
       - "${BACKEND_PORT}:80"
     env_file:

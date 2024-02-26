@@ -54,7 +54,7 @@ npm run cypress:open
 
 ### Build
 
-To build frontend app run from `frontend/` dir:
+To build frontend app run from root dir:
 
 ```bash
 docker compose -f docker-compose.yml run --rm frontend npm run build
