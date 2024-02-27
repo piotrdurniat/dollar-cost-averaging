@@ -11,6 +11,7 @@ services:
     env_file:
       - .env
     hostname: "${DB_HOST}"
+    restart: always
 
   backend:
     container_name: dca_backend
@@ -26,6 +27,7 @@ services:
       - .env
     depends_on:
       - mongodb
+    restart: always
 
   nginx:
     container_name: dca_nginx
@@ -42,6 +44,7 @@ services:
       - ${FRONTEND_PORT_SSL}:443
     env_file:
       - .env
+    restart: always
 
   certbot:
     container_name: dca_certbot
